@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ipxact:design xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ipxact="http://www.accellera.org/XMLSchema/IPXACT/1685-2014" xmlns:anlogic="http" xsi:schemaLocation="http://www.accellera.org/XMLSchema/IPXACT/1685-2014 http://www.accellera.org/XMLSchema/IPXACT/1685-2014/index.xsd">
+    <ipxact:vendor>anlogic.com</ipxact:vendor>
+    <ipxact:library>customized</ipxact:library>
+    <ipxact:name>design_TEMAC_CORE</ipxact:name>
+    <ipxact:version>1.0</ipxact:version>
+    <ipxact:componentInstances>
+        <ipxact:componentInstance>
+            <ipxact:instanceName>mac_core_aead6cd6dadd_Inst</ipxact:instanceName>
+            <ipxact:componentRef vendor="anlogic.com" library="ip" name="TEMAC" version="2.0"/>
+            <ipxact:configurableElementValues>
+                <ipxact:configurableElementValue referenceId="P_ADD_FILT_EN">1</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CFG_1588V2">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="P_Full_Duplex">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="P_Half_Duplex">1</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="P_AXI4_Lite_MODE">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="P_Vector_MODE">1</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="P_HALF_DUPLEX">1'b1</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="P_HOST_EN">1'b0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="TRI_SPEED">1</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="SPEED_1000">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="SPEED_10_100">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="P_TRI_SPEED">1'b1</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="P_SPEED_10_100">1'b0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="P_SPEED_1000">1'b0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="P_ADD_FILT_LIST">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="AXI4_LITE_EN">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CFG_1588V2_EN">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CFG_1588V2_USER">1'b0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="P_ADD_FILT_EN_USER">1'b1</ipxact:configurableElementValue>
+            </ipxact:configurableElementValues>
+        </ipxact:componentInstance>
+    </ipxact:componentInstances>
+    <ipxact:adHocConnections>
+        <ipxact:adHocConnection>
+            <ipxact:name>reset</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="mac_core_aead6cd6dadd_Inst" portRef="reset"/>
+                <ipxact:externalPortReference portRef="reset"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>tx_mac_clk</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="mac_core_aead6cd6dadd_Inst" portRef="tx_mac_clk"/>
+                <ipxact:externalPortReference portRef="tx_mac_clk"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>rx_mac_clk</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="mac_core_aead6cd6dadd_Inst" portRef="rx_mac_clk"/>
+                <ipxact:externalPortReference portRef="rx_mac_clk"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>speed_1000</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="mac_core_aead6cd6dadd_Inst" portRef="speed_1000"/>
+                <ipxact:externalPortReference portRef="speed_1000"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>speed_100</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="mac_core_aead6cd6dadd_Inst" portRef="speed_100"/>
+                <ipxact:externalPortReference portRef="speed_100"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>speed_10</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="mac_core_aead6cd6dadd_Inst" portRef="speed_10"/>
+                <ipxact:externalPortReference portRef="speed_10"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>mac_has_sgmii</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="mac_core_aead6cd6dadd_Inst" portRef="mac_has_sgmii"/>
+                <ipxact:externalPortReference portRef="mac_has_sgmii"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>tx_clk_en</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="mac_core_aead6cd6dadd_Inst" portRef="tx_clk_en"/>
+                <ipxact:externalPortReference portRef="tx_clk_en"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>tx_data</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="mac_core_aead6cd6dadd_Inst" portRef="tx_data"/>
+                <ipxact:externalPortReference portRef="tx_data"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>tx_data_en</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="mac_core_aead6cd6dadd_Inst" portRef="tx_data_en"/>
+                <ipxact:externalPortReference portRef="tx_data_en"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>tx_rdy</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="mac_core_aead6cd6dadd_Inst" portRef="tx_rdy"/>
+                <ipxact:externalPortReference portRef="tx_rdy"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>tx_stop</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="mac_core_aead6cd6dadd_Inst" portRef="tx_stop"/>
+                <ipxact:externalPortReference portRef="tx_stop"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>tx_retransmit</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="mac_core_aead6cd6dadd_Inst" portRef="tx_retransmit"/>
+                <ipxact:externalPortReference portRef="tx_retransmit"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>tx_collision</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="mac_core_aead6cd6dadd_Inst" portRef="tx_collision"/>
+                <ipxact:externalPortReference portRef="tx_collision"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>tx_ifg_val</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="mac_core_aead6cd6dadd_Inst" portRef="tx_ifg_val"/>
+                <ipxact:externalPortReference portRef="tx_ifg_val"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>tx_status_vector</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="mac_core_aead6cd6dadd_Inst" portRef="tx_status_vector"/>
+                <ipxact:externalPortReference portRef="tx_status_vector"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>tx_status_vld</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="mac_core_aead6cd6dadd_Inst" portRef="tx_status_vld"/>
+                <ipxact:externalPortReference portRef="tx_status_vld"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>rx_clk_en</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="mac_core_aead6cd6dadd_Inst" portRef="rx_clk_en"/>
+                <ipxact:externalPortReference portRef="rx_clk_en"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>rx_data</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="mac_core_aead6cd6dadd_Inst" portRef="rx_data"/>
+                <ipxact:externalPortReference portRef="rx_data"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>rx_data_vld</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="mac_core_aead6cd6dadd_Inst" portRef="rx_data_vld"/>
+                <ipxact:externalPortReference portRef="rx_data_vld"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>rx_correct_frame</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="mac_core_aead6cd6dadd_Inst" portRef="rx_correct_frame"/>
+                <ipxact:externalPortReference portRef="rx_correct_frame"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>rx_error_frame</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="mac_core_aead6cd6dadd_Inst" portRef="rx_error_frame"/>
+                <ipxact:externalPortReference portRef="rx_error_frame"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>rx_status_vector</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="mac_core_aead6cd6dadd_Inst" portRef="rx_status_vector"/>
+                <ipxact:externalPortReference portRef="rx_status_vector"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>rx_status_vld</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="mac_core_aead6cd6dadd_Inst" portRef="rx_status_vld"/>
+                <ipxact:externalPortReference portRef="rx_status_vld"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>pause_req</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="mac_core_aead6cd6dadd_Inst" portRef="pause_req"/>
+                <ipxact:externalPortReference portRef="pause_req"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>pause_val</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="mac_core_aead6cd6dadd_Inst" portRef="pause_val"/>
+                <ipxact:externalPortReference portRef="pause_val"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>pause_source_addr</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="mac_core_aead6cd6dadd_Inst" portRef="pause_source_addr"/>
+                <ipxact:externalPortReference portRef="pause_source_addr"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>unicast_addr</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="mac_core_aead6cd6dadd_Inst" portRef="unicast_addr"/>
+                <ipxact:externalPortReference portRef="unicast_addr"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>mac_cfg_vector</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="mac_core_aead6cd6dadd_Inst" portRef="mac_cfg_vector"/>
+                <ipxact:externalPortReference portRef="mac_cfg_vector"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>gmii_tx_clken</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="mac_core_aead6cd6dadd_Inst" portRef="gmii_tx_clken"/>
+                <ipxact:externalPortReference portRef="gmii_tx_clken"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>gmii_txd</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="mac_core_aead6cd6dadd_Inst" portRef="gmii_txd"/>
+                <ipxact:externalPortReference portRef="gmii_txd"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>gmii_tx_en</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="mac_core_aead6cd6dadd_Inst" portRef="gmii_tx_en"/>
+                <ipxact:externalPortReference portRef="gmii_tx_en"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>gmii_tx_er</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="mac_core_aead6cd6dadd_Inst" portRef="gmii_tx_er"/>
+                <ipxact:externalPortReference portRef="gmii_tx_er"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>gmii_rxd</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="mac_core_aead6cd6dadd_Inst" portRef="gmii_rxd"/>
+                <ipxact:externalPortReference portRef="gmii_rxd"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>gmii_rx_vld</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="mac_core_aead6cd6dadd_Inst" portRef="gmii_rx_vld"/>
+                <ipxact:externalPortReference portRef="gmii_rx_vld"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>gmii_rx_er</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="mac_core_aead6cd6dadd_Inst" portRef="gmii_rx_er"/>
+                <ipxact:externalPortReference portRef="gmii_rx_er"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>gmii_col</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="mac_core_aead6cd6dadd_Inst" portRef="gmii_col"/>
+                <ipxact:externalPortReference portRef="gmii_col"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>gmii_crs</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="mac_core_aead6cd6dadd_Inst" portRef="gmii_crs"/>
+                <ipxact:externalPortReference portRef="gmii_crs"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>mdio_in</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="mac_core_aead6cd6dadd_Inst" portRef="mdio_in"/>
+                <ipxact:externalPortReference portRef="mdio_in"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>mdio_out</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="mac_core_aead6cd6dadd_Inst" portRef="mdio_out"/>
+                <ipxact:externalPortReference portRef="mdio_out"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>mdio_oen</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="mac_core_aead6cd6dadd_Inst" portRef="mdio_oen"/>
+                <ipxact:externalPortReference portRef="mdio_oen"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>mdio_clk</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="mac_core_aead6cd6dadd_Inst" portRef="mdio_clk"/>
+                <ipxact:externalPortReference portRef="mdio_clk"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+    </ipxact:adHocConnections>
+    <ipxact:vendorExtensions>
+        <anlogic:device>EG4S20BG256</anlogic:device>
+        <anlogic:displayname>TEMAC</anlogic:displayname>
+        <anlogic:ipGenVersion value="169955 2025/07/24">1.0</anlogic:ipGenVersion>
+    </ipxact:vendorExtensions>
+</ipxact:design>

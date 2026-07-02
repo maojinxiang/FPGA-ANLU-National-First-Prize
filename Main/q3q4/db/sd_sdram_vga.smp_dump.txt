@@ -1,0 +1,234 @@
+
+State Machine - |top|sdram_core:sdram_core_m0|state
+Name state.S_TRFC state.S_AR state.S_TDAL state.S_WD state.S_WRITE state.S_RWAIT state.S_RD state.S_CL state.S_READ state.S_TRCD state.S_ACTIVE state.S_IDLE state.S_INIT_DONE state.S_INIT_TMRD state.S_INIT_MRS state.S_INIT_TRF2 state.S_INIT_AR2 state.S_INIT_TRF1 state.S_INIT_AR1 state.S_INIT_TRP state.S_INIT_PRE state.S_INIT_NOP 
+state.S_INIT_NOP 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+state.S_INIT_PRE 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+state.S_INIT_TRP 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+state.S_INIT_AR1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+state.S_INIT_TRF1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+state.S_INIT_AR2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+state.S_INIT_TRF2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+state.S_INIT_MRS 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+state.S_INIT_TMRD 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+state.S_INIT_DONE 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+state.S_IDLE 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+state.S_ACTIVE 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+state.S_TRCD 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+state.S_READ 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state.S_CL 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state.S_RD 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state.S_RWAIT 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state.S_WRITE 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state.S_WD 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state.S_TDAL 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state.S_AR 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state.S_TRFC 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |top|frame_read_write:frame_read_write_m1|frame_fifo_read:frame_fifo_read_m0|state
+Name state.S_END state.S_READ_BURST_END state.S_READ_BURST state.S_CHECK_FIFO state.S_ACK state.S_IDLE 
+state.S_IDLE 0 0 0 0 0 0 
+state.S_ACK 0 0 0 0 1 1 
+state.S_CHECK_FIFO 0 0 0 1 0 1 
+state.S_READ_BURST 0 0 1 0 0 1 
+state.S_READ_BURST_END 0 1 0 0 0 1 
+state.S_END 1 0 0 0 0 1 
+
+State Machine - |top|frame_read_write:frame_read_write_m1|frame_fifo_write:frame_fifo_write_m0|state
+Name state.S_END state.S_WRITE_BURST_END state.S_WRITE_BURST state.S_CHECK_FIFO state.S_ACK state.S_IDLE 
+state.S_IDLE 0 0 0 0 0 0 
+state.S_ACK 0 0 0 0 1 1 
+state.S_CHECK_FIFO 0 0 0 1 0 1 
+state.S_WRITE_BURST 0 0 1 0 0 1 
+state.S_WRITE_BURST_END 0 1 0 0 0 1 
+state.S_END 1 0 0 0 0 1 
+
+State Machine - |top|frame_read_write:frame_read_write_m0|frame_fifo_read:frame_fifo_read_m0|state
+Name state.S_END state.S_READ_BURST_END state.S_READ_BURST state.S_CHECK_FIFO state.S_ACK state.S_IDLE 
+state.S_IDLE 0 0 0 0 0 0 
+state.S_ACK 0 0 0 0 1 1 
+state.S_CHECK_FIFO 0 0 0 1 0 1 
+state.S_READ_BURST 0 0 1 0 0 1 
+state.S_READ_BURST_END 0 1 0 0 0 1 
+state.S_END 1 0 0 0 0 1 
+
+State Machine - |top|frame_read_write:frame_read_write_m0|frame_fifo_write:frame_fifo_write_m0|state
+Name state.S_END state.S_WRITE_BURST_END state.S_WRITE_BURST state.S_CHECK_FIFO state.S_ACK state.S_IDLE 
+state.S_IDLE 0 0 0 0 0 0 
+state.S_ACK 0 0 0 0 1 1 
+state.S_CHECK_FIFO 0 0 0 1 0 1 
+state.S_WRITE_BURST 0 0 1 0 0 1 
+state.S_WRITE_BURST_END 0 1 0 0 0 1 
+state.S_END 1 0 0 0 0 1 
+
+State Machine - |top|flash_write_read:flash_write_read_m0|Qspi_master:Qspi_master_m0|state
+Name state.ACK_WAIT2 state.ACK_2 state.DCLK_EDGE state.DCLK_IDLE state.ACK_1 state.IDLE 
+state.IDLE 0 0 0 0 0 0 
+state.ACK_1 0 0 0 0 1 1 
+state.DCLK_IDLE 0 0 0 1 0 1 
+state.DCLK_EDGE 0 0 1 0 0 1 
+state.ACK_2 0 1 0 0 0 1 
+state.ACK_WAIT2 1 0 0 0 0 1 
+
+State Machine - |top|flash_write_read:flash_write_read_m0|flash_cmd:flash_cmd_m0|READ_cnt
+Name READ_cnt.0111 READ_cnt.0110 READ_cnt.0101 READ_cnt.0100 READ_cnt.0011 READ_cnt.0010 READ_cnt.0001 READ_cnt.0000 
+READ_cnt.0000 0 0 0 0 0 0 0 0 
+READ_cnt.0001 0 0 0 0 0 0 1 1 
+READ_cnt.0010 0 0 0 0 0 1 0 1 
+READ_cnt.0011 0 0 0 0 1 0 0 1 
+READ_cnt.0100 0 0 0 1 0 0 0 1 
+READ_cnt.0101 0 0 1 0 0 0 0 1 
+READ_cnt.0110 0 1 0 0 0 0 0 1 
+READ_cnt.0111 1 0 0 0 0 0 0 1 
+
+State Machine - |top|flash_write_read:flash_write_read_m0|flash_cmd:flash_cmd_m0|READ_state
+Name READ_state.0000 READ_state.READ_DONE READ_state.READ_RD 
+READ_state.0000 0 0 0 
+READ_state.READ_RD 1 0 1 
+READ_state.READ_DONE 1 1 0 
+
+State Machine - |top|flash_write_read:flash_write_read_m0|flash_cmd:flash_cmd_m0|ERASE_cnt
+Name ERASE_cnt.0000 ERASE_cnt.0100 ERASE_cnt.0001 
+ERASE_cnt.0000 0 0 0 
+ERASE_cnt.0001 1 0 1 
+ERASE_cnt.0100 1 1 0 
+
+State Machine - |top|flash_write_read:flash_write_read_m0|flash_cmd:flash_cmd_m0|ERASE_state
+Name ERASE_state.ERASE_CHIP ERASE_state.ERASE_wait1 ERASE_state.ERASE_WE ERASE_state.0000 ERASE_state.ERASE_DONE 
+ERASE_state.0000 0 0 0 0 0 
+ERASE_state.ERASE_WE 0 0 1 1 0 
+ERASE_state.ERASE_wait1 0 1 0 1 0 
+ERASE_state.ERASE_CHIP 1 0 0 1 0 
+ERASE_state.ERASE_DONE 0 0 0 1 1 
+
+State Machine - |top|flash_write_read:flash_write_read_m0|flash_cmd:flash_cmd_m0|WRITE_cnt
+Name WRITE_cnt.0101 WRITE_cnt.0100 WRITE_cnt.0011 WRITE_cnt.0010 WRITE_cnt.0001 WRITE_cnt.0000 
+WRITE_cnt.0000 0 0 0 0 0 0 
+WRITE_cnt.0001 0 0 0 0 1 1 
+WRITE_cnt.0010 0 0 0 1 0 1 
+WRITE_cnt.0011 0 0 1 0 0 1 
+WRITE_cnt.0100 0 1 0 0 0 1 
+WRITE_cnt.0101 1 0 0 0 0 1 
+
+State Machine - |top|flash_write_read:flash_write_read_m0|flash_cmd:flash_cmd_m0|WRITE_state
+Name WRITE_state.WRITE_program_256 WRITE_state.WRITE_wait1 WRITE_state.WRITE_WE WRITE_state.0000 WRITE_state.WRITE_DONE 
+WRITE_state.0000 0 0 0 0 0 
+WRITE_state.WRITE_WE 0 0 1 1 0 
+WRITE_state.WRITE_wait1 0 1 0 1 0 
+WRITE_state.WRITE_program_256 1 0 0 1 0 
+WRITE_state.WRITE_DONE 0 0 0 1 1 
+
+State Machine - |top|flash_write_read:flash_write_read_m0|flash_cmd:flash_cmd_m0|INIT_cnt
+Name INIT_cnt.0000 INIT_cnt.0010 INIT_cnt.0001 
+INIT_cnt.0000 0 0 0 
+INIT_cnt.0001 1 0 1 
+INIT_cnt.0010 1 1 0 
+
+State Machine - |top|flash_write_read:flash_write_read_m0|flash_cmd:flash_cmd_m0|INIT_state
+Name INIT_state.INIT_QE INIT_state.INIT_wait1 INIT_state.INIT_WE INIT_state.0000 INIT_state.INIT_DONE 
+INIT_state.0000 0 0 0 0 0 
+INIT_state.INIT_WE 0 0 1 1 0 
+INIT_state.INIT_wait1 0 1 0 1 0 
+INIT_state.INIT_QE 1 0 0 1 0 
+INIT_state.INIT_DONE 0 0 0 1 1 
+
+State Machine - |top|flash_write_read:flash_write_read_m0|flash_cmd:flash_cmd_m0|state
+Name state.ERASE_ACK state.WRITE state.WRITE_ACK state.READ state.READ_ACK state.WAIT state.INIT state.0000 state.ERASE 
+state.0000 0 0 0 0 0 0 0 0 0 
+state.INIT 0 0 0 0 0 0 1 1 0 
+state.WAIT 0 0 0 0 0 1 0 1 0 
+state.READ_ACK 0 0 0 0 1 0 0 1 0 
+state.READ 0 0 0 1 0 0 0 1 0 
+state.WRITE_ACK 0 0 1 0 0 0 0 1 0 
+state.WRITE 0 1 0 0 0 0 0 1 0 
+state.ERASE_ACK 1 0 0 0 0 0 0 1 0 
+state.ERASE 0 0 0 0 0 0 0 1 1 
+
+State Machine - |top|flash_write_read:flash_write_read_m0|flash_cmd:flash_cmd_m0|flash_step:flash_step_m0|step
+Name step.END step.0100 step.WORK step.REQ step.WAIT step.0000 
+step.0000 0 0 0 0 0 0 
+step.WAIT 0 0 0 0 1 1 
+step.REQ 0 0 0 1 0 1 
+step.WORK 0 0 1 0 0 1 
+step.0100 0 1 0 0 0 1 
+step.END 1 0 0 0 0 1 
+
+State Machine - |top|flash_write_read:flash_write_read_m0|flash_writer:flash_writer_m0|state
+Name state.WRITE state.WRITE_WAIT state.DELAY2 state.ZERO state.DELAY1 state.ERASE state.RAM_READ_WAIT state.IDLE state.END 
+state.IDLE 0 0 0 0 0 0 0 0 0 
+state.RAM_READ_WAIT 0 0 0 0 0 0 1 1 0 
+state.ERASE 0 0 0 0 0 1 0 1 0 
+state.DELAY1 0 0 0 0 1 0 0 1 0 
+state.ZERO 0 0 0 1 0 0 0 1 0 
+state.DELAY2 0 0 1 0 0 0 0 1 0 
+state.WRITE_WAIT 0 1 0 0 0 0 0 1 0 
+state.WRITE 1 0 0 0 0 0 0 1 0 
+state.END 0 0 0 0 0 0 0 1 1 
+
+State Machine - |top|flash_write_read:flash_write_read_m0|flash_reader:flash_reader_m0|state
+Name state.END state.READ state.READ_WAIT state.DELAY state.RAM_WRITE_WAIT state.IDLE 
+state.IDLE 0 0 0 0 0 0 
+state.RAM_WRITE_WAIT 0 0 0 0 1 1 
+state.DELAY 0 0 0 1 0 1 
+state.READ_WAIT 0 0 1 0 0 1 
+state.READ 0 1 0 0 0 1 
+state.END 1 0 0 0 0 1 
+
+State Machine - |top|sd_card_bmp:sd_card_bmp_m0|sd_card_top:sd_card_top_m0|spi_master:spi_master_m0|state
+Name state.ACK_WAIT state.LAST_HALF_CYCLE state.ACK state.DCLK_IDLE state.DCLK_EDGE state.IDLE 
+state.IDLE 0 0 0 0 0 0 
+state.DCLK_EDGE 0 0 0 0 1 1 
+state.DCLK_IDLE 0 0 0 1 0 1 
+state.ACK 0 0 1 0 0 1 
+state.LAST_HALF_CYCLE 0 1 0 0 0 1 
+state.ACK_WAIT 1 0 0 0 0 1 
+
+State Machine - |top|sd_card_bmp:sd_card_bmp_m0|sd_card_top:sd_card_top_m0|sd_card_cmd:sd_card_cmd_m0|state
+Name state.S_END state.S_ERR state.S_WRITE_ACK state.S_WRITE_BUSY state.S_WRITE_SUC state.S_WRITE_CRC state.S_WRITE_DATA_1 state.S_WRITE_DATA_0 state.S_WRITE_TOKEN state.S_READ_ACK state.S_READ state.S_READ_WAIT state.S_CMD_DATA state.S_CMD state.S_CMD_PRE state.S_INIT state.S_WAIT state.S_IDLE 
+state.S_IDLE 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+state.S_WAIT 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+state.S_INIT 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+state.S_CMD_PRE 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+state.S_CMD 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+state.S_CMD_DATA 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+state.S_READ_WAIT 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+state.S_READ 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+state.S_READ_ACK 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+state.S_WRITE_TOKEN 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+state.S_WRITE_DATA_0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+state.S_WRITE_DATA_1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+state.S_WRITE_CRC 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+state.S_WRITE_SUC 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state.S_WRITE_BUSY 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state.S_WRITE_ACK 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state.S_ERR 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state.S_END 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |top|sd_card_bmp:sd_card_bmp_m0|sd_card_top:sd_card_top_m0|sd_card_sec_read_write:sd_card_sec_read_write_m0|state
+Name state.S_CMD16 state.S_WAIT_READ_WRITE state.S_READ_END state.S_WRITE_END state.S_WRITE state.S_CMD24 state.S_READ state.S_CMD17 state.S_CMD41 state.S_CMD55 state.S_CMD8 state.S_CMD0 state.S_IDLE 
+state.S_IDLE 0 0 0 0 0 0 0 0 0 0 0 0 0 
+state.S_CMD0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+state.S_CMD8 0 0 0 0 0 0 0 0 0 0 1 0 1 
+state.S_CMD55 0 0 0 0 0 0 0 0 0 1 0 0 1 
+state.S_CMD41 0 0 0 0 0 0 0 0 1 0 0 0 1 
+state.S_CMD17 0 0 0 0 0 0 0 1 0 0 0 0 1 
+state.S_READ 0 0 0 0 0 0 1 0 0 0 0 0 1 
+state.S_CMD24 0 0 0 0 0 1 0 0 0 0 0 0 1 
+state.S_WRITE 0 0 0 0 1 0 0 0 0 0 0 0 1 
+state.S_WRITE_END 0 0 0 1 0 0 0 0 0 0 0 0 1 
+state.S_READ_END 0 0 1 0 0 0 0 0 0 0 0 0 1 
+state.S_WAIT_READ_WRITE 0 1 0 0 0 0 0 0 0 0 0 0 1 
+state.S_CMD16 1 0 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |top|sd_card_bmp:sd_card_bmp_m0|bmp_read:bmp_read_m0|state
+Name state.S_READ state.S_READ_WAIT state.S_FIND state.S_IDLE state.S_END 
+state.S_IDLE 0 0 0 0 0 
+state.S_FIND 0 0 1 1 0 
+state.S_READ_WAIT 0 1 0 1 0 
+state.S_READ 1 0 0 1 0 
+state.S_END 0 0 0 1 1 
+
+State Machine - |top|sys_state_ctrl:sys_state_ctrl_m0|sys_state
+Name sys_state.S_0 sys_state.S_2 sys_state.S_1 
+sys_state.S_0 0 0 0 
+sys_state.S_1 1 0 1 
+sys_state.S_2 1 1 0 

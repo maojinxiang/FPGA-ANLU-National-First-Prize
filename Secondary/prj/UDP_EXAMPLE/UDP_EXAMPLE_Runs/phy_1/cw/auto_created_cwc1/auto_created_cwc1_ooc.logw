@@ -1,0 +1,17 @@
+============================================================
+   Tang Dynasty, V6.2.168116
+   Copyright (c) 2012-2025 Anlogic Inc.
+   Executable = C:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/bin/run.exe
+   Built at =   16:32:07 Jun 12 2025
+   Run by =     30545
+   Run Date =   Fri Nov  7 04:42:01 2025
+
+   Run on =     ZHENGDT
+============================================================
+Copyright (c) 1998-2019 The OpenSSL Project.  All rights reserved.
+This product includes software developed by the OpenSSL Project
+for use in the OpenSSL Toolkit (http://www.openssl.org/)
+Copyright (C) 1995-1998 Eric Young (eay@cryptsoft.com)
+All rights reserved.
+This product includes cryptographic software written by Eric Young (eay@cryptsoft.com)
+SYN-6562 WARNING: The init value of "wrapper_cwc_top/U_cwc_ram/ramread0_syn_4(C:\Anlogic\TD_6.2.1_Engineer_6.2.168.116\ip/apm/apm_cwc/apm_cwc.sv(0))" will be ignored since gate eram_init is set to off

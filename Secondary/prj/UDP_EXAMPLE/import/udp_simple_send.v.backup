@@ -1,0 +1,296 @@
+// ============================================================
+// 模块名称: udp_simple_send
+// 功能描述: 从SDRAM读取RGB数据，按q2.py协议发送（纯字节流，无包头）
+//           与母板的udp2sdr.v配对使用
+// 版本: v2.1 - 修复画面撕裂+以太网卡死问题
+// 修复内容:
+//   1. 添加FIFO读取延迟对齐（read_en_d1/d2），参考母板udp_cam_ctrl.v
+//   2. 使用read_en_d2信号锁存数据，确保FIFO数据稳定
+//   3. 保持原SDRAM格式{R, G, B, 0}，从高位依次取RGB发送
+//   4. 优化WAIT_UDP和WAIT_ACK状态的read_en控制，确保延迟链正常传播
+//   5. 避免提前清零read_en，给延迟寄存器足够的传播时间
+//   6. 配合UDP.sdc时序约束，确保以太网时序收敛
+// ============================================================
+module udp_simple_send(
+    input               clk,
+    input               rst_n,
+
+    // ===== SDRAM 读取接口 =====
+    output reg          read_req,
+    input               read_req_ack,
+    output reg          read_en,
+    input [31:0]        read_data,
+
+    // ===== UDP 发送接口 =====
+    input               udp_tx_ready,
+    input               app_tx_ack,
+    output reg          app_tx_data_request,
+    output reg          app_tx_data_valid,
+    output reg [7:0]    app_tx_data,
+    output reg [15:0]   udp_data_length,
+
+    // ===== 控制接口 =====
+    input               start_send      // 开始发送触发信号（电平触发，保持高电平）
+);
+
+// ============================================================================
+// 参数定义
+// ============================================================================
+localparam  PIXEL_COUNT     = 32'd307200;   // 640*480
+localparam  PACKET_SIZE     = 16'd140;      // 每个UDP包140字节
+localparam  TOTAL_BYTES     = 32'd921600;   // 307200 * 3
+
+// ============================================================================
+// 状态机定义
+// ============================================================================
+localparam  IDLE            = 3'd0;
+localparam  REQ_READ        = 3'd1;
+localparam  WAIT_UDP        = 3'd2;
+localparam  WAIT_ACK        = 3'd3;
+localparam  SEND_DATA       = 3'd4;
+localparam  DELAY           = 3'd5;
+localparam  DONE            = 3'd6;  // 新增：发送完成，等待start_send变为低电平
+
+reg [2:0]   STATE;
+
+// ============================================================================
+// 寄存器定义
+// ============================================================================
+reg [19:0]  byte_cnt;           // 总字节计数器（0-921599）
+reg [7:0]   pkt_byte_cnt;       // 当前包内字节计数（0-139）
+reg [1:0]   byte_sel;           // RGB字节选择（0=R, 1=G, 2=B）
+reg [31:0]  data_buf;           // 读取数据缓冲
+reg [15:0]  delay_cnt;          // 包间延迟计数
+reg [23:0]  timeout_cnt;        // 超时计数器
+reg         first_read_done;    // 首次读取完成标志
+reg         read_en_d1;         // read_en延迟1周期（FIFO时序对齐）
+reg         read_en_d2;         // read_en延迟2周期（FIFO时序对齐）
+
+// 超时阈值（约134ms @ 125MHz）
+localparam  TIMEOUT_MAX = 24'd16777215;
+
+// ============================================================================
+// 主状态机
+// ============================================================================
+always @(posedge clk or negedge rst_n) begin
+    if(!rst_n) begin
+        STATE               <= IDLE;
+        app_tx_data_request <= 1'b0;
+        app_tx_data_valid   <= 1'b0;
+        app_tx_data         <= 8'd0;
+        udp_data_length     <= PACKET_SIZE;
+        byte_cnt            <= 20'd0;
+        pkt_byte_cnt        <= 8'd0;
+        byte_sel            <= 2'd0;
+        data_buf            <= 32'd0;
+        delay_cnt           <= 16'd0;
+        timeout_cnt         <= 24'd0;
+        first_read_done     <= 1'b0;
+        read_req            <= 1'b0;
+        read_en             <= 1'b0;
+        read_en_d1          <= 1'b0;
+        read_en_d2          <= 1'b0;
+    end
+    else begin
+        case(STATE)
+            // ========== 状态 0：空闲 ==========
+            IDLE: begin
+                app_tx_data_request <= 1'b0;
+                app_tx_data_valid   <= 1'b0;
+                byte_cnt            <= 20'd0;
+                pkt_byte_cnt        <= 8'd0;
+                byte_sel            <= 2'd0;
+                delay_cnt           <= 16'd0;
+                timeout_cnt         <= 24'd0;
+                first_read_done     <= 1'b0;
+                read_req            <= 1'b0;
+                read_en             <= 1'b0;
+                read_en_d1          <= 1'b0;
+                read_en_d2          <= 1'b0;
+
+                // 电平触发：只要start_send为高就开始发送
+                if(start_send) begin
+                    STATE <= REQ_READ;
+                end
+            end
+
+            // ========== 状态 1：发起读请求 ==========
+            REQ_READ: begin
+                read_req    <= 1'b1;
+                timeout_cnt <= timeout_cnt + 1'd1;
+
+                if(read_req_ack) begin
+                    read_req    <= 1'b0;
+                    timeout_cnt <= 24'd0;
+                    STATE       <= WAIT_UDP;
+                end
+                else if(timeout_cnt >= TIMEOUT_MAX) begin
+                    // 超时退出，返回IDLE
+                    read_req    <= 1'b0;
+                    timeout_cnt <= 24'd0;
+                    STATE       <= IDLE;
+                end
+            end
+
+            // ========== 状态 2：等待 UDP 准备好 ==========
+            WAIT_UDP: begin
+                timeout_cnt <= timeout_cnt + 1'd1;
+
+                // 计算剩余字节数，确定当前包长度
+                if((TOTAL_BYTES - byte_cnt) < PACKET_SIZE) begin
+                    udp_data_length <= TOTAL_BYTES[15:0] - byte_cnt[15:0];
+                end
+                else begin
+                    udp_data_length <= PACKET_SIZE;
+                end
+
+                // 修复：保持read_en为1，直到进入WAIT_ACK（给延迟寄存器足够时间）
+                if(!first_read_done) begin
+                    read_en         <= 1'b1;
+                    first_read_done <= 1'b1;
+                end
+                // 关键修复：不要提前清零read_en，保持到状态切换
+                // else begin
+                //     read_en <= 1'b0;  // 删除这个，让read_en持续有效
+                // end
+
+                if(udp_tx_ready) begin
+                    app_tx_data_request <= 1'b1;
+                    timeout_cnt         <= 24'd0;
+                    read_en             <= 1'b0;  // 在切换状态时才清零
+                    STATE               <= WAIT_ACK;
+                end
+                else if(timeout_cnt >= TIMEOUT_MAX) begin
+                    // 超时退出，返回IDLE
+                    timeout_cnt     <= 24'd0;
+                    read_en         <= 1'b0;
+                    first_read_done <= 1'b0;
+                    read_en_d1      <= 1'b0;
+                    read_en_d2      <= 1'b0;
+                    STATE           <= IDLE;
+                end
+            end
+
+            // ========== 状态 3：等待 UDP 应答 ==========
+            WAIT_ACK: begin
+                // 延迟链传播：延迟寄存器继续更新，直到read_en_d2有效
+                read_en_d2 <= read_en_d1;
+                read_en_d1 <= read_en;
+                read_en    <= 1'b0;  // 清零read_en
+
+                // 使用延迟信号锁存数据（关键修复！）
+                if(read_en_d2) begin
+                    data_buf <= read_data;
+                end
+
+                if(app_tx_ack) begin
+                    // 数据已经在data_buf中，可以开始发送
+                    app_tx_data_request <= 1'b0;
+                    pkt_byte_cnt        <= 8'd0;
+                    timeout_cnt         <= 24'd0;
+                    first_read_done     <= 1'b0;  // 重置标志
+                    // 注意：不要在这里重置read_en_d1/d2，让延迟链自然传播到0
+                    STATE               <= SEND_DATA;
+                end
+                else begin
+                    timeout_cnt <= timeout_cnt + 1'd1;
+
+                    if(timeout_cnt >= TIMEOUT_MAX) begin
+                        // 超时退出，返回IDLE
+                        app_tx_data_request <= 1'b0;
+                        timeout_cnt         <= 24'd0;
+                        first_read_done     <= 1'b0;
+                        read_en             <= 1'b0;
+                        read_en_d1          <= 1'b0;
+                        read_en_d2          <= 1'b0;
+                        STATE               <= IDLE;
+                    end
+                end
+            end
+
+            // ========== 状态 4：发送数据 ==========
+            SEND_DATA: begin
+                // ===== FIFO延迟对齐（关键！参考母板udp_cam_ctrl.v） =====
+                // read_en延迟打拍，确保数据稳定后再锁存
+                read_en_d2 <= read_en_d1;
+                read_en_d1 <= read_en;
+
+                // 使用延迟2周期的信号锁存FIFO数据
+                if(read_en_d2) begin
+                    data_buf <= read_data;
+                end
+
+                // read_en控制：在发送B时启动下一个像素的读取
+                if(byte_sel == 2'd2 && byte_cnt < (TOTAL_BYTES - 3)) begin
+                    read_en <= 1'b1;
+                end
+                else begin
+                    read_en <= 1'b0;
+                end
+
+                // ===== 数据输出（SDRAM格式：{R, G, B, 0}） =====
+                case(byte_sel)
+                    2'd0: app_tx_data <= data_buf[31:24];  // R（高位）
+                    2'd1: app_tx_data <= data_buf[23:16];  // G
+                    2'd2: app_tx_data <= data_buf[15:8];   // B
+                    default: app_tx_data <= 8'h00;
+                endcase
+
+                // 设置数据有效信号
+                app_tx_data_valid <= 1'b1;
+
+                // 更新字节选择
+                if(byte_sel >= 2'd2)
+                    byte_sel <= 2'd0;
+                else
+                    byte_sel <= byte_sel + 1'd1;
+
+                // 更新计数器
+                byte_cnt     <= byte_cnt + 1'd1;
+                pkt_byte_cnt <= pkt_byte_cnt + 1'd1;
+
+                // 检查是否完成
+                if(byte_cnt >= (TOTAL_BYTES - 1)) begin
+                    // 整帧完成 - 跳转到DONE等待start_send变低
+                    app_tx_data_valid <= 1'b0;
+                    read_en           <= 1'b0;
+                    read_en_d1        <= 1'b0;
+                    read_en_d2        <= 1'b0;
+                    STATE             <= DONE;
+                end
+                else if(pkt_byte_cnt >= (PACKET_SIZE - 1)) begin
+                    // 当前包完成
+                    app_tx_data_valid <= 1'b0;
+                    read_en           <= 1'b0;
+                    read_en_d1        <= 1'b0;
+                    read_en_d2        <= 1'b0;
+                    delay_cnt         <= 16'd0;
+                    STATE             <= DELAY;
+                end
+            end
+
+            // ========== 状态 5：包间延迟 ==========
+            DELAY: begin
+                // 延长包间延迟到3000周期（24μs @ 125MHz）
+                if(delay_cnt >= 16'd3000) begin
+                    STATE <= WAIT_UDP;
+                end
+                else begin
+                    delay_cnt <= delay_cnt + 1'd1;
+                end
+            end
+
+            // ========== 状态 6：发送完成，等待start_send变为低电平 ==========
+            DONE: begin
+                // 等待start_send变为低电平，防止重复发送
+                if(!start_send) begin
+                    STATE <= IDLE;
+                end
+            end
+
+            default: STATE <= IDLE;
+        endcase
+    end
+end
+
+endmodule

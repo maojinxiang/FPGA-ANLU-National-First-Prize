@@ -1,0 +1,73 @@
+standard
+***Report Model: top Device: EG4S20BG256***
+
+IO Statistics
+#IO                        39
+  #input                    4
+  #output                  35
+  #inout                    0
+
+Gate Statistics
+#Basic gates             2435
+  #and                    243
+  #nand                     0
+  #or                     238
+  #nor                      0
+  #xor                     66
+  #xnor                    21
+  #buf                      0
+  #not                    179
+  #bufif1                  32
+  #MX21                    97
+  #FADD                     0
+  #DFF                   1559
+  #LATCH                    0
+#MACRO_ADD                127
+#MACRO_EQ                  54
+#MACRO_MUX                509
+#MACRO_OTHERS               8
+
+Report Hierarchy Area:
++------------------------------------------------------------------------------------------------------------+
+|Instance                         |Module                                            |gates  |seq    |macros |
++------------------------------------------------------------------------------------------------------------+
+|top                              |top                                               |876    |1559   |189    |
+|  U3                             |sdram                                             |86     |515    |6      |
+|    u2_ram                       |sdr_as_ram                                        |86     |515    |6      |
+|      u1_init_ref                |sdr_init_ref                                      |19     |81     |1      |
+|      u2_wrrd                    |sdr_wrrd                                          |67     |434    |5      |
+|  frame_read_write_m0            |frame_read_write                                  |125    |308    |35     |
+|    frame_fifo_read_m0           |frame_fifo_read                                   |24     |63     |9      |
+|    frame_fifo_write_m0          |frame_fifo_write                                  |25     |57     |12     |
+|    read_buf                     |rfifo_32_32_512                                   |38     |94     |7      |
+|      ram_inst                   |ram_infer_rfifo_32_32_512                         |0      |0      |1      |
+|      rd_to_wr_cross_inst        |fifo_cross_domain_addr_process_al_rfifo_32_32_512 |16     |36     |0      |
+|      wr_to_rd_cross_inst        |fifo_cross_domain_addr_process_al_rfifo_32_32_512 |16     |36     |0      |
+|    write_buf                    |wfifo_32_32_512                                   |38     |94     |7      |
+|      ram_inst                   |ram_infer_wfifo_32_32_512                         |0      |0      |1      |
+|      rd_to_wr_cross_inst        |fifo_cross_domain_addr_process_al_wfifo_32_32_512 |16     |36     |0      |
+|      wr_to_rd_cross_inst        |fifo_cross_domain_addr_process_al_wfifo_32_32_512 |16     |36     |0      |
+|  sd_card_bmp_m0                 |sd_card_bmp                                       |490    |394    |36     |
+|    ax_debounce_m0               |ax_debounce                                       |5      |37     |2      |
+|    bmp_read_m0                  |bmp_read                                          |78     |176    |21     |
+|    sd_card_top_m0               |sd_card_top                                       |407    |181    |13     |
+|      sd_card_cmd_m0             |sd_card_cmd                                       |275    |48     |8      |
+|      sd_card_sec_read_write_m0  |sd_card_sec_read_write                            |121    |89     |0      |
+|      spi_master_m0              |spi_master                                        |11     |44     |5      |
+|  seg_decoder_m0                 |seg_decoder                                       |2      |0      |0      |
+|  seg_scan_m0                    |seg_scan                                          |10     |33     |9      |
+|  sys_pll_m0                     |sys_pll                                           |0      |0      |1      |
+|  u3_hdmi_tx                     |hdmi_tx                                           |141    |184    |91     |
+|    Inst_DVITransmitter          |DVITransmitter                                    |141    |184    |91     |
+|      Inst_TMDSEncoder_blue      |TMDSEncoder                                       |49     |47     |29     |
+|      Inst_TMDSEncoder_green     |TMDSEncoder                                       |44     |41     |29     |
+|      Inst_TMDSEncoder_red       |TMDSEncoder                                       |44     |41     |29     |
+|      Inst_blue_serializer_10_1  |Serial_N_1_lvds_dat                               |2      |20     |1      |
+|      Inst_clk_serializer_10_1   |Serial_N_1_lvds                                   |2      |7      |1      |
+|      Inst_green_serializer_10_1 |Serial_N_1_lvds_dat                               |0      |14     |1      |
+|      Inst_red_serializer_10_1   |Serial_N_1_lvds_dat                               |0      |14     |1      |
+|  video_delay_m0                 |video_delay                                       |0      |87     |0      |
+|  video_pll_m0                   |video_pll                                         |0      |0      |1      |
+|  video_timing_data_m0           |video_timing_data                                 |13     |38     |10     |
+|    color_bar_m0                 |color_bar                                         |11     |31     |10     |
++------------------------------------------------------------------------------------------------------------+

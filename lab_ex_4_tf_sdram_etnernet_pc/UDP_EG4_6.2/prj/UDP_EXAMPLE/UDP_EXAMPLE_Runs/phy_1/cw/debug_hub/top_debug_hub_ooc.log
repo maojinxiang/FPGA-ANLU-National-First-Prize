@@ -1,0 +1,258 @@
+============================================================
+   Tang Dynasty, V6.2.168116
+   Copyright (c) 2012-2025 Anlogic Inc.
+   Executable = D:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/bin/run.exe
+   Built at =   16:32:07 Jun 12 2025
+   Run by =     Administrator
+   Run Date =   Sat Aug  9 20:44:54 2025
+
+   Run on =     PC-20230215EHPW
+============================================================
+RUN-1002 : start command "import_device eagle_s20.db -package EG4S20BG256"
+RUN-1001 : Using default speed grade: NA
+ARC-1001 : Device Initialization.
+ARC-1001 : ------------------------------------------------------------------
+ARC-1001 :            OPTION            |          IO          |   SETTING   
+ARC-1001 : ------------------------------------------------------------------
+ARC-1001 :   cso_b/cclk/mosi/miso/dout  |  T3/R11/T10/P10/S11  |    gpio    
+ARC-1001 :             done             |         P13          |    gpio    
+ARC-1001 :           program_b          |          T2          |  dedicate  
+ARC-1001 :        tdi/tms/tck/tdo       |   C12/A15/C14/E14    |  dedicate  
+ARC-1001 : ------------------------------------------------------------------
+ARC-1004 : Device setting, marked 5 dedicate IOs in total.
+RUN-1002 : start command "set_param flow ooc_flow on"
+RUN-1002 : start command "read_verilog -dir D:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/ip/apm/apm_cwc -global_include debug_hub_define.v -top top_debug_hub"
+HDL-1007 : analyze verilog file debug_hub_define.v
+HDL-1007 : analyze verilog file D:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/ip/apm/apm_cwc\apm_cwc.sv
+Copyright (c) 1998-2019 The OpenSSL Project.  All rights reserved.
+This product includes software developed by the OpenSSL Project
+for use in the OpenSSL Toolkit (http://www.openssl.org/)
+Copyright (C) 1995-1998 Eric Young (eay@cryptsoft.com)
+All rights reserved.
+This product includes cryptographic software written by Eric Young (eay@cryptsoft.com)
+HDL-1007 : undeclared symbol '**', assumed default net type '**' in D:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/ip/apm/apm_cwc\apm_cwc.sv(492)
+HDL-1007 : undeclared symbol '**', assumed default net type '**' in D:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/ip/apm/apm_cwc\apm_cwc.sv(493)
+HDL-1007 : back to file 'D:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/ip/apm/apm_cwc\apm_cwc.sv' in D:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/ip/apm/apm_cwc\apm_cwc.sv(1)
+HDL-1007 : analyze verilog file D:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/ip/apm/apm_cwc\apm_debughub.sv
+HDL-1007 : back to file 'D:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/ip/apm/apm_cwc\apm_debughub.sv' in D:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/ip/apm/apm_cwc\apm_debughub.sv(1)
+HDL-1007 : analyze verilog file D:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/ip/apm/apm_cwc\apm_vpi.sv
+HDL-1007 : back to file 'D:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/ip/apm/apm_cwc\apm_vpi.sv' in D:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/ip/apm/apm_cwc\apm_vpi.sv(1)
+HDL-1007 : elaborate module ** in D:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/ip/apm/apm_cwc\apm_debughub.sv(3)
+HDL-1007 : elaborate module ** in D:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/ip/apm/apm_cwc\apm_debughub.sv(6718)
+HDL-1007 : elaborate module AL_MAP_LUT1(INIT=2'b01,EQN="(~A)") in D:\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/al_lmacro.v(60)
+HDL-1007 : elaborate module ** in D:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/ip/apm/apm_cwc\apm_debughub.sv(6437)
+HDL-1007 : elaborate module ** in D:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/ip/apm/apm_cwc\apm_debughub.sv(6057)
+HDL-1007 : elaborate module ** in D:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/ip/apm/apm_cwc\apm_debughub.sv(6214)
+HDL-1007 : elaborate module ** in D:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/ip/apm/apm_cwc\apm_debughub.sv(6135)
+HDL-1007 : elaborate module ** in D:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/ip/apm/apm_cwc\apm_debughub.sv(6312)
+HDL-1200 : Current top model is top_debug_hub
+HDL-1100 : Inferred 0 RAMs.
+RUN-1002 : start command "optimize_rtl"
+RUN-1001 : Open license file D:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/license/Anlogic.lic
+SYN-1001 : Stage 1 | Optimize RTL
+SYN-1001 : Stage 1.1 | Check Design Sanity
+SYN-1001 : End Stage 1.1 | Check Design Sanity; Time: 0.000518s wall, 0.000000s user + 0.000000s system = 0.000000s CPU (n/a%); Memory(MB): used = 92, reserved = 101, peak = 92;
+
+SYN-1079 : finish stage Check Design Sanity. Total instances: 1413, Total nets: 3175.
+
+SYN-1001 : Stage 1.2 | Initialize Design
+SYN-1001 : End Stage 1.2 | Initialize Design; Time: 0.070346s wall, 0.078125s user + 0.000000s system = 0.078125s CPU (111.1%); Memory(MB): used = 92, reserved = 101, peak = 92;
+
+SYN-1079 : finish stage Initialize Design. Total instances: 300, Total nets: 2059.
+
+SYN-1001 : Stage 1.3 | Flatten Module
+SYN-1011 : Flatten model top_debug_hub
+SYN-1001 : End Stage 1.3 | Flatten Module; Time: 0.006813s wall, 0.000000s user + 0.000000s system = 0.000000s CPU (n/a%); Memory(MB): used = 92, reserved = 101, peak = 92;
+
+SYN-1079 : finish stage Flatten Module. Total instances: 315, Total nets: 1576.
+
+SYN-1001 : Stage 1.4 | Uniform Instance
+SYN-1001 : End Stage 1.4 | Uniform Instance; Time: 0.002354s wall, 0.000000s user + 0.000000s system = 0.000000s CPU (n/a%); Memory(MB): used = 92, reserved = 101, peak = 92;
+
+SYN-1079 : finish stage Uniform Instance. Total instances: 187, Total nets: 1448.
+
+SYN-1001 : Stage 1.5 | Optimize Design
+SYN-1016 : Merged 12 instances.
+SYN-1001 : End Stage 1.5 | Optimize Design; Time: 0.107370s wall, 0.109375s user + 0.000000s system = 0.109375s CPU (101.9%); Memory(MB): used = 92, reserved = 91, peak = 96;
+
+SYN-1079 : finish stage Optimize Design. Total instances: 809, Total nets: 846.
+
+SYN-1001 : Stage 1.6 | Optimize Iteratively
+SYN-1014 : Optimize round 1
+SYN-1015 : Optimize round 1, 1 better
+SYN-1014 : Optimize round 2
+SYN-1015 : Optimize round 2, 0 better
+SYN-3010 : Optimized 6 DFF(s)
+SYN-1014 : Optimize round 1
+SYN-1015 : Optimize round 1, 10 better
+SYN-1014 : Optimize round 2
+SYN-1015 : Optimize round 2, 0 better
+SYN-1001 : End Stage 1.6 | Optimize Iteratively; Time: 0.493760s wall, 0.484375s user + 0.015625s system = 0.500000s CPU (101.3%); Memory(MB): used = 100, reserved = 98, peak = 107;
+
+SYN-1079 : finish stage Optimize Iteratively. Total instances: 800, Total nets: 835.
+
+SYN-1001 : Stage 1.7 | Check Design
+SYN-1001 : End Stage 1.7 | Check Design; Time: 0.000091s wall, 0.000000s user + 0.000000s system = 0.000000s CPU (n/a%); Memory(MB): used = 100, reserved = 98, peak = 107;
+
+SYN-1079 : finish stage Check Design. Total instances: 800, Total nets: 835.
+
+SYN-1001 : End Stage 1 | Optimize RTL; Time: 0.681647s wall, 0.671875s user + 0.015625s system = 0.687500s CPU (100.9%); Memory(MB): used = 100, reserved = 98, peak = 107;
+
+SYN-1079 : finish stage Optimize RTL. Total instances: 800, Total nets: 835.
+
+RUN-1002 : start command "map_macro"
+SYN-1001 : Stage 2 | Map Reg
+SYN-1001 : End Stage 2 | Map Reg; Time: 0.017925s wall, 0.015625s user + 0.000000s system = 0.015625s CPU (87.2%); Memory(MB): used = 100, reserved = 98, peak = 107;
+
+SYN-1079 : finish stage Map Reg. Total instances: 800, Total nets: 835.
+
+SYN-1001 : Stage 3 | Map IO
+SYN-2001 : Map 0 IOs to PADs of model 'top_debug_hub'
+SYN-1001 : End Stage 3 | Map IO; Time: 0.000722s wall, 0.000000s user + 0.000000s system = 0.000000s CPU (n/a%); Memory(MB): used = 100, reserved = 98, peak = 107;
+
+SYN-1001 : Stage 4 | Map Macro
+RUN-1002 : start command "update_pll_param -module top_debug_hub"
+SYN-2501 : Processed 0 LOGIC_BUF instances.
+SYN-2571 : Optimize after map_dsp, round 1
+SYN-2571 : Optimize after map_dsp, round 1, 0 better
+SYN-1001 : Throwback 31 control mux instances
+SYN-2501 : Optimize round 1
+SYN-1016 : Merged 2 instances.
+SYN-2501 : Optimize round 1, 42 better
+SYN-2501 : Optimize round 2
+SYN-2501 : Optimize round 2, 0 better
+SYN-2501 : Optimize round 1
+SYN-2501 : Optimize round 1, 0 better
+SYN-2501 : Map 2 macro adder(s)
+SYN-1016 : Merged 8 instances.
+SYN-1001 : End Stage 4 | Map Macro; Time: 0.058558s wall, 0.062500s user + 0.000000s system = 0.062500s CPU (106.7%); Memory(MB): used = 101, reserved = 99, peak = 107;
+
+SYN-1079 : finish stage Map Macro. Total instances: 858, Total nets: 893.
+
+RUN-1002 : start command "map"
+SYN-1001 : Stage 5 | Map Gate
+SYN-2581 : Mapping with K=5, #lut = 97 (3.30), #lev = 3 (1.81), #crit_level = 0
+SYN-2551 : Post LUT mapping optimization.
+SYN-2581 : Mapping with K=5, #lut = 100 (3.27), #lev = 2 (1.53), #crit_level = 0
+SYN-3001 : Logic optimization opt = 0.09 sec, map = 0.01 sec, post map opt = 0.05 sec.
+SYN-1001 : End Stage 5 | Map Gate; Time: 0.157565s wall, 0.156250s user + 0.000000s system = 0.156250s CPU (99.2%); Memory(MB): used = 112, reserved = 105, peak = 112;
+
+RUN-1002 : start command "pack"
+SYN-1001 : Packing model "top_debug_hub" ...
+SYN-4010 : Pack lib has 59 rtl pack models with 26 top pack blocks
+SYN-1014 : Optimize round 1
+SYN-1015 : Optimize round 1, 0 better
+SYN-4002 : Packing 632 DFF/LATCH to SEQ ...
+SYN-4009 : Pack 0 carry chain into lslice
+SYN-4007 : Packing 0 adder to BLE ...
+SYN-4008 : Packed 0 adder and 0 SEQ to BLE.
+SYN-4007 : Packing 0 gate4 to BLE ...
+SYN-4008 : Packed 0 gate4 and 0 SEQ to BLE.
+RUN-1002 : start command "report_qor -step gate -file gate.qor"
+RUN-1002 : start command "start_timer"
+-----------------------------------------------------------
+| QoR metrics               |         value               |
+-----------------------------------------------------------
+| Timing                    |                             |
+|     Setup WNS             |         6341                |
+|     Setup TNS             |            0                |
+|     Num of violated S-EP  |            0                |
+|     Hold WNS              |          694                |
+|     Hold TNS              |            0                |
+|     Num of violated H-EP  |            0                |
+-----------------------------------------------------------
+| Utilization               |                             |
+|     #registers            |          632                |
+|     #luts                 |          110                |
+|     #lut1                 |           10                |
+|     #lut1(~A)             |            0                |
+|     #slices               |            0                |
+|     slices percentage     |        0.00%                |
+|     #RAMs                 |            0                |
+|     #DSPs                 |            0                |
+|     #f7mux                |        0.00%                |
+|     #MACROs               |            0                |
+|     #insts in MACRO       |            0                |
+-----------------------------------------------------------
+| kept_net                  |                             |
+|     #syn_keep             |           10                |
+|     #keep_hier            |            0                |
+|     #dont_touch           |            0                |
+|     #mark_debug           |            0                |
+|     #max_fanout_keep      |            0                |
+|     #async_reg            |            0                |
+-----------------------------------------------------------
+| Top 10% datanet fanout#   |        13.29                |
+| dff(single fanout)->dff   |          321                |
+| dff(single fanout)->dram  |            0                |
+-----------------------------------------------------------
+| Over-quota path num*      |                             |
+|     Total                 |            0                |
+-----------------------------------------------------------
+| Rent**                    |                             |
+-----------------------------------------------------------
+Note*: Over-quota path shows the over-path-level-threshold path number of each clock.
+       The clock will not be shown if no path is with path level over the threshold.
+       The threshold is defined as worst path_margin / 800ps.
+Note**: Rent shows the rent exponent value of the modules whose rent value exceeds the threshold.
+        Only modules under top are reported, and the threshold is defined as 0.7.
+
+Logic Level Distribution
+-------------------------------------------------------------
+  Clock        |  Period            |  0     |  1    |  2
+-------------------------------------------------------------
+  DeriveClock  |  20.000ns (50MHz)  |  1255  |  192  |  336
+-------------------------------------------------------------
+Note: The table count the worst 100000 paths, each endpoint count only one time.(1783 paths analyzed)
+
+Hierarchical Rent Exponent Report
++--------------------------------------------------------+
+|Inst     |Model  |Rent     |Cell     |Pin     |Term     |
++--------------------------------------------------------+
++--------------------------------------------------------+
+Note: Cell represents total number of cells inside module; Pin represents total number of pins
+      which have net connection inside module; Term represents total number of PIs and POs of module.
+      Rent represents the relationship between number of terms and number of cells in module.
+      A module with higher rent corresponds to highly connected logic and strong connectivity with others.
+Report gate stage QoR done.
+
+RUN-1002 : start command "report_area -file top_debug_hub_gate.area"
+RUN-1001 : standard
+***Report Model: top_debug_hub Device: EG4S20BG256***
+
+IO Statistics
+#IO                       135   out of    188   71.81%
+  #input                   33
+  #output                 102
+  #inout                    0
+
+LUT Statistics
+#Total_luts               110
+  #lut4                    84
+  #lut5                    26
+  #lut6                     0
+  #lut5_mx41                0
+  #lut4_alu1b               0
+
+Utilization Statistics
+#lut                      110   out of  19600    0.56%
+#reg                      632   out of  19600    3.22%
+#bram                       0   out of     64    0.00%
+  #bram9k                   0
+  #fifo9k                   0
+#bram32k                    0   out of     16    0.00%
+#dsp                        0   out of     29    0.00%
+#pad                        0   out of    188    0.00%
+#pll                        0   out of      4    0.00%
+#gclk                       0   out of     16    0.00%
+
+RUN-1002 : start command "export_db -mode ooc top_debug_hub_ooc.db"
+RUN-1001 : Exported /
+RUN-1001 : Exported libs
+RUN-1001 : Exported entities
+RUN-1001 : Exported ports
+RUN-1001 : Exported pins
+RUN-1001 : Exported instances
+RUN-1001 : Exported nets
+RUN-1001 : Exported buses
+RUN-1001 : Exported models

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- HMAC is: 2c6425e4cc0b3d51024c2ad64fbfd0c7e63773ac489c7d319d0e806dfc258796 -->
+<chipwatcher version="3.040000" project_name="UDP_EXAMPLE" chip_name="EG4S20BG256">
+	<watcher_nodes>
+		<bus name="u4_trimac_block/u1_rgmii_interface/gmii_rxd[7:0]" clock="phy1_rgmii_rx_clk" inst="auto_created_cwc1" type="USER_PROBE" is_enabled="yes">
+			<net name="u4_trimac_block/u1_rgmii_interface/gmii_rxd[7]" const="false" data="enable" trig="enable"/>
+			<net name="u4_trimac_block/u1_rgmii_interface/gmii_rxd[6]" const="false" data="enable" trig="enable"/>
+			<net name="u4_trimac_block/u1_rgmii_interface/gmii_rxd[5]" const="false" data="enable" trig="enable"/>
+			<net name="u4_trimac_block/u1_rgmii_interface/gmii_rxd[4]" const="false" data="enable" trig="enable"/>
+			<net name="u4_trimac_block/u1_rgmii_interface/gmii_rxd[3]" const="false" data="enable" trig="enable"/>
+			<net name="u4_trimac_block/u1_rgmii_interface/gmii_rxd[2]" const="false" data="enable" trig="enable"/>
+			<net name="u4_trimac_block/u1_rgmii_interface/gmii_rxd[1]" const="false" data="enable" trig="enable"/>
+			<net name="u4_trimac_block/u1_rgmii_interface/gmii_rxd[0]" const="false" data="enable" trig="enable"/>
+		</bus>
+		<net name="u4_trimac_block/u1_rgmii_interface/gmii_rx_dv" clock="phy1_rgmii_rx_clk" inst="auto_created_cwc1" type="USER_PROBE" is_enabled="yes" const="false" trig="enable" data="enable"/>
+		<net name="u4_trimac_block/u1_rgmii_interface/gmii_rx_er" clock="phy1_rgmii_rx_clk" inst="auto_created_cwc1" type="USER_PROBE" is_enabled="yes" const="false" trig="enable" data="enable"/>
+		<net name="rx_valid" clock="phy1_rgmii_rx_clk" inst="auto_created_cwc1" type="USER_PROBE" is_enabled="yes" const="false" trig="enable" data="enable"/>
+		<bus name="rx_data[7:0]" clock="phy1_rgmii_rx_clk" inst="auto_created_cwc1" type="USER_PROBE" is_enabled="yes">
+			<net name="rx_data[7]" const="false" data="enable" trig="enable"/>
+			<net name="rx_data[6]" const="false" data="enable" trig="enable"/>
+			<net name="rx_data[5]" const="false" data="enable" trig="enable"/>
+			<net name="rx_data[4]" const="false" data="enable" trig="enable"/>
+			<net name="rx_data[3]" const="false" data="enable" trig="enable"/>
+			<net name="rx_data[2]" const="false" data="enable" trig="enable"/>
+			<net name="rx_data[1]" const="false" data="enable" trig="enable"/>
+			<net name="rx_data[0]" const="false" data="enable" trig="enable"/>
+		</bus>
+		<net name="rx_correct_frame" clock="phy1_rgmii_rx_clk" inst="auto_created_cwc1" type="USER_PROBE" is_enabled="yes" const="false" trig="enable" data="enable"/>
+		<net name="rx_error_frame" clock="phy1_rgmii_rx_clk" inst="auto_created_cwc1" type="USER_PROBE" is_enabled="yes" const="false" trig="enable" data="enable"/>
+	</watcher_nodes>
+	<instance name="auto_created_cwc1" id="0" ipgen="false" inst_enable="true">
+		<clock clk_name="phy1_rgmii_rx_clk"/>
+		<config bram_name="auto_created_cwc1/wrapper_cwc_top/U_cwc_ram" debughub_name="" input_pipe_num="0" output_pipe_num="0" pwr_on_trigger="disable" capture_mode="disable" sample_depth="256"/>
+		<signal_vec>
+			<watcher_nodes>
+				<bus name="u4_trimac_block/u1_rgmii_interface/gmii_rxd[7:0]" op="dont_care" capture_op="dont_care">
+					<net name="u4_trimac_block/u1_rgmii_interface/gmii_rxd[7]" cond="low" capture_cond="low"/>
+					<net name="u4_trimac_block/u1_rgmii_interface/gmii_rxd[6]" cond="low" capture_cond="low"/>
+					<net name="u4_trimac_block/u1_rgmii_interface/gmii_rxd[5]" cond="low" capture_cond="low"/>
+					<net name="u4_trimac_block/u1_rgmii_interface/gmii_rxd[4]" cond="low" capture_cond="low"/>
+					<net name="u4_trimac_block/u1_rgmii_interface/gmii_rxd[3]" cond="low" capture_cond="low"/>
+					<net name="u4_trimac_block/u1_rgmii_interface/gmii_rxd[2]" cond="low" capture_cond="low"/>
+					<net name="u4_trimac_block/u1_rgmii_interface/gmii_rxd[1]" cond="low" capture_cond="low"/>
+					<net name="u4_trimac_block/u1_rgmii_interface/gmii_rxd[0]" cond="low" capture_cond="low"/>
+				</bus>
+				<net name="u4_trimac_block/u1_rgmii_interface/gmii_rx_dv" cond="any" capture_cond="any"/>
+				<net name="u4_trimac_block/u1_rgmii_interface/gmii_rx_er" cond="any" capture_cond="any"/>
+				<net name="rx_valid" cond="any" capture_cond="any"/>
+				<bus name="rx_data[7:0]" op="dont_care" capture_op="dont_care">
+					<net name="rx_data[7]" cond="low" capture_cond="low"/>
+					<net name="rx_data[6]" cond="low" capture_cond="low"/>
+					<net name="rx_data[5]" cond="low" capture_cond="low"/>
+					<net name="rx_data[4]" cond="low" capture_cond="low"/>
+					<net name="rx_data[3]" cond="low" capture_cond="low"/>
+					<net name="rx_data[2]" cond="low" capture_cond="low"/>
+					<net name="rx_data[1]" cond="low" capture_cond="low"/>
+					<net name="rx_data[0]" cond="low" capture_cond="low"/>
+				</bus>
+				<net name="rx_correct_frame" cond="any" capture_cond="any"/>
+				<net name="rx_error_frame" cond="any" capture_cond="any"/>
+			</watcher_nodes>
+		</signal_vec>
+		<trigger name="auto_created_cwc1_trigger" position="127" window_num="1" window_depth="256">
+			<condition level="1" enabled="yes" type="basic_and" capture_type="basic_and"/>
+		</trigger>
+		<logic_eram name="auto_created_cwc1/wrapper_cwc_top/U_cwc_ram" width="21" depth="256">
+			<phy_eram name="auto_created_cwc1/wrapper_cwc_top/U_cwc_ram/ramread0_syn_5" wid="0x0012" rid="0x0012" model_type="AL_PHY_BRAM" width_a="9" width_b="9" debuggable="enable" initialized="disable" width="9" depth="256" address_offset="0" data_offset="0" address_step="1" num_section="1" section_size="21" width_per_section="9" bytes_in_per_section="1" working_mode_depth="1024" working_mode_width="9" working_mode_ecc="disable" working_mode_num_byte="1" working_mode_super_wide="disable"/>
+			<phy_eram name="auto_created_cwc1/wrapper_cwc_top/U_cwc_ram/ramread0_syn_15" wid="0x0013" rid="0x0013" model_type="AL_PHY_BRAM" width_a="9" width_b="9" debuggable="enable" initialized="disable" width="9" depth="256" address_offset="0" data_offset="9" address_step="1" num_section="1" section_size="21" width_per_section="9" bytes_in_per_section="1" working_mode_depth="1024" working_mode_width="9" working_mode_ecc="disable" working_mode_num_byte="1" working_mode_super_wide="disable"/>
+			<phy_eram name="auto_created_cwc1/wrapper_cwc_top/U_cwc_ram/ramread0_syn_25" wid="0x0014" rid="0x0014" model_type="AL_PHY_BRAM" width_a="4" width_b="4" debuggable="enable" initialized="disable" width="3" depth="256" address_offset="0" data_offset="18" address_step="1" num_section="1" section_size="21" width_per_section="3" bytes_in_per_section="1" working_mode_depth="2048" working_mode_width="4" working_mode_ecc="disable" working_mode_num_byte="1" working_mode_super_wide="disable"/>
+		</logic_eram>
+	</instance>
+</chipwatcher>

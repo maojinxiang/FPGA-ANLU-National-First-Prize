@@ -1,0 +1,23 @@
+Location         : G:\FPGA_com\FPGA\10_29_night\q3q4\q4_Runs\syn_1
+Running with     : Tang Dynasty v6.2.168116
+                   Copyright (c) 2012-2025 Anlogic Inc.
+Top Model        : top_dual_udp
+Device           : EG4S20BG256
+Speed            : NA
+
+Timing Mode      : basic
+Setup            : WNS -7291ps  TNS -1429724ps  NUM_FEPS   947
+Hold             : WNS   471ps  TNS        0ps  NUM_FEPS     0
+
+Flow Statistics  :
+--------------------------------------------------------------------------------------------------
+     command     |  #calls  |  wall time  |  cpu time(s)  |  used memory(mb)  |  peak memory(mb)  
+--------------------------------------------------------------------------------------------------
+  optimize_gate  |    1     |  1m5s(51%)  |    57(50%)    |        525        |        536        
+  optimize_rtl   |    1     |  1m2s(48%)  |    56(49%)    |        446        |        536        
+  import_device  |    1     |   0s(0%)    |     0(0%)     |        83         |        83         
+    read_adc     |    1     |   0s(0%)    |     0(0%)     |        278        |        278        
+    read_sdc     |    2     |   0s(0%)    |     0(0%)     |        279        |        279        
+--------------------------------------------------------------------------------------------------
+      total      |    6     |    2m7s     |      113      |        525        |        536        
+--------------------------------------------------------------------------------------------------

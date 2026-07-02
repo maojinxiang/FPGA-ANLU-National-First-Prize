@@ -1,0 +1,48 @@
+============================================================
+   Tang Dynasty, V6.2.168116
+   Copyright (c) 2012-2025 Anlogic Inc.
+   Executable = D:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/bin/td.exe
+   Built at =   16:32:07 Jun 12 2025
+   Run by =     Administrator
+   Run Date =   Sat Aug  9 20:37:05 2025
+
+   Run on =     PC-20230215EHPW
+============================================================
+HDL-5007 WARNING: column 1032 exceeds maximum value 1023 in al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v(30)
+HDL-5007 WARNING: event expressions must result in a singular type in al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v(3001)
+HDL-5007 WARNING: column 1035 exceeds maximum value 1023 in al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v(6001)
+HDL-5370 WARNING: parameter 'WAIT_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in ../../source_code/rtl/rx_client_fifo.v(49)
+HDL-5370 WARNING: parameter 'QUEUE1_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in ../../source_code/rtl/rx_client_fifo.v(50)
+HDL-5370 WARNING: parameter 'QUEUE2_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in ../../source_code/rtl/rx_client_fifo.v(51)
+HDL-5370 WARNING: parameter 'QUEUE3_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in ../../source_code/rtl/rx_client_fifo.v(52)
+HDL-5370 WARNING: parameter 'QUEUE_SOF_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in ../../source_code/rtl/rx_client_fifo.v(53)
+HDL-5370 WARNING: parameter 'SOF_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in ../../source_code/rtl/rx_client_fifo.v(54)
+HDL-5370 WARNING: parameter 'DATA_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in ../../source_code/rtl/rx_client_fifo.v(55)
+HDL-5370 WARNING: parameter 'EOF_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in ../../source_code/rtl/rx_client_fifo.v(56)
+HDL-5370 WARNING: parameter 'IDLE_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in ../../source_code/rtl/rx_client_fifo.v(62)
+HDL-5370 WARNING: parameter 'FRAME_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in ../../source_code/rtl/rx_client_fifo.v(63)
+HDL-5370 WARNING: parameter 'END_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in ../../source_code/rtl/rx_client_fifo.v(64)
+HDL-5370 WARNING: parameter 'GF_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in ../../source_code/rtl/rx_client_fifo.v(65)
+HDL-5370 WARNING: parameter 'BF_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in ../../source_code/rtl/rx_client_fifo.v(66)
+HDL-5370 WARNING: parameter 'OVFLOW_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in ../../source_code/rtl/rx_client_fifo.v(67)
+HDL-5370 WARNING: parameter 'IDLE_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in ../../source_code/rtl/tx_client_fifo.v(53)
+HDL-5370 WARNING: parameter 'QUEUE1_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in ../../source_code/rtl/tx_client_fifo.v(54)
+HDL-5370 WARNING: parameter 'QUEUE2_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in ../../source_code/rtl/tx_client_fifo.v(55)
+HDL-5370 WARNING: parameter 'QUEUE3_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in ../../source_code/rtl/tx_client_fifo.v(56)
+HDL-5370 WARNING: parameter 'QUEUE_ACK_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in ../../source_code/rtl/tx_client_fifo.v(57)
+HDL-5370 WARNING: parameter 'WAIT_ACK_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in ../../source_code/rtl/tx_client_fifo.v(58)
+HDL-5370 WARNING: parameter 'FRAME_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in ../../source_code/rtl/tx_client_fifo.v(59)
+HDL-5370 WARNING: parameter 'DROP_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in ../../source_code/rtl/tx_client_fifo.v(60)
+HDL-5370 WARNING: parameter 'RETRANSMIT_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in ../../source_code/rtl/tx_client_fifo.v(61)
+HDL-5370 WARNING: parameter 'WAIT_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in ../../source_code/rtl/tx_client_fifo.v(67)
+HDL-5370 WARNING: parameter 'DATA_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in ../../source_code/rtl/tx_client_fifo.v(68)
+HDL-5370 WARNING: parameter 'EOF_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in ../../source_code/rtl/tx_client_fifo.v(69)
+HDL-5370 WARNING: parameter 'OVFLOW_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in ../../source_code/rtl/tx_client_fifo.v(70)
+HDL-5333 WARNING: data object 'rst_n' is already declared in ../../source_code/rtl/UDP_Example_Top.v(581)
+HDL-5007 WARNING: second declaration of 'rst_n' is ignored in ../../source_code/rtl/UDP_Example_Top.v(581)
+HDL-5372 WARNING: redeclaration of ANSI port 'full_flag' is not allowed in ../../source_code/rtl/sdr/rtl/app_wrrd.v(55)
+HDL-5333 WARNING: data object 'w_addr_cnt' is already declared in ../../source_code/rtl/sdr/rtl/app_wrrd.v(133)
+HDL-5007 WARNING: second declaration of 'w_addr_cnt' is ignored in ../../source_code/rtl/sdr/rtl/app_wrrd.v(133)
+HDL-5372 WARNING: redeclaration of ANSI port 'wr_done' is not allowed in ../../source_code/rtl/sdr/rtl/sdram_top.v(72)
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in ../../source_code/rtl/sdr/rtl/enc_file/sdr_init_ref.enc.v(47)
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in ../../source_code/rtl/sdr/rtl/enc_file/sdr_wrrd.enc.v(283)

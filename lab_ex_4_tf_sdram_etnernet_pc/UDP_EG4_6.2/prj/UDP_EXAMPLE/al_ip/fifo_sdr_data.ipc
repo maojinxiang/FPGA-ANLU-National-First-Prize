@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<RAM_FIFOConfig>
+    <GeneralConfig>
+        <Type>EG_LOGIC_RAMFIFO</Type>
+        <Device>EG4S20BG256</Device>
+        <create_VHDL>true</create_VHDL>
+        <inst>fifo_sdr_data</inst>
+    </GeneralConfig>
+    <ImplementOption>
+        <implement>auto</implement>
+    </ImplementOption>
+    <DataOption>
+        <data_width>24</data_width>
+        <addr_width>15</addr_width>
+    </DataOption>
+    <ShowAheadOption>
+        <show_ahead_index>0</show_ahead_index>
+    </ShowAheadOption>
+    <GeneratedFiles>
+        <Verilog Enable="true">fifo_sdr_data.v</Verilog>
+        <VHDL Enable="false">fifo_sdr_data.vhd</VHDL>
+    </GeneratedFiles>
+</RAM_FIFOConfig>

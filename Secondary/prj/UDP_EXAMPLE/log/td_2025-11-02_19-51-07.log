@@ -1,0 +1,32 @@
+============================================================
+   Tang Dynasty, V6.2.168116
+   Copyright (c) 2012-2025 Anlogic Inc.
+   Executable = C:/Anlogic/TD/bin/td.exe
+   Built at =   16:32:07 Jun 12 2025
+   Run by =     xvhao
+   Run Date =   Sun Nov  2 19:51:07 2025
+
+   Run on =     XU
+============================================================
+PRJ-1412 : reset_run syn_1 phy_1.
+PRJ-1409 : launch_runs syn_1 phy_1  -jobs 6.
+PRJ-5303 WARNING: Run syn_1 failed.
+RUN-1002 : start command "save_best_bits"
+PRJ-1412 : reset_run syn_1 phy_1.
+PRJ-1409 : launch_runs syn_1 phy_1  -jobs 6.
+PRJ-5303 WARNING: Run syn_1 failed.
+RUN-1002 : start command "save_best_bits"
+GUI-5001 WARNING: Failed to copy the targe file(C:/Users/xvhao/Desktop/final/key2/prj/UDP_EXAMPLE/import/hdmi/hdmi_tx.vhd), because a file with the same name already exists in the project directory.Please rename and try again.
+PRJ-8403 ERROR: File(C:/Users/xvhao/Desktop/final/key2/prj/UDP_EXAMPLE/import/hdmi_tx.vhd) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: C:/Users/xvhao/Desktop/final/key2/prj/UDP_EXAMPLE/import/hdmi/hdmi_tx.vhd
+PRJ-1412 : reset_run syn_1 phy_1.
+PRJ-1409 : launch_runs syn_1 phy_1  -jobs 6.
+PRJ-5303 WARNING: Run syn_1 failed.
+RUN-1002 : start command "save_best_bits"
+PRJ-1412 : reset_run syn_1 phy_1.
+PRJ-1409 : launch_runs syn_1 phy_1  -jobs 6.
+PRJ-5303 WARNING: Run syn_1 failed.
+RUN-1002 : start command "save_best_bits"
+GUI-5001 WARNING: Failed to copy the targe file(C:/Users/xvhao/Desktop/final/Android_logic1_py/import/hdmi/hdmi_tx.vhd), because a file with the same name already exists in the project directory.Please rename and try again.
+PRJ-8403 ERROR: File(C:/Users/xvhao/Desktop/final/key2/prj/UDP_EXAMPLE/import/hdmi_tx.vhd) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: C:/Users/xvhao/Desktop/final/Android_logic1_py/import/hdmi/hdmi_tx.vhd

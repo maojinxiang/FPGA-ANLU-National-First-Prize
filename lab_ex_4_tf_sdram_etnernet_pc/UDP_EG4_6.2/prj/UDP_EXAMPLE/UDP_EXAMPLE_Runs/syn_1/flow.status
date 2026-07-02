@@ -1,0 +1,23 @@
+Location         : C:\Users\Administrator\Desktop\lab_ex_4_tf_sdram_etnernet_pc\UDP_EG4_6.2\prj\UDP_EXAMPLE\UDP_EXAMPLE_Runs\syn_1
+Running with     : Tang Dynasty v6.2.168116
+                   Copyright (c) 2012-2025 Anlogic Inc.
+Top Model        : UDP_Example_Top
+Device           : EG4S20BG256
+Speed            : NA
+
+Timing Mode      : basic
+Setup            : WNS -5291ps  TNS  -272622ps  NUM_FEPS    96
+Hold             : WNS   471ps  TNS        0ps  NUM_FEPS     0
+
+Flow Statistics  :
+--------------------------------------------------------------------------------------------------
+     command     |  #calls  |  wall time  |  cpu time(s)  |  used memory(mb)  |  peak memory(mb)  
+--------------------------------------------------------------------------------------------------
+  optimize_gate  |    1     |  25s(60%)   |    24(60%)    |        428        |        462        
+  optimize_rtl   |    1     |  16s(39%)   |    16(40%)    |        387        |        462        
+  import_device  |    1     |   0s(0%)    |     0(0%)     |        81         |        81         
+    read_adc     |    1     |   0s(0%)    |     0(0%)     |        204        |        204        
+    read_sdc     |    3     |   0s(0%)    |     0(0%)     |        204        |        204        
+--------------------------------------------------------------------------------------------------
+      total      |    7     |     41s     |      40       |        428        |        462        
+--------------------------------------------------------------------------------------------------

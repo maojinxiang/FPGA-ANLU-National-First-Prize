@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<BramConfig>
+    <GeneralConfig>
+        <Type>EG_LOGIC_BRAM</Type>
+        <Device>EG4S20BG256</Device>
+        <create_VHDL>true</create_VHDL>
+        <inst>ram</inst>
+        <debug_enable>NO</debug_enable>
+        <pack_enable>NO</pack_enable>
+        <byte_write>none</byte_write>
+    </GeneralConfig>
+    <ImplementOption>
+        <imp_type>9k</imp_type>
+    </ImplementOption>
+    <MemoryType>
+        <mem_type>PDPW</mem_type>
+    </MemoryType>
+    <PortAOption>
+        <mode_a>NORMAL</mode_a>
+        <depth_a>32768</depth_a>
+        <width_a>6</width_a>
+        <register_a>None</register_a>
+        <enable_a>enable</enable_a>
+        <enable_wea>enable</enable_wea>
+    </PortAOption>
+    <PortBOption>
+        <mode_b>READBEFOREWRITE</mode_b>
+        <depth_b>32768</depth_b>
+        <width_b>6</width_b>
+        <register_b>RegWithOre</register_b>
+        <enable_b>enable</enable_b>
+    </PortBOption>
+    <MemoryInitialization>
+        <init_file>../logo.mif</init_file>
+    </MemoryInitialization>
+    <FillMemoryInitValues>
+        <fill_all>NONE</fill_all>
+    </FillMemoryInitValues>
+    <GeneratedFiles>
+        <Verilog Enable="true">ram.v</Verilog>
+        <VHDL Enable="false">ram.vhd</VHDL>
+    </GeneratedFiles>
+</BramConfig>

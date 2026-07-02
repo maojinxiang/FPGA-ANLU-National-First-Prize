@@ -1,0 +1,75 @@
+standard
+***Report Model: top Device: EG4S20BG256***
+
+IO Statistics
+#IO                        39   out of    188   20.74%
+  #input                    4
+  #output                  35
+  #inout                    0
+
+LUT Statistics
+#Total_luts               984
+  #lut4                   916
+  #lut5                    68
+  #lut6                     0
+  #lut5_mx41                0
+  #lut4_alu1b               0
+
+Utilization Statistics
+#lut                     1622   out of  19600    8.28%
+#reg                     1495   out of  19600    7.63%
+#bram                       4   out of     64    6.25%
+  #bram9k                   4
+  #fifo9k                   0
+#bram32k                    0   out of     16    0.00%
+#dsp                        0   out of     29    0.00%
+#pad                       43   out of    188   22.87%
+  #ireg                     1
+  #oreg                    34
+  #treg                     0
+#pll                        2   out of      4   50.00%
+#gclk                       2   out of     16   12.50%
+
+Report Hierarchy Area:
++---------------------------------------------------------------------------------------------------------------------------------+
+|Instance                         |Module                                            |lut     |ripple  |seq     |bram    |dsp     |
++---------------------------------------------------------------------------------------------------------------------------------+
+|top                              |top                                               |1303    |319     |1530    |4       |0       |
+|  U3                             |sdram                                             |85      |5       |466     |0       |0       |
+|    u2_ram                       |sdr_as_ram                                        |85      |5       |466     |0       |0       |
+|      u1_init_ref                |sdr_init_ref                                      |20      |5       |81      |0       |0       |
+|      u2_wrrd                    |sdr_wrrd                                          |65      |0       |385     |0       |0       |
+|  frame_read_write_m0            |frame_read_write                                  |357     |142     |308     |4       |0       |
+|    frame_fifo_read_m0           |frame_fifo_read                                   |91      |24      |63      |0       |0       |
+|    frame_fifo_write_m0          |frame_fifo_write                                  |129     |66      |57      |0       |0       |
+|    read_buf                     |rfifo_32_32_512                                   |64      |26      |94      |2       |0       |
+|      ram_inst                   |ram_infer_rfifo_32_32_512                         |0       |0       |0       |2       |0       |
+|      rd_to_wr_cross_inst        |fifo_cross_domain_addr_process_al_rfifo_32_32_512 |16      |0       |36      |0       |0       |
+|      wr_to_rd_cross_inst        |fifo_cross_domain_addr_process_al_rfifo_32_32_512 |16      |0       |36      |0       |0       |
+|    write_buf                    |wfifo_32_32_512                                   |73      |26      |94      |2       |0       |
+|      ram_inst                   |ram_infer_wfifo_32_32_512                         |0       |0       |0       |2       |0       |
+|      rd_to_wr_cross_inst        |fifo_cross_domain_addr_process_al_wfifo_32_32_512 |16      |0       |36      |0       |0       |
+|      wr_to_rd_cross_inst        |fifo_cross_domain_addr_process_al_wfifo_32_32_512 |16      |0       |36      |0       |0       |
+|  sd_card_bmp_m0                 |sd_card_bmp                                       |502     |96      |392     |0       |0       |
+|    ax_debounce_m0               |ax_debounce                                       |54      |9       |36      |0       |0       |
+|    bmp_read_m0                  |bmp_read                                          |194     |63      |176     |0       |0       |
+|    sd_card_top_m0               |sd_card_top                                       |254     |24      |180     |0       |0       |
+|      sd_card_cmd_m0             |sd_card_cmd                                       |130     |19      |47      |0       |0       |
+|      sd_card_sec_read_write_m0  |sd_card_sec_read_write                            |62      |0       |89      |0       |0       |
+|      spi_master_m0              |spi_master                                        |62      |5       |44      |0       |0       |
+|  seg_scan_m0                    |seg_scan                                          |48      |14      |20      |0       |0       |
+|  sys_pll_m0                     |sys_pll                                           |0       |0       |0       |0       |0       |
+|  u3_hdmi_tx                     |hdmi_tx                                           |248     |54      |184     |0       |0       |
+|    Inst_DVITransmitter          |DVITransmitter                                    |248     |54      |184     |0       |0       |
+|      Inst_TMDSEncoder_blue      |TMDSEncoder                                       |74      |18      |47      |0       |0       |
+|      Inst_TMDSEncoder_green     |TMDSEncoder                                       |74      |18      |41      |0       |0       |
+|      Inst_TMDSEncoder_red       |TMDSEncoder                                       |72      |18      |41      |0       |0       |
+|      Inst_blue_serializer_10_1  |Serial_N_1_lvds_dat                               |10      |0       |20      |0       |0       |
+|      Inst_clk_serializer_10_1   |Serial_N_1_lvds                                   |2       |0       |7       |0       |0       |
+|      Inst_green_serializer_10_1 |Serial_N_1_lvds_dat                               |8       |0       |14      |0       |0       |
+|      Inst_red_serializer_10_1   |Serial_N_1_lvds_dat                               |8       |0       |14      |0       |0       |
+|  video_delay_m0                 |video_delay                                       |24      |0       |87      |0       |0       |
+|  video_pll_m0                   |video_pll                                         |0       |0       |0       |0       |0       |
+|  video_timing_data_m0           |video_timing_data                                 |39      |8       |38      |0       |0       |
+|    color_bar_m0                 |color_bar                                         |35      |8       |31      |0       |0       |
++---------------------------------------------------------------------------------------------------------------------------------+

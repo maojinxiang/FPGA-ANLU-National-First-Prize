@@ -1,0 +1,226 @@
+# Reading C:/fpga/modelsim_crack/Modedlsim_file/tcl/vsim/pref.tcl
+# //  ModelSim SE-64 10.5 Feb 13 2016 
+# //
+# //  Copyright 1991-2016 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do C:/Anlogic/HX4S20_Contest_2025_7_29/lab_ex_2025_7_12_nosoft/HXEG420_lab_ex/lab_ex_1_ethernet_led/UDP_EG4_6.2/prj/UDP_EXAMPLE/UDP_Example_Top_sim/behav_sim/.run_sim.tcl
+# reading modelsim.ini
+# reading modelsim.ini
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vmap 10.5 Lib Mapping Utility 2016.02 Feb 13 2016
+# vmap common C:/Anlogic/HX4S20_Contest_2025_7_29/modsim/common 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 10.5 Lib Mapping Utility 2016.02 Feb 13 2016
+# vmap eg4 C:/Anlogic/HX4S20_Contest_2025_7_29/modsim/eg4 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+# Start time: 16:56:38 on Sep 22,2025
+# vlog -reportprogress 300 -work work ../../../../source_code/rtl/UDP_Example_Top.v 
+# -- Compiling module UDP_Example_Top
+# 
+# Top level modules:
+# 	UDP_Example_Top
+# End time: 16:56:38 on Sep 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+# Start time: 16:56:38 on Sep 22,2025
+# vlog -reportprogress 300 -work work ../../../../source_code/rtl/clk_gen_rst_gen.v 
+# -- Compiling module clk_gen_rst_gen
+# 
+# Top level modules:
+# 	clk_gen_rst_gen
+# End time: 16:56:38 on Sep 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+# Start time: 16:56:38 on Sep 22,2025
+# vlog -reportprogress 300 -work work ../../../../source_code/rtl/div_clk_gen.v 
+# -- Compiling module div_clk_gen
+# 
+# Top level modules:
+# 	div_clk_gen
+# End time: 16:56:38 on Sep 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+# Start time: 16:56:38 on Sep 22,2025
+# vlog -reportprogress 300 -work work ../../al_ip/pll_gen.v 
+# -- Compiling module pll_gen
+# 
+# Top level modules:
+# 	pll_gen
+# End time: 16:56:38 on Sep 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+# Start time: 16:56:38 on Sep 22,2025
+# vlog -reportprogress 300 -work work ../../../../source_code/rtl/led.v 
+# -- Compiling module led
+# 
+# Top level modules:
+# 	led
+# End time: 16:56:38 on Sep 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+# Start time: 16:56:38 on Sep 22,2025
+# vlog -reportprogress 300 -work work ../../../../source_code/rtl/udp_data_tpg.v 
+# -- Compiling module udp_data_tpg
+# 
+# Top level modules:
+# 	udp_data_tpg
+# End time: 16:56:38 on Sep 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+# Start time: 16:56:38 on Sep 22,2025
+# vlog -reportprogress 300 -work work ../../../../source_code/rtl/udp_loopback.v 
+# -- Compiling module udp_loopback
+# 
+# Top level modules:
+# 	udp_loopback
+# End time: 16:56:38 on Sep 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+# Start time: 16:56:38 on Sep 22,2025
+# vlog -reportprogress 300 -work work ../../../../source_code/rtl/udp_ip_protocol_stack_merge.enc.v 
+# -- Compiling module udp_ip_protocol_stack
+# 
+# Top level modules:
+# 	udp_ip_protocol_stack
+# End time: 16:56:38 on Sep 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+# Start time: 16:56:38 on Sep 22,2025
+# vlog -reportprogress 300 -work work ../../../../source_code/rtl/temac_block.v 
+# -- Compiling module temac_block
+# 
+# Top level modules:
+# 	temac_block
+# End time: 16:56:38 on Sep 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+# Start time: 16:56:38 on Sep 22,2025
+# vlog -reportprogress 300 -work work ../../../../source_code/rtl/tx_clk_en_gen.v 
+# -- Compiling module tx_clk_en_gen
+# 
+# Top level modules:
+# 	tx_clk_en_gen
+# End time: 16:56:38 on Sep 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+# Start time: 16:56:38 on Sep 22,2025
+# vlog -reportprogress 300 -work work ../../../../source_code/rtl/rgmii_interface.v 
+# -- Compiling module rgmii_interface
+# 
+# Top level modules:
+# 	rgmii_interface
+# End time: 16:56:38 on Sep 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+# Start time: 16:56:38 on Sep 22,2025
+# vlog -reportprogress 300 -work work ../../../../source_code/rtl/ODDR.v 
+# -- Compiling module ODDR
+# 
+# Top level modules:
+# 	ODDR
+# End time: 16:56:38 on Sep 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+# Start time: 16:56:38 on Sep 22,2025
+# vlog -reportprogress 300 -work work ../../../../source_code/rtl/IDDR.v 
+# -- Compiling module IDDR
+# 
+# Top level modules:
+# 	IDDR
+# End time: 16:56:38 on Sep 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+# Start time: 16:56:38 on Sep 22,2025
+# vlog -reportprogress 300 -work work ../../al_ip/TEMAC_CORE/TEMAC_CORE.v 
+# -- Compiling module TEMAC_CORE
+# 
+# Top level modules:
+# 	TEMAC_CORE
+# End time: 16:56:38 on Sep 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+# Start time: 16:56:38 on Sep 22,2025
+# vlog -reportprogress 300 -work work ../../al_ip/TEMAC_CORE/RTL/mac_core_aead6cd6dadd.v 
+# -- Compiling module mac_core_aead6cd6dadd
+# 
+# Top level modules:
+# 	mac_core_aead6cd6dadd
+# End time: 16:56:38 on Sep 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+# Start time: 16:56:38 on Sep 22,2025
+# vlog -reportprogress 300 -work work ../../al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v 
+# -- Compiling module TEMAC_CORE_aead6cd6dadd
+# ** Warning: ../../al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v(315): (vlog-2256) Event expressions should result in a singular type.
+# 
+# Top level modules:
+# 	TEMAC_CORE_aead6cd6dadd
+# End time: 16:56:39 on Sep 22,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+# Start time: 16:56:39 on Sep 22,2025
+# vlog -reportprogress 300 -work work ../../../../source_code/rtl/temac_clk_gen.v 
+# -- Compiling module udp_clk_gen
+# 
+# Top level modules:
+# 	udp_clk_gen
+# End time: 16:56:39 on Sep 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+# Start time: 16:56:39 on Sep 22,2025
+# vlog -reportprogress 300 -work work ../../../../source_code/rtl/tx_client_fifo.v 
+# -- Compiling module tx_client_fifo
+# 
+# Top level modules:
+# 	tx_client_fifo
+# End time: 16:56:39 on Sep 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+# Start time: 16:56:39 on Sep 22,2025
+# vlog -reportprogress 300 -work work ../../../../source_code/rtl/RAMB16_S9_S9.v 
+# -- Compiling module RAMB16_S9_S9
+# 
+# Top level modules:
+# 	RAMB16_S9_S9
+# End time: 16:56:39 on Sep 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+# Start time: 16:56:39 on Sep 22,2025
+# vlog -reportprogress 300 -work work ../../../../source_code/rtl/rx_client_fifo.v 
+# -- Compiling module rx_client_fifo
+# 
+# Top level modules:
+# 	rx_client_fifo
+# End time: 16:56:39 on Sep 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+# Start time: 16:56:39 on Sep 22,2025
+# vlog -reportprogress 300 -work work ../../../../sim/udp_demo_tb.v 
+# -- Compiling module udp_transmit_test_tb
+# 
+# Top level modules:
+# 	udp_transmit_test_tb
+# End time: 16:56:39 on Sep 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -t ps -voptargs=""+acc"" -L common -L eg4 work.udp_transmit_test_tb 
+# Start time: 16:56:39 on Sep 22,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: ../../../../sim/udp_demo_tb.v(17): Module 'PH1_PHY_GSR' is not defined.
+# ** Error: ../../../../sim/udp_demo_tb.v(84): Module 'udp_transmit_test_sim' is not defined.
+# Optimization failed
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO C:\Anlogic\HX4S20_Contest_2025_7_29\lab_ex_2025_7_12_nosoft\HXEG420_lab_ex\lab_ex_1_ethernet_led\UDP_EG4_6.2\prj\UDP_EXAMPLE\UDP_Example_Top_sim\behav_sim\UDP_EXAMPLE_behavioral_sim.do PAUSED at line 40
+# End time: 17:00:08 on Sep 22,2025, Elapsed time: 0:03:29
+# Errors: 2, Warnings: 0

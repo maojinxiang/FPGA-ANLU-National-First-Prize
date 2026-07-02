@@ -1,0 +1,139 @@
+standard
+***Report Model: UDP_Example_Top Device: EG4S20BG256***
+
+IO Statistics
+#IO                        19
+  #input                   10
+  #output                   9
+  #inout                    0
+#virtual IO                 3
+  #input                    0
+  #output                   0
+  #inout                    0
+
+Gate Statistics
+#Basic gates            13869
+  #and                   3844
+  #nand                     0
+  #or                    3523
+  #nor                      0
+  #xor                    528
+  #xnor                     0
+  #buf                      0
+  #not                    556
+  #bufif1                  32
+  #MX21                   741
+  #FADD                     0
+  #DFF                   4645
+  #LATCH                    0
+#MACRO_ADD                114
+#MACRO_EQ                 112
+#MACRO_MUX               2647
+#MACRO_OTHERS              23
+
+Report Hierarchy Area:
++-----------------------------------------------------------------------------------------------------------------------------------------+
+|Instance                                                      |Module                                            |gates  |seq    |macros |
++-----------------------------------------------------------------------------------------------------------------------------------------+
+|top                                                           |UDP_Example_Top                                   |9224   |4645   |249    |
+|  t1_sd_ctrl_top                                              |sd_ctrl_top                                       |155    |217    |35     |
+|    u_sd_init                                                 |sd_init                                           |117    |111    |23     |
+|    u_sd_read                                                 |sd_read                                           |31     |106    |12     |
+|  t2_sd_read_photo                                            |sd_read_photo                                     |128    |157    |12     |
+|  t3_sdram                                                    |sdram_top                                         |202    |758    |40     |
+|    u0_clk                                                    |clk_pll                                           |0      |0      |1      |
+|    u1_app_wrrd                                               |app_wrrd                                          |101    |239    |33     |
+|      u_wr_fifo_sdr_data                                      |fifo_sdr_data_2                                   |50     |124    |7      |
+|        ram_inst                                              |ram_infer_fifo_sdr_data_2                         |0      |0      |1      |
+|        rd_to_wr_cross_inst                                   |fifo_cross_domain_addr_process_al_fifo_sdr_data_2 |22     |48     |0      |
+|        wr_to_rd_cross_inst                                   |fifo_cross_domain_addr_process_al_fifo_sdr_data_2 |22     |48     |0      |
+|    u2_ram                                                    |sdr_as_ram                                        |99     |519    |6      |
+|      u1_init_ref                                             |sdr_init_ref                                      |19     |81     |1      |
+|      u2_wrrd                                                 |sdr_wrrd                                          |80     |438    |5      |
+|  u2_udp_loopback                                             |udp_loopback                                      |86     |163    |14     |
+|    udp_packet_fifo                                           |ram_fifo                                          |55     |102    |8      |
+|      u_anlogic_soft_async_fifo                               |generic_async_fifo                                |55     |102    |8      |
+|        u6                                                    |gray2bin                                          |12     |0      |0      |
+|        u7                                                    |gray2bin                                          |12     |0      |0      |
+|  u3_udp_ip_protocol_stack                                    |udp_ip_protocol_stack                             |7555   |2519   |67     |
+|    arp_layer                                                 |arp_layer                                         |781    |1042   |16     |
+|      arp_receive_module                                      |arp_receive                                       |474    |320    |3      |
+|      arp_send_module                                         |arp_send                                          |274    |266    |4      |
+|      ip_mac_addr_pairs_cache_module                          |ip_mac_addr_pairs_cache                           |32     |375    |9      |
+|    ip_layer                                                  |ip_layer                                          |3885   |798    |35     |
+|      icmp_echo_data_fifo                                     |ram_fifo                                          |29     |94     |6      |
+|        u_anlogic_soft_async_fifo                             |generic_async_fifo                                |29     |94     |6      |
+|      ip_receive_module                                       |ip_receive                                        |716    |256    |10     |
+|        icmp_packet_process_module                            |icmp_packet_process                               |341    |162    |7      |
+|      ip_send_module                                          |ip_send                                           |3140   |448    |19     |
+|        icmp_packet_send_module                               |icmp_packet_send                                  |310    |121    |4      |
+|        ip_shift_register                                     |shift_top                                         |0      |160    |0      |
+|    receive_buffer                                            |receive_buffer                                    |18     |18     |2      |
+|    send_buffer                                               |send_buffer                                       |1856   |217    |6      |
+|    temac_data_process                                        |temac_data_process                                |428    |272    |2      |
+|      mac_shift_register                                      |shift_top                                         |0      |144    |0      |
+|      temac_shift_register                                    |shift_top                                         |0      |32     |0      |
+|    udp_layer                                                 |udp_layer                                         |583    |172    |6      |
+|      udp_receive_module                                      |udp_receive                                       |540    |67     |4      |
+|      udp_send_module                                         |udp_send                                          |43     |105    |2      |
+|        udp_shfit_register                                    |shift_top                                         |0      |64     |0      |
+|  u4_trimac_block                                             |temac_block                                       |940    |455    |49     |
+|    trimac_core                                               |TEMAC_CORE                                        |938    |448    |37     |
+|      mac_core_aead6cd6dadd_Inst                              |mac_core_aead6cd6dadd                             |938    |448    |37     |
+|        TEMAC_CORE_INST                                       |TEMAC_CORE_aead6cd6dadd                           |938    |448    |37     |
+|          al102_vfhtA8Nz                                      |al102_nTnczhDj_aead6cd6dadd                       |938    |448    |37     |
+|            addr_filter_top                                   |al102_TNLVOd0g_aead6cd6dadd                       |18     |41     |7      |
+|              al102_hxcEIhDE$dynamic_config                   |al102_jzYAprLM_aead6cd6dadd                       |18     |41     |7      |
+|                al102_rBT2HiW3                                |al102_GJdu7z0F_aead6cd6dadd                       |2      |1      |1      |
+|            al102_0zphc5uy                                    |al102_ofxvusEN_aead6cd6dadd                       |0      |4      |0      |
+|            al102_6KjBLuws                                    |al102_LOhHHNug_aead6cd6dadd                       |418    |128    |9      |
+|              al102_BrbRRXKu                                  |al102_pY1FTerE_aead6cd6dadd                       |418    |127    |9      |
+|                al102_aSis0jQ9                                |al102_aJclEuUV_aead6cd6dadd                       |268    |32     |0      |
+|              al102_FvxPC15R$al102_rvF7b8SV                   |al102_p0GIWNwP_aead6cd6dadd                       |0      |0      |0      |
+|                al102_Ylautn6j                                |al102_0SiPV7VT_aead6cd6dadd                       |0      |0      |0      |
+|            al102_F3nxfdNo$al102_Ba3Y7fv8                     |al102_ofxvusEN_aead6cd6dadd                       |0      |4      |0      |
+|            al102_f4biXjlA                                    |al102_3J80Reqk_aead6cd6dadd                       |473    |214    |19     |
+|              al102_0_I1BBbU                                  |al102_jpVxQ2cS_aead6cd6dadd                       |63     |17     |0      |
+|              al102_idhI9aZL                                  |al102_aJclEuUV_aead6cd6dadd                       |269    |32     |0      |
+|              al102_tubZOSG6                                  |al102_dQOqX6Hm_aead6cd6dadd                       |41     |34     |9      |
+|              al102_yKqPCjEw                                  |al102_2SPbf3Jy_aead6cd6dadd                       |70     |24     |5      |
+|              al102_NWvBaxDl$al102_nDUUxN4p[0]$al102_0W8IXuYR |al102_nTnceH5P_aead6cd6dadd                       |0      |4      |0      |
+|              al102_NWvBaxDl$al102_nDUUxN4p[1]$al102_0W8IXuYR |al102_nTnceH5P_aead6cd6dadd                       |0      |4      |0      |
+|              al102_NWvBaxDl$al102_nDUUxN4p[2]$al102_0W8IXuYR |al102_nTnceH5P_aead6cd6dadd                       |0      |4      |0      |
+|              al102_NWvBaxDl$al102_nDUUxN4p[3]$al102_0W8IXuYR |al102_nTnceH5P_aead6cd6dadd                       |0      |4      |0      |
+|              al102_NWvBaxDl$al102_nDUUxN4p[4]$al102_0W8IXuYR |al102_nTnceH5P_aead6cd6dadd                       |0      |4      |0      |
+|              al102_NWvBaxDl$al102_nDUUxN4p[5]$al102_0W8IXuYR |al102_nTnceH5P_aead6cd6dadd                       |0      |4      |0      |
+|              al102_NWvBaxDl$al102_nDUUxN4p[6]$al102_0W8IXuYR |al102_nTnceH5P_aead6cd6dadd                       |0      |4      |0      |
+|              al102_NWvBaxDl$al102_nDUUxN4p[7]$al102_0W8IXuYR |al102_nTnceH5P_aead6cd6dadd                       |0      |4      |0      |
+|              al102_UYd_BhtE                                  |al102_nTnceH5P_aead6cd6dadd                       |0      |3      |0      |
+|              al102_gR2N1e7t                                  |al102_nTnceH5P_aead6cd6dadd                       |0      |4      |0      |
+|            al102_gfc619z4                                    |al102_9c8Z7BxD_aead6cd6dadd                       |0      |20     |0      |
+|            al102_jlblKL3I                                    |al102_nZfRKD5m_aead6cd6dadd                       |29     |27     |2      |
+|              al102_LOhHHNug_aead6cd6dadd                     |al102_yQt6hWFf_aead6cd6dadd                       |29     |8      |2      |
+|                al102_Ru35IcoY                                |al102_4zHK9aZL_aead6cd6dadd                       |1      |0      |0      |
+|            al102_qNes26Dr                                    |al102__OtSFRd6_aead6cd6dadd                       |0      |10     |0      |
+|    u1_rgmii_interface                                        |rgmii_interface                                   |2      |0      |12     |
+|      ctl_output                                              |ODDR                                              |0      |0      |1      |
+|      rgmii_rx_ctl_in                                         |IDDR                                              |0      |0      |1      |
+|      rgmii_txc_ddr                                           |ODDR                                              |0      |0      |1      |
+|      rxdata_in_bus[0]$rgmii_rx_data_in                       |IDDR                                              |0      |0      |1      |
+|      rxdata_in_bus[1]$rgmii_rx_data_in                       |IDDR                                              |0      |0      |1      |
+|      rxdata_in_bus[2]$rgmii_rx_data_in                       |IDDR                                              |0      |0      |1      |
+|      rxdata_in_bus[3]$rgmii_rx_data_in                       |IDDR                                              |0      |0      |1      |
+|      txdata_out_bus[0]$rgmii_txd_out                         |ODDR                                              |0      |0      |1      |
+|      txdata_out_bus[1]$rgmii_txd_out                         |ODDR                                              |0      |0      |1      |
+|      txdata_out_bus[2]$rgmii_txd_out                         |ODDR                                              |0      |0      |1      |
+|      txdata_out_bus[3]$rgmii_txd_out                         |ODDR                                              |0      |0      |1      |
+|    u_tx_clk_en_gen                                           |tx_clk_en_gen                                     |0      |2      |0      |
+|  u5_temac_clk_gen                                            |udp_clk_gen                                       |3      |0      |0      |
+|  u6_tx_fifo                                                  |tx_client_fifo                                    |73     |202    |13     |
+|    ramgen_l                                                  |RAMB16_S9_S9                                      |0      |0      |1      |
+|    ramgen_u                                                  |RAMB16_S9_S9                                      |0      |0      |1      |
+|  u7_rx_fifo                                                  |rx_client_fifo                                    |61     |160    |13     |
+|    ramgen_l                                                  |RAMB16_S9_S9                                      |0      |0      |1      |
+|    ramgen_u                                                  |RAMB16_S9_S9                                      |0      |0      |1      |
+|  u_clk_gen                                                   |clk_gen_rst_gen                                   |1      |0      |1      |
+|    u_pll_0                                                   |pll_gen                                           |0      |0      |1      |
+|  u_pll_50                                                    |pll_50                                            |0      |0      |1      |
+|  u_rx_pll                                                    |rx_pll                                            |0      |0      |1      |
++-----------------------------------------------------------------------------------------------------------------------------------------+

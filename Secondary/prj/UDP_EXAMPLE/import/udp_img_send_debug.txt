@@ -1,0 +1,28 @@
+// 调试建议：在udp_img_send.v的SEND_UDP_DATA状态中，临时添加测试代码
+
+// 在case语句之前添加（第269行前）：
+/*
+// === DEBUG: 发送测试图案 ===
+reg [7:0] test_r, test_g, test_b;
+always @(*) begin
+    if(fifo_read_data_cnt < 212)      // 前1/3发送红色
+        {test_r, test_g, test_b} = {8'hFF, 8'h00, 8'h00};
+    else if(fifo_read_data_cnt < 424) // 中间1/3发送绿色
+        {test_r, test_g, test_b} = {8'h00, 8'hFF, 8'h00};
+    else                               // 后1/3发送蓝色
+        {test_r, test_g, test_b} = {8'h00, 8'h00, 8'hFF};
+end
+*/
+
+// 修改case语句（第270-275行）：
+/*
+case(byte_select_cnt)
+    2'd0: app_tx_data <= test_r;  // 使用测试R
+    2'd1: app_tx_data <= test_g;  // 使用测试G
+    2'd2: app_tx_data <= test_b;  // 使用测试B
+    default: app_tx_data <= 8'h00;
+endcase
+*/
+
+// 如果测试图案能正确显示（看到红绿蓝三条横纹），说明UDP发送路径正常
+// 如果测试图案也是黑屏或异常，说明UDP发送逻辑有问题

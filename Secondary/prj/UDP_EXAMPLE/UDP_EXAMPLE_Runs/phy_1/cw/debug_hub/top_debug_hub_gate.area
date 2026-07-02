@@ -1,0 +1,42 @@
+standard
+***Report Model: top_debug_hub Device: EG4S20BG256***
+
+IO Statistics
+#IO                       135   out of    188   71.81%
+  #input                   33
+  #output                 102
+  #inout                    0
+
+LUT Statistics
+#Total_luts               110
+  #lut4                    84
+  #lut5                    26
+  #lut6                     0
+  #lut5_mx41                0
+  #lut4_alu1b               0
+
+Utilization Statistics
+#lut                      110   out of  19600    0.56%
+#reg                      632   out of  19600    3.22%
+#bram                       0   out of     64    0.00%
+  #bram9k                   0
+  #fifo9k                   0
+#bram32k                    0   out of     16    0.00%
+#dsp                        0   out of     29    0.00%
+#pad                        0   out of    188    0.00%
+#pll                        0   out of      4    0.00%
+#gclk                       0   out of     16    0.00%
+
+Report Hierarchy Area:
++------------------------------------------------------------------------------------------------------+
+|Instance                  |Module                        |lut     |ripple  |seq     |bram    |dsp     |
++------------------------------------------------------------------------------------------------------+
+|top                       |top_debug_hub                 |110     |0       |632     |0       |0       |
+|  U_0_handshake_sync_ctrl |anlogic04_handshake_sync_ctrl |4       |0       |202     |0       |0       |
+|    U_handshake_sync      |anlogic03_handshake_sync      |2       |0       |9       |0       |0       |
+|  U_0_handshake_sync_stat |anlogic05_handshake_sync_stat |4       |0       |58      |0       |0       |
+|    U_handshake_sync      |anlogic03_handshake_sync      |4       |0       |9       |0       |0       |
+|  U_0_register            |anlogic02_register            |88      |0       |271     |0       |0       |
+|  U_jtdo_sel_mux          |anlogic06_jtdo_sel_mux        |2       |0       |0       |0       |0       |
+|  U_tap                   |anlogic01_tap                 |11      |0       |3       |0       |0       |
++------------------------------------------------------------------------------------------------------+

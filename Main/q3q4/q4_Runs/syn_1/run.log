@@ -1,0 +1,1386 @@
+============================================================
+   Tang Dynasty, V6.2.168116
+   Copyright (c) 2012-2025 Anlogic Inc.
+   Executable = E:/anlu/bin/run.exe
+   Built at =   16:32:07 Jun 12 2025
+   Run by =     Lenovo
+   Run Date =   Thu Jul  2 17:16:28 2026
+
+   Run on =     LAPTOP-2020B3A6
+============================================================
+RUN-1002 : start command "import_device eagle_s20.db -package EG4S20BG256"
+RUN-1001 : Using default speed grade: NA
+ARC-1001 : Device Initialization.
+ARC-1001 : ------------------------------------------------------------------
+ARC-1001 :            OPTION            |          IO          |   SETTING   
+ARC-1001 : ------------------------------------------------------------------
+ARC-1001 :   cso_b/cclk/mosi/miso/dout  |  T3/R11/T10/P10/S11  |    gpio    
+ARC-1001 :             done             |         P13          |    gpio    
+ARC-1001 :           program_b          |          T2          |  dedicate  
+ARC-1001 :        tdi/tms/tck/tdo       |   C12/A15/C14/E14    |  dedicate  
+ARC-1001 : ------------------------------------------------------------------
+ARC-1004 : Device setting, marked 5 dedicate IOs in total.
+RUN-1002 : start command "open_project q4.prj"
+RUN-1002 : start command "commit_param -step design"
+RUN-1001 : Print Global Property
+RUN-1001 : --------------------------------------------------------
+RUN-1001 :   Parameters   |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------
+RUN-1001 :   enable_seed  |    off     |       off        |        
+RUN-1001 :     message    |  standard  |     standard     |        
+RUN-1001 :   qor_monitor  |     on     |        on        |        
+RUN-1001 :   syn_ip_flow  |    off     |       off        |        
+RUN-1001 :     thread     |    auto    |       auto       |        
+RUN-1001 : --------------------------------------------------------
+RUN-1001 : Print Design Property
+RUN-1001 : ----------------------------------------------------------------
+RUN-1001 :       Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : ----------------------------------------------------------------
+RUN-1001 :   default_reg_initial  |    auto    |       auto       |        
+RUN-1001 :    hdl_warning_level   |   normal   |      normal      |        
+RUN-1001 : ----------------------------------------------------------------
+HDL-1007 : analyze verilog file ../../src/video_define.v
+HDL-1007 : analyze verilog file ../../src/sdram_r/sdram_para.v
+HDL-1007 : analyze verilog file ../../src/sdram/enc_file/global_def.v
+HDL-1007 : analyze verilog file ../../../../lab_ex_4_tf_sdram_etnernet_pc/UDP_EG4_6.2/prj/UDP_EXAMPLE/al_ip/TEMAC_CORE/RTL/mac_core_aead6cd6dadd.v
+HDL-1007 : analyze verilog file ../../../../lab_ex_4_tf_sdram_etnernet_pc/UDP_EG4_6.2/prj/UDP_EXAMPLE/al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v
+Copyright (c) 1998-2019 The OpenSSL Project.  All rights reserved.
+This product includes software developed by the OpenSSL Project
+for use in the OpenSSL Toolkit (http://www.openssl.org/)
+Copyright (C) 1995-1998 Eric Young (eay@cryptsoft.com)
+All rights reserved.
+This product includes cryptographic software written by Eric Young (eay@cryptsoft.com)
+HDL-5007 WARNING: column 1032 exceeds maximum value 1023 in ../../../../lab_ex_4_tf_sdram_etnernet_pc/UDP_EG4_6.2/prj/UDP_EXAMPLE/al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v(30)
+HDL-1007 : back to file '../../../../lab_ex_4_tf_sdram_etnernet_pc/UDP_EG4_6.2/prj/UDP_EXAMPLE/al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v' in ../../../../lab_ex_4_tf_sdram_etnernet_pc/UDP_EG4_6.2/prj/UDP_EXAMPLE/al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v(86)
+HDL-5007 WARNING: event expressions must result in a singular type in ../../../../lab_ex_4_tf_sdram_etnernet_pc/UDP_EG4_6.2/prj/UDP_EXAMPLE/al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v(3001)
+HDL-1007 : undeclared symbol '**', assumed default net type '**' in ../../../../lab_ex_4_tf_sdram_etnernet_pc/UDP_EG4_6.2/prj/UDP_EXAMPLE/al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v(5050)
+HDL-1007 : undeclared symbol '**', assumed default net type '**' in ../../../../lab_ex_4_tf_sdram_etnernet_pc/UDP_EG4_6.2/prj/UDP_EXAMPLE/al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v(5458)
+HDL-5007 WARNING: column 1035 exceeds maximum value 1023 in ../../../../lab_ex_4_tf_sdram_etnernet_pc/UDP_EG4_6.2/prj/UDP_EXAMPLE/al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v(6001)
+HDL-1007 : back to file '../../../../lab_ex_4_tf_sdram_etnernet_pc/UDP_EG4_6.2/prj/UDP_EXAMPLE/al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v' in ../../../../lab_ex_4_tf_sdram_etnernet_pc/UDP_EG4_6.2/prj/UDP_EXAMPLE/al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v(260)
+HDL-1007 : analyze verilog file ../../../../lab_ex_4_tf_sdram_etnernet_pc/UDP_EG4_6.2/prj/UDP_EXAMPLE/al_ip/TEMAC_CORE/TEMAC_CORE.v
+HDL-1007 : analyze verilog file ../../../../lab_ex_4_tf_sdram_etnernet_pc/UDP_EG4_6.2/prj/UDP_EXAMPLE/al_ip/pll_gen.v
+HDL-1007 : undeclared symbol 'pll_gen_open0', assumed default net type 'wire' in ../../../../lab_ex_4_tf_sdram_etnernet_pc/UDP_EG4_6.2/prj/UDP_EXAMPLE/al_ip/pll_gen.v(99)
+HDL-1007 : undeclared symbol 'pll_gen_open8', assumed default net type 'wire' in ../../../../lab_ex_4_tf_sdram_etnernet_pc/UDP_EG4_6.2/prj/UDP_EXAMPLE/al_ip/pll_gen.v(105)
+HDL-1007 : undeclared symbol 'pll_gen_open7', assumed default net type 'wire' in ../../../../lab_ex_4_tf_sdram_etnernet_pc/UDP_EG4_6.2/prj/UDP_EXAMPLE/al_ip/pll_gen.v(105)
+HDL-1007 : undeclared symbol 'pll_gen_open6', assumed default net type 'wire' in ../../../../lab_ex_4_tf_sdram_etnernet_pc/UDP_EG4_6.2/prj/UDP_EXAMPLE/al_ip/pll_gen.v(105)
+HDL-1007 : undeclared symbol 'pll_gen_open5', assumed default net type 'wire' in ../../../../lab_ex_4_tf_sdram_etnernet_pc/UDP_EG4_6.2/prj/UDP_EXAMPLE/al_ip/pll_gen.v(105)
+HDL-1007 : undeclared symbol 'pll_gen_open4', assumed default net type 'wire' in ../../../../lab_ex_4_tf_sdram_etnernet_pc/UDP_EG4_6.2/prj/UDP_EXAMPLE/al_ip/pll_gen.v(105)
+HDL-1007 : undeclared symbol 'pll_gen_open3', assumed default net type 'wire' in ../../../../lab_ex_4_tf_sdram_etnernet_pc/UDP_EG4_6.2/prj/UDP_EXAMPLE/al_ip/pll_gen.v(105)
+HDL-1007 : undeclared symbol 'pll_gen_open2', assumed default net type 'wire' in ../../../../lab_ex_4_tf_sdram_etnernet_pc/UDP_EG4_6.2/prj/UDP_EXAMPLE/al_ip/pll_gen.v(105)
+HDL-1007 : undeclared symbol 'pll_gen_open1', assumed default net type 'wire' in ../../../../lab_ex_4_tf_sdram_etnernet_pc/UDP_EG4_6.2/prj/UDP_EXAMPLE/al_ip/pll_gen.v(105)
+HDL-1007 : analyze verilog file ../../../../lab_ex_4_tf_sdram_etnernet_pc/UDP_EG4_6.2/prj/UDP_EXAMPLE/al_ip/rx_pll.v
+HDL-1007 : undeclared symbol 'open', assumed default net type 'wire' in ../../../../lab_ex_4_tf_sdram_etnernet_pc/UDP_EG4_6.2/prj/UDP_EXAMPLE/al_ip/rx_pll.v(78)
+HDL-1007 : analyze verilog file ../../../../lab_ex_6_tf_sdram_hdmi/al_ip/afifo_16_32_256.v
+HDL-1007 : analyze verilog file ../../../../lab_ex_6_tf_sdram_hdmi/al_ip/afifo_32_16_256.v
+HDL-1007 : analyze verilog file ../../../../lab_ex_6_tf_sdram_hdmi/al_ip/sys_pll.v
+HDL-1007 : undeclared symbol 'open', assumed default net type 'wire' in ../../../../lab_ex_6_tf_sdram_hdmi/al_ip/sys_pll.v(77)
+HDL-1007 : analyze verilog file ../../../../lab_ex_6_tf_sdram_hdmi/al_ip/video_pll.v
+HDL-1007 : undeclared symbol 'open', assumed default net type 'wire' in ../../../../lab_ex_6_tf_sdram_hdmi/al_ip/video_pll.v(70)
+HDL-1007 : analyze verilog file ../../src/color_bar.v
+HDL-1007 : analyze included file ../../src/video_define.v in ../../src/color_bar.v(2)
+HDL-1007 : back to file '../../src/color_bar.v' in ../../src/color_bar.v(2)
+HDL-1007 : analyze verilog file ../../src/frame_fifo_read.v
+HDL-1007 : analyze verilog file ../../src/frame_fifo_write.v
+HDL-1007 : analyze verilog file ../../src/video_timing_data.v
+HDL-1007 : analyze verilog file ../../src/sdram/enc_file/sdr_as_ram.enc.v
+HDL-1007 : back to file '../../src/sdram/enc_file/sdr_as_ram.enc.v' in ../../src/sdram/enc_file/sdr_as_ram.enc.v(45)
+HDL-1007 : analyze verilog file ../../src/sdram/enc_file/sdr_wrrd.enc.v
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in ../../src/sdram/enc_file/sdr_wrrd.enc.v(283)
+HDL-1007 : back to file '../../src/sdram/enc_file/sdr_wrrd.enc.v' in ../../src/sdram/enc_file/sdr_wrrd.enc.v(19)
+HDL-1007 : analyze verilog file ../../src/sdram/sdram.v
+HDL-1007 : analyze included file ../.././src/sdram/enc_file/global_def.v in ../../src/sdram/sdram.v(10)
+HDL-1007 : back to file '../../src/sdram/sdram.v' in ../../src/sdram/sdram.v(10)
+HDL-1007 : undeclared symbol 'SDR_CKE', assumed default net type 'wire' in ../../src/sdram/sdram.v(89)
+HDL-1007 : analyze verilog file ../../src/frame_read_write.v
+HDL-1007 : analyze verilog file ../../src/video_delay.v
+HDL-1007 : analyze VHDL file ../../src/hdmi/enc_file/DVITransmitter.enc.vhd
+HDL-1007 : analyze entity dvitransmitter in ../../src/hdmi/enc_file/DVITransmitter.enc.vhd(13)
+HDL-1007 : analyze architecture ** in ../../src/hdmi/enc_file/DVITransmitter.enc.vhd(2)
+HDL-1007 : analyze VHDL file ../../src/hdmi/enc_file/SerializerN_1_lvds.enc.vhd
+HDL-1007 : analyze entity ** in ../../src/hdmi/enc_file/SerializerN_1_lvds.enc.vhd(12)
+HDL-1007 : analyze architecture ** in ../../src/hdmi/enc_file/SerializerN_1_lvds.enc.vhd(25)
+HDL-1007 : analyze VHDL file ../../src/hdmi/enc_file/SerializerN_1_lvds_dat.enc.vhd
+HDL-1007 : analyze entity ** in ../../src/hdmi/enc_file/SerializerN_1_lvds_dat.enc.vhd(14)
+HDL-1007 : analyze architecture ** in ../../src/hdmi/enc_file/SerializerN_1_lvds_dat.enc.vhd(28)
+HDL-1007 : analyze VHDL file ../../src/hdmi/enc_file/TMDSEncoder.enc.vhd
+HDL-1007 : analyze entity ** in ../../src/hdmi/enc_file/TMDSEncoder.enc.vhd(13)
+HDL-1007 : analyze architecture ** in ../../src/hdmi/enc_file/TMDSEncoder.enc.vhd(24)
+HDL-1007 : analyze VHDL file ../../src/hdmi/hdmi_tx.vhd
+HDL-1007 : analyze entity hdmi_tx in ../../src/hdmi/hdmi_tx.vhd(11)
+HDL-1007 : analyze architecture behavioral in ../../src/hdmi/hdmi_tx.vhd(33)
+HDL-1007 : analyze verilog file ../../src/sdram/enc_file/sdr_init_ref.enc.v
+HDL-1007 : analyze included file ../.././src/sdram/enc_file/global_def.v in ../../src/sdram/enc_file/sdr_init_ref.enc.v(11)
+HDL-1007 : back to file '../../src/sdram/enc_file/sdr_init_ref.enc.v' in ../../src/sdram/enc_file/sdr_init_ref.enc.v(11)
+HDL-1007 : undeclared symbol '**', assumed default net type '**' in ../../src/sdram/enc_file/sdr_init_ref.enc.v(57)
+HDL-1007 : back to file '../../src/sdram/enc_file/sdr_init_ref.enc.v' in ../../src/sdram/enc_file/sdr_init_ref.enc.v(149)
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in ../../src/sdram/enc_file/sdr_init_ref.enc.v(47)
+HDL-1007 : analyze verilog file ../../import/udp_cam_ctrl.v
+HDL-5373 WARNING: identifier 'key3_pressed_pulse' is used before its declaration in ../../import/udp_cam_ctrl.v(139)
+HDL-1007 : analyze verilog file ../../import/clk_gen_rst_gen.v
+HDL-1007 : analyze verilog file ../../import/div_clk_gen.v
+HDL-1007 : analyze verilog file ../../import/IDDR.v
+HDL-1007 : analyze verilog file ../../import/ODDR.v
+HDL-1007 : analyze verilog file ../../import/RAMB16_S9_S9.v
+HDL-1007 : undeclared symbol 'open', assumed default net type 'wire' in ../../import/RAMB16_S9_S9.v(109)
+HDL-1007 : analyze verilog file ../../import/rgmii_interface.v
+HDL-1007 : analyze verilog file ../../import/rx_client_fifo.v
+HDL-5370 WARNING: parameter 'WAIT_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in ../../import/rx_client_fifo.v(49)
+HDL-5370 WARNING: parameter 'QUEUE1_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in ../../import/rx_client_fifo.v(50)
+HDL-5370 WARNING: parameter 'QUEUE2_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in ../../import/rx_client_fifo.v(51)
+HDL-5370 WARNING: parameter 'QUEUE3_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in ../../import/rx_client_fifo.v(52)
+HDL-5370 WARNING: parameter 'QUEUE_SOF_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in ../../import/rx_client_fifo.v(53)
+HDL-5370 WARNING: parameter 'SOF_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in ../../import/rx_client_fifo.v(54)
+HDL-5370 WARNING: parameter 'DATA_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in ../../import/rx_client_fifo.v(55)
+HDL-5370 WARNING: parameter 'EOF_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in ../../import/rx_client_fifo.v(56)
+HDL-5370 WARNING: parameter 'IDLE_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in ../../import/rx_client_fifo.v(62)
+HDL-5370 WARNING: parameter 'FRAME_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in ../../import/rx_client_fifo.v(63)
+HDL-5370 Similar messages will be suppressed.
+HDL-1007 : analyze verilog file ../../import/temac_block.v
+HDL-1007 : analyze verilog file ../../import/temac_clk_gen.v
+HDL-1007 : analyze verilog file ../../import/tx_client_fifo.v
+HDL-5370 WARNING: parameter 'IDLE_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in ../../import/tx_client_fifo.v(53)
+HDL-5370 WARNING: parameter 'QUEUE1_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in ../../import/tx_client_fifo.v(54)
+HDL-5370 WARNING: parameter 'QUEUE2_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in ../../import/tx_client_fifo.v(55)
+HDL-5370 WARNING: parameter 'QUEUE3_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in ../../import/tx_client_fifo.v(56)
+HDL-5370 WARNING: parameter 'QUEUE_ACK_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in ../../import/tx_client_fifo.v(57)
+HDL-5370 WARNING: parameter 'WAIT_ACK_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in ../../import/tx_client_fifo.v(58)
+HDL-5370 WARNING: parameter 'FRAME_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in ../../import/tx_client_fifo.v(59)
+HDL-5370 WARNING: parameter 'DROP_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in ../../import/tx_client_fifo.v(60)
+HDL-5370 WARNING: parameter 'RETRANSMIT_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in ../../import/tx_client_fifo.v(61)
+HDL-5370 WARNING: parameter 'WAIT_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in ../../import/tx_client_fifo.v(67)
+HDL-5370 Similar messages will be suppressed.
+HDL-1007 : analyze verilog file ../../import/tx_clk_en_gen.v
+HDL-1007 : analyze verilog file ../../import/udp_ip_protocol_stack_merge.enc.v
+HDL-1007 : back to file '../../import/udp_ip_protocol_stack_merge.enc.v' in ../../import/udp_ip_protocol_stack_merge.enc.v(56)
+HDL-1007 : undeclared symbol '**', assumed default net type '**' in ../../import/udp_ip_protocol_stack_merge.enc.v(2638)
+HDL-1007 : back to file '../../import/udp_ip_protocol_stack_merge.enc.v' in ../../import/udp_ip_protocol_stack_merge.enc.v(420)
+HDL-1007 : analyze verilog file ../../import/udp_loopback.v
+HDL-1007 : analyze verilog file ../../import/sd_card_cmd.v
+HDL-1007 : analyze verilog file ../../import/sd_card_sec_read_write.v
+HDL-1007 : analyze verilog file ../../import/sd_card_top.v
+HDL-1007 : analyze verilog file ../../import/spi_master.v
+HDL-1007 : analyze verilog file ../../import/cmos_capture_data.v
+HDL-1007 : analyze verilog file ../../import/i2c_dri.v
+HDL-1007 : analyze verilog file ../../import/i2c_ov5640_rgb565_cfg.v
+HDL-1007 : analyze verilog file ../../import/ov5640_delay.v
+HDL-1007 : analyze verilog file ../../import/ov5640_dri.v
+HDL-1007 : analyze verilog file ../../import/emboss_process.v
+HDL-1007 : analyze verilog file ../../import/morphology_process.v
+HDL-1007 : analyze verilog file ../../import/sobel_process.v
+HDL-1007 : analyze verilog file ../../top_dual_udp.v
+HDL-5373 WARNING: identifier 'udp_clk' is used before its declaration in ../../top_dual_udp.v(142)
+HDL-1007 : analyze verilog file ../../udp_cam_ctrl_tf.v
+HDL-1007 : analyze verilog file ../../import/video_pll.v
+HDL-1007 : undeclared symbol 'video_pll_open0', assumed default net type 'wire' in ../../import/video_pll.v(92)
+HDL-1007 : undeclared symbol 'video_pll_open8', assumed default net type 'wire' in ../../import/video_pll.v(98)
+HDL-1007 : undeclared symbol 'video_pll_open7', assumed default net type 'wire' in ../../import/video_pll.v(98)
+HDL-1007 : undeclared symbol 'video_pll_open6', assumed default net type 'wire' in ../../import/video_pll.v(98)
+HDL-1007 : undeclared symbol 'video_pll_open5', assumed default net type 'wire' in ../../import/video_pll.v(98)
+HDL-1007 : undeclared symbol 'video_pll_open4', assumed default net type 'wire' in ../../import/video_pll.v(98)
+HDL-1007 : undeclared symbol 'video_pll_open3', assumed default net type 'wire' in ../../import/video_pll.v(98)
+HDL-1007 : undeclared symbol 'video_pll_open2', assumed default net type 'wire' in ../../import/video_pll.v(98)
+HDL-1007 : undeclared symbol 'video_pll_open1', assumed default net type 'wire' in ../../import/video_pll.v(98)
+HDL-1007 : undeclared symbol 'video_pll_open9', assumed default net type 'wire' in ../../import/video_pll.v(100)
+HDL-7201 CRITICAL-WARNING: overwrite current module 'video_pll' in ../../import/video_pll.v(25)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'video_pll' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in ../../../../lab_ex_6_tf_sdram_hdmi/al_ip/video_pll.v(23)
+HDL-1007 : analyze verilog file ../../import/led.v
+HDL-1007 : analyze verilog file ../../import/app.v
+HDL-1007 : analyze verilog file ../../por_generator.v
+HDL-1007 : analyze verilog file ../../../../lab_ex_6_tf_sdram_hdmi/src/ax_debounce.v
+HDL-1007 : analyze verilog file ../../../../lab_ex_6_tf_sdram_hdmi/src/bmp_read.v
+HDL-1007 : analyze verilog file ../../../../lab_ex_6_tf_sdram_hdmi/src/sd_card_bmp.v
+HDL-1007 : analyze verilog file ../../../line_buffer.v
+HDL-1007 : analyze verilog file ../../../line_ram_640x8.v
+HDL-1007 : analyze verilog file ../../../line_ram_640x8_1.v
+PRJ-1401 : Successfully analyzed 65 source files.
+RUN-1002 : start command "commit_param -step design"
+RUN-1001 : Print Global Property
+RUN-1001 : --------------------------------------------------------
+RUN-1001 :   Parameters   |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------
+RUN-1001 :   enable_seed  |    off     |       off        |        
+RUN-1001 :     message    |  standard  |     standard     |        
+RUN-1001 :   qor_monitor  |     on     |        on        |        
+RUN-1001 :   syn_ip_flow  |    off     |       off        |        
+RUN-1001 :     thread     |    auto    |       auto       |        
+RUN-1001 : --------------------------------------------------------
+RUN-1001 : Print Design Property
+RUN-1001 : ----------------------------------------------------------------
+RUN-1001 :       Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : ----------------------------------------------------------------
+RUN-1001 :   default_reg_initial  |    auto    |       auto       |        
+RUN-1001 :    hdl_warning_level   |   normal   |      normal      |        
+RUN-1001 : ----------------------------------------------------------------
+RUN-1002 : start command "elaborate -top top_dual_udp"
+HDL-1007 : port 'extlock' remains unconnected for this instance in ../../top_dual_udp.v(263)
+HDL-1007 : port 'clk2_out' remains unconnected for this instance in ../../top_dual_udp.v(285)
+HDL-1007 : port 'led' remains unconnected for this instance in ../../top_dual_udp.v(652)
+HDL-1007 : port 'full_flag' remains unconnected for this instance in ../../top_dual_udp.v(699)
+HDL-1007 : port 'udp_wrusedw' remains unconnected for this instance in ../../top_dual_udp.v(699)
+HDL-1007 : port 'ip_rx_error' remains unconnected for this instance in ../../top_dual_udp.v(745)
+HDL-1007 : port 'arp_request_no_reply_error' remains unconnected for this instance in ../../top_dual_udp.v(745)
+HDL-1007 : port 'tri_speed' remains unconnected for this instance in ../../top_dual_udp.v(807)
+HDL-1007 : port 'mdio_o' remains unconnected for this instance in ../../top_dual_udp.v(807)
+HDL-1007 : port 'mdio_oen' remains unconnected for this instance in ../../top_dual_udp.v(807)
+HDL-1007 : port 'mdio_clk' remains unconnected for this instance in ../../top_dual_udp.v(807)
+HDL-1007 : elaborate module top_dual_udp in ../../top_dual_udp.v(13)
+HDL-1007 : elaborate module por_generator in ../../por_generator.v(5)
+HDL-1007 : elaborate module clk_gen_rst_gen in ../../import/clk_gen_rst_gen.v(31)
+HDL-1007 : elaborate module pll_gen in ../../../../lab_ex_4_tf_sdram_etnernet_pc/UDP_EG4_6.2/prj/UDP_EXAMPLE/al_ip/pll_gen.v(26)
+HDL-1007 : elaborate module EG_LOGIC_BUFG in E:\anlu\arch/eagle_macro.v(5)
+HDL-1007 : elaborate module EG_PHY_PLL(FIN="50.000000",REFCLK_DIV=2,FBCLK_DIV=5,CLKC0_DIV=8,CLKC1_DIV=8,CLKC2_DIV=80,CLKC3_DIV=40,CLKC4_DIV=8,CLKC0_ENABLE="ENABLE",CLKC1_ENABLE="ENABLE",CLKC2_ENABLE="ENABLE",CLKC3_ENABLE="ENABLE",CLKC4_ENABLE="ENABLE",FEEDBK_PATH="CLKC0_EXT",STDBY_ENABLE="DISABLE",CLKC0_CPHASE=7,CLKC1_CPHASE=7,CLKC2_CPHASE=79,CLKC3_CPHASE=39,GMC_GAIN=2,ICP_CURRENT=9,KVCO=2,LPF_CAPACITOR=1,LPF_RESISTOR=8,SYNC_ENABLE="DISABLE") in E:\anlu\arch/eagle_macro.v(889)
+HDL-1007 : elaborate module div_clk_gen in ../../import/div_clk_gen.v(31)
+HDL-1007 : elaborate module udp_clk_gen in ../../import/temac_clk_gen.v(30)
+HDL-1007 : elaborate module video_pll in ../../import/video_pll.v(25)
+HDL-1007 : elaborate module EG_PHY_PLL(FIN="50.000000",REFCLK_DIV=2,FBCLK_DIV=5,CLKC0_DIV=8,CLKC1_DIV=8,CLKC2_DIV=40,CLKC3_DIV=8,CLKC0_ENABLE="ENABLE",CLKC1_ENABLE="ENABLE",CLKC2_ENABLE="ENABLE",CLKC3_ENABLE="ENABLE",FEEDBK_PATH="CLKC0_EXT",STDBY_ENABLE="DISABLE",CLKC0_CPHASE=7,CLKC2_CPHASE=39,CLKC3_CPHASE=7,GMC_GAIN=2,ICP_CURRENT=9,KVCO=2,LPF_CAPACITOR=1,LPF_RESISTOR=8,SYNC_ENABLE="DISABLE") in E:\anlu\arch/eagle_macro.v(889)
+HDL-1007 : elaborate module sys_pll in ../../../../lab_ex_6_tf_sdram_hdmi/al_ip/sys_pll.v(24)
+HDL-1007 : elaborate module EG_PHY_PLL(FIN="50.000000",FBCLK_DIV=2,CLKC0_DIV=10,CLKC1_DIV=8,CLKC2_DIV=8,CLKC0_ENABLE="ENABLE",CLKC1_ENABLE="ENABLE",CLKC2_ENABLE="ENABLE",FEEDBK_PATH="CLKC0_EXT",STDBY_ENABLE="DISABLE",CLKC0_CPHASE=9,CLKC1_CPHASE=7,CLKC2_CPHASE=3,GMC_GAIN=4,ICP_CURRENT=29,KVCO=4,LPF_CAPACITOR=1,LPF_RESISTOR=2,SYNC_ENABLE="DISABLE") in E:\anlu\arch/eagle_macro.v(889)
+HDL-1007 : elaborate module rx_pll in ../../../../lab_ex_4_tf_sdram_etnernet_pc/UDP_EG4_6.2/prj/UDP_EXAMPLE/al_ip/rx_pll.v(24)
+HDL-1007 : elaborate module EG_PHY_PLL(FIN="125.000",CLKC0_DIV=8,CLKC1_DIV=8,CLKC2_DIV=4,CLKC0_ENABLE="ENABLE",CLKC1_ENABLE="ENABLE",CLKC2_ENABLE="ENABLE",FEEDBK_PATH="CLKC0_EXT",STDBY_ENABLE="DISABLE",CLKC0_CPHASE=7,CLKC1_CPHASE=7,CLKC2_CPHASE=3,GMC_GAIN=6,GMC_TEST=15,ICP_CURRENT=13,KVCO=4,LPF_CAPACITOR=1,LPF_RESISTOR=2,SYNC_ENABLE="DISABLE") in E:\anlu\arch/eagle_macro.v(889)
+HDL-1007 : elaborate module sd_card_bmp in ../../../../lab_ex_6_tf_sdram_hdmi/src/sd_card_bmp.v(1)
+HDL-1007 : elaborate module ax_debounce in ../../../../lab_ex_6_tf_sdram_hdmi/src/ax_debounce.v(1)
+HDL-1007 : elaborate module bmp_read in ../../../../lab_ex_6_tf_sdram_hdmi/src/bmp_read.v(2)
+HDL-1007 : elaborate module sd_card_top in ../../import/sd_card_top.v(2)
+HDL-1007 : elaborate module sd_card_sec_read_write in ../../import/sd_card_sec_read_write.v(2)
+HDL-1007 : elaborate module sd_card_cmd in ../../import/sd_card_cmd.v(2)
+HDL-1007 : elaborate module spi_master in ../../import/spi_master.v(2)
+HDL-5323 WARNING: input port 'sd_sec_write_data[7]' remains unconnected for this instance in ../../../../lab_ex_6_tf_sdram_hdmi/src/sd_card_bmp.v(59)
+HDL-1007 : port 'i2c_ack' remains unconnected for this instance in ../../import/ov5640_dri.v(94)
+HDL-1007 : elaborate module ov5640_dri in ../../import/ov5640_dri.v(24)
+HDL-1007 : elaborate module i2c_ov5640_rgb565_cfg in ../../import/i2c_ov5640_rgb565_cfg.v(24)
+HDL-1007 : elaborate module i2c_dri(SLAVE_ADDR=7'b0111100,CLK_FREQ=27'b010111110101111000010000000) in ../../import/i2c_dri.v(24)
+HDL-1007 : elaborate module cmos_capture_data in ../../import/cmos_capture_data.v(23)
+HDL-5007 WARNING: actual bit length 11 differs from formal bit length 13 for port 'cmos_h_pixel' in ../../top_dual_udp.v(419)
+HDL-5007 WARNING: actual bit length 11 differs from formal bit length 13 for port 'cmos_v_pixel' in ../../top_dual_udp.v(420)
+HDL-5007 WARNING: actual bit length 12 differs from formal bit length 13 for port 'total_h_pixel' in ../../top_dual_udp.v(421)
+HDL-5007 WARNING: actual bit length 12 differs from formal bit length 13 for port 'total_v_pixel' in ../../top_dual_udp.v(422)
+HDL-1007 : elaborate module ov5640_delay in ../../import/ov5640_delay.v(1)
+HDL-1007 : port 'valid' remains unconnected for this instance in ../../src/frame_read_write.v(88)
+HDL-1007 : port 'afull' remains unconnected for this instance in ../../src/frame_read_write.v(88)
+HDL-1007 : port 'aempty' remains unconnected for this instance in ../../src/frame_read_write.v(88)
+HDL-1007 : port 'valid' remains unconnected for this instance in ../../src/frame_read_write.v(136)
+HDL-1007 : port 'afull' remains unconnected for this instance in ../../src/frame_read_write.v(136)
+HDL-1007 : port 'aempty' remains unconnected for this instance in ../../src/frame_read_write.v(136)
+HDL-1007 : elaborate module frame_read_write in ../../src/frame_read_write.v(2)
+HDL-1007 : port 'doa' remains unconnected for this instance in ../../../../lab_ex_6_tf_sdram_hdmi/al_ip/afifo_16_32_256.v(226)
+HDL-1007 : port 'dib' remains unconnected for this instance in ../../../../lab_ex_6_tf_sdram_hdmi/al_ip/afifo_16_32_256.v(226)
+HDL-1007 : elaborate module wfifo_32_32_512 in ../../../../lab_ex_6_tf_sdram_hdmi/al_ip/afifo_16_32_256.v(13)
+HDL-1007 : elaborate module fifo_cross_domain_addr_process_al_wfifo_32_32_512 in ../../../../lab_ex_6_tf_sdram_hdmi/al_ip/afifo_16_32_256.v(250)
+HDL-1007 : elaborate module ram_infer_wfifo_32_32_512(ADDRWIDTH_A=9,DATAWIDTH_B=32,ADDRWIDTH_B=9) in ../../../../lab_ex_6_tf_sdram_hdmi/al_ip/afifo_16_32_256.v(333)
+HDL-1007 : extracting RAM for identifier 'memory' in ../../../../lab_ex_6_tf_sdram_hdmi/al_ip/afifo_16_32_256.v(398)
+HDL-5317 WARNING: input port 'dib[31]' is not connected on this instance in ../../../../lab_ex_6_tf_sdram_hdmi/al_ip/afifo_16_32_256.v(231)
+HDL-1007 : elaborate module frame_fifo_write(BURST_SIZE=256) in ../../src/frame_fifo_write.v(2)
+HDL-5007 WARNING: actual bit length 9 differs from formal bit length 10 for port 'rdusedw' in ../../src/frame_read_write.v(132)
+HDL-1007 : port 'doa' remains unconnected for this instance in ../../../../lab_ex_6_tf_sdram_hdmi/al_ip/afifo_32_16_256.v(226)
+HDL-1007 : port 'dib' remains unconnected for this instance in ../../../../lab_ex_6_tf_sdram_hdmi/al_ip/afifo_32_16_256.v(226)
+HDL-1007 : elaborate module rfifo_32_32_512 in ../../../../lab_ex_6_tf_sdram_hdmi/al_ip/afifo_32_16_256.v(13)
+HDL-1007 : elaborate module fifo_cross_domain_addr_process_al_rfifo_32_32_512 in ../../../../lab_ex_6_tf_sdram_hdmi/al_ip/afifo_32_16_256.v(250)
+HDL-1007 : elaborate module ram_infer_rfifo_32_32_512(ADDRWIDTH_A=9,DATAWIDTH_B=32,ADDRWIDTH_B=9) in ../../../../lab_ex_6_tf_sdram_hdmi/al_ip/afifo_32_16_256.v(333)
+HDL-1007 : extracting RAM for identifier 'memory' in ../../../../lab_ex_6_tf_sdram_hdmi/al_ip/afifo_32_16_256.v(398)
+HDL-5317 WARNING: input port 'dib[31]' is not connected on this instance in ../../../../lab_ex_6_tf_sdram_hdmi/al_ip/afifo_32_16_256.v(231)
+HDL-1007 : elaborate module frame_fifo_read(BURST_SIZE=256) in ../../src/frame_fifo_read.v(2)
+HDL-5007 WARNING: actual bit length 9 differs from formal bit length 10 for port 'wrusedw' in ../../src/frame_read_write.v(181)
+HDL-5007 WARNING: actual bit length 24 differs from formal bit length 21 for port 'read_addr_0' in ../../top_dual_udp.v(486)
+HDL-5007 WARNING: actual bit length 24 differs from formal bit length 21 for port 'read_addr_1' in ../../top_dual_udp.v(487)
+HDL-5007 WARNING: actual bit length 24 differs from formal bit length 21 for port 'read_addr_2' in ../../top_dual_udp.v(488)
+HDL-5007 WARNING: actual bit length 24 differs from formal bit length 21 for port 'read_addr_3' in ../../top_dual_udp.v(489)
+HDL-5007 WARNING: actual bit length 24 differs from formal bit length 21 for port 'read_len' in ../../top_dual_udp.v(491)
+HDL-5007 WARNING: actual bit length 24 differs from formal bit length 21 for port 'write_addr_0' in ../../top_dual_udp.v(502)
+HDL-5007 WARNING: actual bit length 24 differs from formal bit length 21 for port 'write_addr_1' in ../../top_dual_udp.v(503)
+HDL-5007 WARNING: actual bit length 24 differs from formal bit length 21 for port 'write_addr_2' in ../../top_dual_udp.v(504)
+HDL-5007 WARNING: actual bit length 24 differs from formal bit length 21 for port 'write_addr_3' in ../../top_dual_udp.v(505)
+HDL-5007 Similar messages will be suppressed.
+HDL-1007 : elaborate module udp_cam_ctrl in ../../import/udp_cam_ctrl.v(4)
+HDL-1007 : elaborate module debounce(CLK_FREQ=125000000) in ../../import/udp_cam_ctrl.v(499)
+HDL-1007 : elaborate module sobel_process(IMG_WIDTH=32'b01010000000,IMG_HEIGHT=32'b0111100000) in ../../import/sobel_process.v(5)
+HDL-1007 : elaborate module line_buffer(H_PIXEL=32'b01010000000) in ../../../line_buffer.v(7)
+HDL-1007 : elaborate module line_ram_640x8 in ../../../line_ram_640x8.v(14)
+HDL-1007 : elaborate module EG_LOGIC_BRAM(DATA_WIDTH_A=8,DATA_WIDTH_B=8,ADDR_WIDTH_B=10,DATA_DEPTH_A=1024,DATA_DEPTH_B=1024,MODE="PDPW",REGMODE_B="OUTREG") in E:\anlu\arch/eagle_macro.v(986)
+HDL-5007 WARNING: actual bit length 2 differs from formal bit length 1 for port 'beb' in ../../../line_ram_640x8.v(76)
+HDL-1007 : elaborate module line_ram_640x8_1 in ../../../line_ram_640x8_1.v(14)
+HDL-5007 WARNING: actual bit length 2 differs from formal bit length 1 for port 'beb' in ../../../line_ram_640x8_1.v(76)
+HDL-1007 : elaborate module emboss_process(IMG_WIDTH=32'b01010000000,IMG_HEIGHT=32'b0111100000) in ../../import/emboss_process.v(5)
+HDL-1007 : elaborate module morphology_process(IMG_WIDTH=32'b01010000000,IMG_HEIGHT=32'b0111100000) in ../../import/morphology_process.v(5)
+HDL-1007 : elaborate module udp_cam_ctrl_tf in ../../udp_cam_ctrl_tf.v(1)
+HDL-1007 : elaborate module led in ../../import/led.v(1)
+HDL-1007 : port 'read_addr_1' remains unconnected for this instance in ../../import/app.v(243)
+HDL-1007 : port 'read_addr_2' remains unconnected for this instance in ../../import/app.v(243)
+HDL-1007 : port 'read_addr_3' remains unconnected for this instance in ../../import/app.v(243)
+HDL-1007 : port 'write_addr_1' remains unconnected for this instance in ../../import/app.v(243)
+HDL-1007 : port 'write_addr_2' remains unconnected for this instance in ../../import/app.v(243)
+HDL-1007 : port 'write_addr_3' remains unconnected for this instance in ../../import/app.v(243)
+HDL-1007 : elaborate module app in ../../import/app.v(185)
+HDL-1007 : elaborate module udp_to_sdram_writer in ../../import/app.v(7)
+HDL-1007 : extracting RAM for identifier 'pixel_fifo' in ../../import/app.v(42)
+HDL-1007 : elaborate module video_timing_data in ../../src/video_timing_data.v(1)
+HDL-1007 : elaborate module color_bar in ../../src/color_bar.v(3)
+HDL-1007 : elaborate module video_delay in ../../src/video_delay.v(1)
+HDL-1007 : switch to vhdl to elaborate module hdmi_tx in ../../import/app.v(313)
+HDL-1007 : elaborate hdmi_tx(1,3)(Behavioral) in ../../src/hdmi/hdmi_tx.vhd(11)
+HDL-1007 : elaborate DVITransmitter(1,3)(Behavioral) in ../../src/hdmi/enc_file/DVITransmitter.enc.vhd(13)
+HDL-1007 : elaborate **(**) in ../../src/hdmi/enc_file/TMDSEncoder.enc.vhd(13)
+HDL-1007 : elaborate **(**) in ../../src/hdmi/enc_file/SerializerN_1_lvds.enc.vhd(12)
+HDL-1007 : elaborate EG_LOGIC_ODDR(1,6)(rtl) in E:\anlu\arch/eagle_macro.vhd(1399)
+HDL-1007 : elaborate **(**) in ../../src/hdmi/enc_file/SerializerN_1_lvds_dat.enc.vhd(14)
+HDL-1007 : back to vlog to elaborate in ../../import/app.v(313)
+HDL-5323 WARNING: input port 'read_addr_1[20]' remains unconnected for this instance in ../../import/app.v(248)
+HDL-1007 : port 'afull' remains unconnected for this instance in ../../import/udp_loopback.v(64)
+HDL-1007 : port 'aempty' remains unconnected for this instance in ../../import/udp_loopback.v(64)
+HDL-1007 : elaborate module udp_loopback in ../../import/udp_loopback.v(23)
+HDL-1007 : elaborate module ** in ../../import/udp_ip_protocol_stack_merge.enc.v(2405)
+HDL-1007 : elaborate module ** in ../../import/udp_ip_protocol_stack_merge.enc.v(2482)
+HDL-1007 : elaborate module EG_LOGIC_BRAM(DATA_WIDTH_A=24,DATA_WIDTH_B=24,ADDR_WIDTH_A=12,ADDR_WIDTH_B=12,DATA_DEPTH_A=4096,DATA_DEPTH_B=4096,MODE="PDPW",RESETMODE="ASYNC") in E:\anlu\arch/eagle_macro.v(986)
+HDL-5007 WARNING: actual bit length ** differs from formal bit length *** for port '**' in ../../import/udp_ip_protocol_stack_merge.enc.v(2666)
+HDL-5007 WARNING: actual bit length ** differs from formal bit length *** for port '**' in ../../import/udp_ip_protocol_stack_merge.enc.v(2671)
+HDL-1007 : elaborate module ** in ../../import/udp_ip_protocol_stack_merge.enc.v(3068)
+HDL-5007 Similar messages will be suppressed.
+HDL-1007 : elaborate module sdram in ../../src/sdram/sdram.v(12)
+HDL-1007 : elaborate module sdr_as_ram(self_refresh_open=1'b1) in ../../src/sdram/enc_file/sdr_as_ram.enc.v(12)
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in ../../src/sdram/enc_file/sdr_init_ref.enc.v(47)
+HDL-1007 : elaborate module sdr_init_ref(self_refresh_open=1'b1) in ../../src/sdram/enc_file/sdr_init_ref.enc.v(13)
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in ../../src/sdram/enc_file/sdr_wrrd.enc.v(283)
+HDL-1007 : elaborate module ** in ../../src/sdram/enc_file/sdr_wrrd.enc.v(3)
+HDL-5317 WARNING: input port '**' is not connected on this instance in ../../src/sdram/enc_file/sdr_as_ram.enc.v(17)
+HDL-1007 : elaborate module EG_PHY_SDRAM_2M_32 in E:\anlu\arch/eagle_macro.v(683)
+HDL-1007 : port '**' remains unconnected for this instance in ../../import/udp_ip_protocol_stack_merge.enc.v(284)
+HDL-1007 : port '**' remains unconnected for this instance in ../../import/udp_ip_protocol_stack_merge.enc.v(284)
+HDL-1007 : port '**' remains unconnected for this instance in ../../import/udp_ip_protocol_stack_merge.enc.v(284)
+HDL-1007 : elaborate module udp_ip_protocol_stack(LOCAL_UDP_PORT_NUM=16'b01,LOCAL_IP_ADDRESS=32'b11000000101010001111000000000001) in ../../import/udp_ip_protocol_stack_merge.enc.v(2)
+HDL-1007 : elaborate module ** in ../../import/udp_ip_protocol_stack_merge.enc.v(3861)
+HDL-1007 : elaborate module ** in ../../import/udp_ip_protocol_stack_merge.enc.v(4077)
+HDL-1007 : elaborate module ** in ../../import/udp_ip_protocol_stack_merge.enc.v(3465)
+HDL-1007 : elaborate module ** in ../../import/udp_ip_protocol_stack_merge.enc.v(3963)
+HDL-1007 : port '**' remains unconnected for this instance in ../../import/udp_ip_protocol_stack_merge.enc.v(1251)
+HDL-1007 : port '**' remains unconnected for this instance in ../../import/udp_ip_protocol_stack_merge.enc.v(1251)
+HDL-1007 : elaborate module ** in ../../import/udp_ip_protocol_stack_merge.enc.v(1172)
+HDL-1007 : elaborate module ** in ../../import/udp_ip_protocol_stack_merge.enc.v(2405)
+HDL-1007 : elaborate module ** in ../../import/udp_ip_protocol_stack_merge.enc.v(2482)
+HDL-1007 : elaborate module EG_LOGIC_BRAM(DATA_WIDTH_A=8,DATA_WIDTH_B=8,ADDR_WIDTH_A=11,ADDR_WIDTH_B=11,DATA_DEPTH_A=2048,DATA_DEPTH_B=2048,MODE="PDPW",RESETMODE="ASYNC") in E:\anlu\arch/eagle_macro.v(986)
+HDL-1007 : elaborate module ** in ../../import/udp_ip_protocol_stack_merge.enc.v(3068)
+HDL-1007 : elaborate module ** in ../../import/udp_ip_protocol_stack_merge.enc.v(1601)
+HDL-1007 : elaborate module ** in ../../import/udp_ip_protocol_stack_merge.enc.v(3465)
+HDL-1007 : elaborate module ** in ../../import/udp_ip_protocol_stack_merge.enc.v(909)
+HDL-1007 : elaborate module ** in ../../import/udp_ip_protocol_stack_merge.enc.v(1374)
+HDL-1007 : elaborate module ** in ../../import/udp_ip_protocol_stack_merge.enc.v(1079)
+HDL-1007 : elaborate module ** in ../../import/udp_ip_protocol_stack_merge.enc.v(713)
+HDL-1007 : elaborate module ** in ../../import/udp_ip_protocol_stack_merge.enc.v(26)
+HDL-1007 : elaborate module ** in ../../import/udp_ip_protocol_stack_merge.enc.v(436)
+HDL-1007 : elaborate module ** in ../../import/udp_ip_protocol_stack_merge.enc.v(223)
+HDL-1007 : elaborate module ** in ../../import/udp_ip_protocol_stack_merge.enc.v(1920)
+HDL-1007 : elaborate module ** in ../../import/udp_ip_protocol_stack_merge.enc.v(3190)
+HDL-1007 : elaborate module ** in ../../import/udp_ip_protocol_stack_merge.enc.v(3113)
+HDL-1007 : elaborate module ** in ../../import/udp_ip_protocol_stack_merge.enc.v(3537)
+HDL-1007 : elaborate module ** in ../../import/udp_ip_protocol_stack_merge.enc.v(3465)
+HDL-1007 : elaborate module ** in ../../import/udp_ip_protocol_stack_merge.enc.v(3465)
+HDL-1007 : elaborate module temac_block in ../../import/temac_block.v(2)
+HDL-1007 : elaborate module tx_clk_en_gen in ../../import/tx_clk_en_gen.v(16)
+HDL-1007 : elaborate module rgmii_interface in ../../import/rgmii_interface.v(14)
+HDL-1007 : elaborate module ODDR in ../../import/ODDR.v(23)
+HDL-1007 : elaborate module EG_LOGIC_ODDR in E:\anlu\arch/eagle_macro.v(66)
+HDL-1007 : elaborate module IDDR(DEVICE="EG4") in ../../import/IDDR.v(23)
+HDL-1007 : elaborate module EG_LOGIC_IDDR in E:\anlu\arch/eagle_macro.v(57)
+HDL-1007 : elaborate module TEMAC_CORE in ../../../../lab_ex_4_tf_sdram_etnernet_pc/UDP_EG4_6.2/prj/UDP_EXAMPLE/al_ip/TEMAC_CORE/TEMAC_CORE.v(9)
+HDL-1007 : elaborate module mac_core_aead6cd6dadd(P_HOST_EN=1'b0,P_ADD_FILT_LIST=0) in ../../../../lab_ex_4_tf_sdram_etnernet_pc/UDP_EG4_6.2/prj/UDP_EXAMPLE/al_ip/TEMAC_CORE/RTL/mac_core_aead6cd6dadd.v(14)
+HDL-1007 : elaborate module TEMAC_CORE_aead6cd6dadd(P_HALF_DUPLEX=1'b1) in ../../../../lab_ex_4_tf_sdram_etnernet_pc/UDP_EG4_6.2/prj/UDP_EXAMPLE/al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v(1)
+HDL-1007 : elaborate module ** in ../../../../lab_ex_4_tf_sdram_etnernet_pc/UDP_EG4_6.2/prj/UDP_EXAMPLE/al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v(9306)
+HDL-1007 : elaborate module ** in ../../../../lab_ex_4_tf_sdram_etnernet_pc/UDP_EG4_6.2/prj/UDP_EXAMPLE/al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v(186)
+HDL-1007 : elaborate module ** in ../../../../lab_ex_4_tf_sdram_etnernet_pc/UDP_EG4_6.2/prj/UDP_EXAMPLE/al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v(5470)
+HDL-1007 : elaborate module ** in ../../../../lab_ex_4_tf_sdram_etnernet_pc/UDP_EG4_6.2/prj/UDP_EXAMPLE/al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v(6852)
+HDL-1007 : elaborate module ** in ../../../../lab_ex_4_tf_sdram_etnernet_pc/UDP_EG4_6.2/prj/UDP_EXAMPLE/al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v(7513)
+HDL-1007 : elaborate module ** in ../../../../lab_ex_4_tf_sdram_etnernet_pc/UDP_EG4_6.2/prj/UDP_EXAMPLE/al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v(3818)
+HDL-1007 : elaborate module ** in ../../../../lab_ex_4_tf_sdram_etnernet_pc/UDP_EG4_6.2/prj/UDP_EXAMPLE/al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v(3754)
+HDL-1007 : elaborate module ** in ../../../../lab_ex_4_tf_sdram_etnernet_pc/UDP_EG4_6.2/prj/UDP_EXAMPLE/al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v(3865)
+HDL-1007 : elaborate module ** in ../../../../lab_ex_4_tf_sdram_etnernet_pc/UDP_EG4_6.2/prj/UDP_EXAMPLE/al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v(3808)
+HDL-1007 : elaborate module ** in ../../../../lab_ex_4_tf_sdram_etnernet_pc/UDP_EG4_6.2/prj/UDP_EXAMPLE/al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v(3829)
+HDL-5007 WARNING: specify block is ignored for synthesis in ../../../../lab_ex_4_tf_sdram_etnernet_pc/UDP_EG4_6.2/prj/UDP_EXAMPLE/al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v(3840)
+HDL-1007 : elaborate module ** in ../../../../lab_ex_4_tf_sdram_etnernet_pc/UDP_EG4_6.2/prj/UDP_EXAMPLE/al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v(7839)
+HDL-1007 : elaborate module ** in ../../../../lab_ex_4_tf_sdram_etnernet_pc/UDP_EG4_6.2/prj/UDP_EXAMPLE/al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v(1251)
+HDL-1007 : elaborate module ** in ../../../../lab_ex_4_tf_sdram_etnernet_pc/UDP_EG4_6.2/prj/UDP_EXAMPLE/al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v(8904)
+HDL-1007 : elaborate module ** in ../../../../lab_ex_4_tf_sdram_etnernet_pc/UDP_EG4_6.2/prj/UDP_EXAMPLE/al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v(6199)
+HDL-1007 : elaborate module ** in ../../../../lab_ex_4_tf_sdram_etnernet_pc/UDP_EG4_6.2/prj/UDP_EXAMPLE/al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v(4813)
+HDL-1007 : elaborate module ** in ../../../../lab_ex_4_tf_sdram_etnernet_pc/UDP_EG4_6.2/prj/UDP_EXAMPLE/al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v(3988)
+HDL-1007 : elaborate module ** in ../../../../lab_ex_4_tf_sdram_etnernet_pc/UDP_EG4_6.2/prj/UDP_EXAMPLE/al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v(225)
+HDL-1007 : elaborate module ** in ../../../../lab_ex_4_tf_sdram_etnernet_pc/UDP_EG4_6.2/prj/UDP_EXAMPLE/al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v(3844)
+HDL-1007 : elaborate module ** in ../../../../lab_ex_4_tf_sdram_etnernet_pc/UDP_EG4_6.2/prj/UDP_EXAMPLE/al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v(4444)
+HDL-1007 : elaborate module ** in ../../../../lab_ex_4_tf_sdram_etnernet_pc/UDP_EG4_6.2/prj/UDP_EXAMPLE/al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v(6947)
+HDL-1007 : elaborate module ** in ../../../../lab_ex_4_tf_sdram_etnernet_pc/UDP_EG4_6.2/prj/UDP_EXAMPLE/al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v(6270)
+HDL-1007 : elaborate module ** in ../../../../lab_ex_4_tf_sdram_etnernet_pc/UDP_EG4_6.2/prj/UDP_EXAMPLE/al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v(8504)
+HDL-1007 : elaborate module ** in ../../../../lab_ex_4_tf_sdram_etnernet_pc/UDP_EG4_6.2/prj/UDP_EXAMPLE/al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v(8272)
+HDL-1007 : elaborate module ** in ../../../../lab_ex_4_tf_sdram_etnernet_pc/UDP_EG4_6.2/prj/UDP_EXAMPLE/al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v(4209)
+HDL-1007 : elaborate module ** in ../../../../lab_ex_4_tf_sdram_etnernet_pc/UDP_EG4_6.2/prj/UDP_EXAMPLE/al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v(4055)
+HDL-1007 : elaborate module ** in ../../../../lab_ex_4_tf_sdram_etnernet_pc/UDP_EG4_6.2/prj/UDP_EXAMPLE/al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v(253)
+HDL-1007 : elaborate module ** in ../../../../lab_ex_4_tf_sdram_etnernet_pc/UDP_EG4_6.2/prj/UDP_EXAMPLE/al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v(4147)
+HDL-5314 WARNING: net '**' does not have a driver in ../../../../lab_ex_4_tf_sdram_etnernet_pc/UDP_EG4_6.2/prj/UDP_EXAMPLE/al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v(353)
+HDL-5314 WARNING: net '**' does not have a driver in ../../../../lab_ex_4_tf_sdram_etnernet_pc/UDP_EG4_6.2/prj/UDP_EXAMPLE/al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v(9517)
+HDL-5314 WARNING: net '**' does not have a driver in ../../../../lab_ex_4_tf_sdram_etnernet_pc/UDP_EG4_6.2/prj/UDP_EXAMPLE/al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v(9520)
+HDL-5314 WARNING: net '**' does not have a driver in ../../../../lab_ex_4_tf_sdram_etnernet_pc/UDP_EG4_6.2/prj/UDP_EXAMPLE/al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v(9525)
+HDL-5314 WARNING: net '**' does not have a driver in ../../../../lab_ex_4_tf_sdram_etnernet_pc/UDP_EG4_6.2/prj/UDP_EXAMPLE/al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v(9526)
+HDL-5314 WARNING: net '**' does not have a driver in ../../../../lab_ex_4_tf_sdram_etnernet_pc/UDP_EG4_6.2/prj/UDP_EXAMPLE/al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v(9527)
+HDL-5314 WARNING: net '**' does not have a driver in ../../../../lab_ex_4_tf_sdram_etnernet_pc/UDP_EG4_6.2/prj/UDP_EXAMPLE/al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v(9528)
+HDL-5323 WARNING: input port 'mac_has_sgmii' remains unconnected for this instance in ../../import/temac_block.v(294)
+HDL-1007 : elaborate module tx_client_fifo(DEVICE="EG4") in ../../import/tx_client_fifo.v(14)
+HDL-1007 : elaborate module RAMB16_S9_S9(DEVICE="EG4") in ../../import/RAMB16_S9_S9.v(4)
+HDL-1007 : elaborate module EG_LOGIC_BRAM(DATA_WIDTH_B=9,ADDR_WIDTH_A=11,ADDR_WIDTH_B=11,DATA_DEPTH_A=2048,DATA_DEPTH_B=2048,WRITEMODE_A="WRITETHROUGH",WRITEMODE_B="WRITETHROUGH") in E:\anlu\arch/eagle_macro.v(986)
+HDL-5323 WARNING: input port 'dib[8]' remains unconnected for this instance in ../../import/tx_client_fifo.v(1291)
+HDL-5323 WARNING: input port 'dib[8]' remains unconnected for this instance in ../../import/tx_client_fifo.v(1312)
+HDL-1007 : elaborate module rx_client_fifo(DEVICE="EG4") in ../../import/rx_client_fifo.v(14)
+HDL-5323 WARNING: input port 'dib[8]' remains unconnected for this instance in ../../import/rx_client_fifo.v(871)
+HDL-5323 WARNING: input port 'dib[8]' remains unconnected for this instance in ../../import/rx_client_fifo.v(892)
+HDL-5317 WARNING: input port 'mem_clk_sft' is not connected on this instance in ../../top_dual_udp.v(670)
+HDL-5323 WARNING: input port 'mdio_i' remains unconnected for this instance in ../../top_dual_udp.v(809)
+HDL-5001 WARNING: Contains anonymous inst(s) and/or net(s) that have not been renamed
+HDL-5001 WARNING: Contains anonymous inst(s) and/or net(s) that have not been renamed
+HDL-5001 WARNING: Contains anonymous inst(s) and/or net(s) that have not been renamed
+HDL-5001 WARNING: Contains anonymous inst(s) and/or net(s) that have not been renamed
+HDL-5001 WARNING: Contains anonymous inst(s) and/or net(s) that have not been renamed
+HDL-5001 WARNING: Contains anonymous inst(s) and/or net(s) that have not been renamed
+HDL-1200 : Current top model is top_dual_udp
+HDL-5106 WARNING: Initial value omitted on non-DFF net "cnt_t[4]" in ../../src/hdmi/enc_file/TMDSEncoder.enc.vhd(0) 
+HDL-5106 WARNING: Initial value omitted on non-DFF net "cnt_t[3]" in ../../src/hdmi/enc_file/TMDSEncoder.enc.vhd(0) 
+HDL-5106 WARNING: Initial value omitted on non-DFF net "cnt_t[2]" in ../../src/hdmi/enc_file/TMDSEncoder.enc.vhd(0) 
+HDL-5106 WARNING: Initial value omitted on non-DFF net "cnt_t[1]" in ../../src/hdmi/enc_file/TMDSEncoder.enc.vhd(0) 
+HDL-5106 WARNING: Initial value omitted on non-DFF net "cnt_t[0]" in ../../src/hdmi/enc_file/TMDSEncoder.enc.vhd(0) 
+HDL-5106 WARNING: Initial value omitted on non-DFF net "dc_bias[4]" in E:\anlu\packages/std_logic_arith.vhd(1071) 
+HDL-5106 WARNING: Initial value omitted on non-DFF net "dc_bias[3]" in E:\anlu\packages/std_logic_arith.vhd(1071) 
+HDL-5106 WARNING: Initial value omitted on non-DFF net "dc_bias[2]" in E:\anlu\packages/std_logic_arith.vhd(1071) 
+HDL-5106 WARNING: Initial value omitted on non-DFF net "dc_bias[1]" in E:\anlu\packages/std_logic_arith.vhd(1071) 
+HDL-5106 WARNING: Initial value omitted on non-DFF net "dc_bias[0]" in E:\anlu\packages/std_logic_arith.vhd(1071) 
+HDL-1100 : Inferred 3 RAMs.
+RUN-1002 : start command "read_adc ../../top.adc"
+RUN-1002 : start command "set_pin_assignment  clk_50   LOCATION = R7; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  phy1_rgmii_rx_clk   LOCATION = T14; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  phy1_rgmii_rx_ctl   LOCATION = T13; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  phy1_rgmii_rx_data[0]   LOCATION = P6; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  phy1_rgmii_rx_data[1]   LOCATION = M6; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  phy1_rgmii_rx_data[2]   LOCATION = T9; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  phy1_rgmii_rx_data[3]   LOCATION = N9; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  phy1_rgmii_tx_clk   LOCATION = T12; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 16; PULLTYPE = NONE; SLEWRATE = FAST; "
+RUN-1002 : start command "set_pin_assignment  phy1_rgmii_tx_ctl   LOCATION = T7; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 16; PULLTYPE = NONE; SLEWRATE = FAST; "
+RUN-1002 : start command "set_pin_assignment  phy1_rgmii_tx_data[0]   LOCATION = T4; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 16; PULLTYPE = NONE; SLEWRATE = FAST; "
+RUN-1002 : start command "set_pin_assignment  phy1_rgmii_tx_data[1]   LOCATION = T6; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 16; PULLTYPE = NONE; SLEWRATE = FAST; "
+RUN-1002 : start command "set_pin_assignment  phy1_rgmii_tx_data[2]   LOCATION = M7; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 16; PULLTYPE = NONE; SLEWRATE = FAST; "
+RUN-1002 : start command "set_pin_assignment  phy1_rgmii_tx_data[3]   LOCATION = T8; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 16; PULLTYPE = NONE; SLEWRATE = FAST; "
+RUN-1002 : start command "set_pin_assignment  key1   LOCATION = A2; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  sdram_clk   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  key2   LOCATION = B2; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  key4   LOCATION = C1; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  key3   LOCATION = B1; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  sd_dclk   LOCATION = A14; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  sd_miso   LOCATION = B14; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  sd_mosi   LOCATION = A13; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  sd_ncs   LOCATION = A12; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  cam_data[0]   LOCATION = P16; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  cam_data[1]   LOCATION = N14; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  cam_data[2]   LOCATION = N16; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  cam_data[3]   LOCATION = L16; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  cam_data[4]   LOCATION = M15; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  cam_data[5]   LOCATION = M16; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  cam_data[6]   LOCATION = K16; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  cam_data[7]   LOCATION = H16; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  cam_href   LOCATION = R15; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  cam_pclk   LOCATION = H15; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  cam_pwdn   LOCATION = K15; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  cam_rst_n   LOCATION = P15; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  cam_scl   LOCATION = T15; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  cam_sda   LOCATION = R16; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  cam_vsync   LOCATION = R14; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  mode_sw_0   LOCATION = C8; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  mode_sw_1  LOCATION = C7; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  HDMI_CLK_P   LOCATION = K1; IOSTANDARD = LVDS33; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  HDMI_D0_P   LOCATION = F5; IOSTANDARD = LVDS33; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  HDMI_D1_P   LOCATION = E3; IOSTANDARD = LVDS33; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  HDMI_D2_P   LOCATION = B3; IOSTANDARD = LVDS33; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  dled[0]   LOCATION = C15; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  dled[10]   LOCATION = E12; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  dled[11]   LOCATION = E10; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  dled[12]   LOCATION = C13; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  dled[13]   LOCATION = F10; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  dled[14]   LOCATION = E11; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  dled[15]   LOCATION = D11; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  dled[1]   LOCATION = C16; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  dled[2]   LOCATION = B6; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  dled[3]   LOCATION = A5; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  dled[4]   LOCATION = B5; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  dled[5]   LOCATION = A8; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  dled[6]   LOCATION = A7; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  dled[7]   LOCATION = A6; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  dled[8]   LOCATION = F16; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  dled[9]   LOCATION = E16; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  led_data[0]   LOCATION = B12; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  led_data[1]   LOCATION = C10; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  led_data[2]   LOCATION = A3; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  led_data[3]   LOCATION = A4; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1001 : Starting of IO setups legality check.
+RUN-1001 : Starting of IO vref setups legality check.
+RUN-1002 : start command "read_sdc ../../top.sdc"
+RUN-1002 : start command "read_sdc -ip TEMAC_CORE ../../../../lab_ex_4_tf_sdram_etnernet_pc/UDP_EG4_6.2/prj/UDP_EXAMPLE/al_ip/TEMAC_CORE/TEMAC_CORE.sdc"
+RUN-1002 : start command "read_sdc -ip rfifo_32_32_512 ../../../../lab_ex_6_tf_sdram_hdmi/al_ip/afifo_32_16_256.tcl"
+RUN-1002 : start command "read_sdc -ip wfifo_32_32_512 ../../../../lab_ex_6_tf_sdram_hdmi/al_ip/afifo_16_32_256.tcl"
+RUN-1002 : start command "export_db q4_elaborate.db"
+RUN-1001 : Exported flow parameters
+RUN-1001 : Exported /
+RUN-1001 : Exported libs
+RUN-1001 : Exported entities
+RUN-1001 : Exported ports
+RUN-1001 : Exported pins
+RUN-1001 : Exported instances
+RUN-1001 : Exported nets
+RUN-1001 : Exported buses
+RUN-1001 : Exported models
+RUN-1001 : Exported packer
+RUN-1001 : Exported congestions
+RUN-1001 : Exported violations
+RUN-1001 : Exported ATMR Setting
+RUN-1001 : Exported timing constraints
+RUN-1001 : Exported IO constraints
+RUN-1001 : Exported Inst constraints
+RUN-1001 : Exported ChipWatcher
+RUN-1002 : start command "commit_param -step rtl"
+RUN-1001 : Print Global Property
+RUN-1001 : --------------------------------------------------------
+RUN-1001 :   Parameters   |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------
+RUN-1001 :   enable_seed  |    off     |       off        |        
+RUN-1001 :     message    |  standard  |     standard     |        
+RUN-1001 :   qor_monitor  |     on     |        on        |        
+RUN-1001 :   syn_ip_flow  |    off     |       off        |        
+RUN-1001 :     thread     |    auto    |       auto       |        
+RUN-1001 : --------------------------------------------------------
+RUN-1001 : Print Rtl Property
+RUN-1001 : -------------------------------------------------------------------
+RUN-1001 :         Parameters        |  Settings  |  Default Values  |  Note  
+RUN-1001 : -------------------------------------------------------------------
+RUN-1001 :        fix_undriven       |     0      |        0         |        
+RUN-1001 :   gated_clock_conversion  |    off     |       off        |        
+RUN-1001 :         infer_fsm         |    auto    |       auto       |        
+RUN-1001 :         infer_gsr         |    off     |       off        |        
+RUN-1001 :         infer_rom         |     on     |        on        |        
+RUN-1001 :       keep_hierarchy      |    auto    |       auto       |        
+RUN-1001 :        merge_equal        |     on     |        on        |        
+RUN-1001 :      min_control_set      |     8      |        8         |        
+RUN-1001 :       min_ripple_len      |    auto    |       auto       |        
+RUN-1001 :          seq_syn          |     on     |        on        |        
+RUN-1001 : -------------------------------------------------------------------
+RUN-1002 : start command "insert_debugger ../../chip_debugger"
+RUN-1002 : start command "optimize_rtl"
+RUN-1001 : Open license file E:/anlu/license/Anlogic.lic
+SYN-1001 : Stage 1 | Optimize RTL
+SYN-1001 : Stage 1.1 | Check Design Sanity
+SYN-1001 : End Stage 1.1 | Check Design Sanity; Time: 0.008404s wall, 0.000000s user + 0.000000s system = 0.000000s CPU (n/a%); Memory(MB): used = 298, reserved = 405, peak = 298;
+
+SYN-1079 : finish stage Check Design Sanity. Total instances: 35403, Total nets: 83226.
+
+SYN-1001 : Stage 1.2 | Initialize Design
+SYN-1001 : End Stage 1.2 | Initialize Design; Time: 1.220629s wall, 1.203125s user + 0.000000s system = 1.203125s CPU (98.6%); Memory(MB): used = 298, reserved = 405, peak = 298;
+
+SYN-1079 : finish stage Initialize Design. Total instances: 7671, Total nets: 47937.
+
+SYN-1001 : Stage 1.3 | Flatten Module
+SYN-1011 : Flatten model top_dual_udp
+SYN-1050 : Instances selected by 'keep_hierarchy':
+RUN-1001 : --------------------------------------------------------------------------------------------------
+RUN-1001 :           instance           |  keep_hierarchy  |    down_module    |         file(line)          
+RUN-1001 : --------------------------------------------------------------------------------------------------
+RUN-1001 :  frame_read_write_m0/rea...  |       true       |  rfifo_32_32_512  | ../../src/frame_read_wr...  
+RUN-1001 :  frame_read_write_m0/wri...  |       true       |  wfifo_32_32_512  | ../../src/frame_read_wr...  
+RUN-1001 : --------------------------------------------------------------------------------------------------
+SYN-1001 : End Stage 1.3 | Flatten Module; Time: 0.220816s wall, 0.203125s user + 0.015625s system = 0.218750s CPU (99.1%); Memory(MB): used = 298, reserved = 405, peak = 298;
+
+SYN-1079 : finish stage Flatten Module. Total instances: 9209, Total nets: 42293.
+
+SYN-1001 : Stage 1.4 | Uniform Instance
+SYN-5013 WARNING: Undriven net: model "top_dual_udp" / net "sd_card_bmp_m0/sd_card_top_m0/sd_card_cmd_m0/block_write_data[7]" in ../../import/sd_card_cmd.v(17)
+		the net's pin: pin "i0[7]" in ../../import/sd_card_cmd.v(258)
+SYN-5013 WARNING: Undriven net: model "top_dual_udp" / net "sd_card_bmp_m0/sd_card_top_m0/sd_card_cmd_m0/block_write_data[6]" in ../../import/sd_card_cmd.v(17)
+		the net's pin: pin "i0[6]" in ../../import/sd_card_cmd.v(258)
+SYN-5013 WARNING: Undriven net: model "top_dual_udp" / net "sd_card_bmp_m0/sd_card_top_m0/sd_card_cmd_m0/block_write_data[5]" in ../../import/sd_card_cmd.v(17)
+		the net's pin: pin "i0[5]" in ../../import/sd_card_cmd.v(258)
+SYN-5013 WARNING: Undriven net: model "top_dual_udp" / net "sd_card_bmp_m0/sd_card_top_m0/sd_card_cmd_m0/block_write_data[4]" in ../../import/sd_card_cmd.v(17)
+		the net's pin: pin "i0[4]" in ../../import/sd_card_cmd.v(258)
+SYN-5013 WARNING: Undriven net: model "top_dual_udp" / net "sd_card_bmp_m0/sd_card_top_m0/sd_card_cmd_m0/block_write_data[3]" in ../../import/sd_card_cmd.v(17)
+		the net's pin: pin "i0[3]" in ../../import/sd_card_cmd.v(258)
+SYN-5013 WARNING: Undriven net: model "top_dual_udp" / net "sd_card_bmp_m0/sd_card_top_m0/sd_card_cmd_m0/block_write_data[2]" in ../../import/sd_card_cmd.v(17)
+		the net's pin: pin "i0[2]" in ../../import/sd_card_cmd.v(258)
+SYN-5013 WARNING: Undriven net: model "top_dual_udp" / net "sd_card_bmp_m0/sd_card_top_m0/sd_card_cmd_m0/block_write_data[1]" in ../../import/sd_card_cmd.v(17)
+		the net's pin: pin "i0[1]" in ../../import/sd_card_cmd.v(258)
+SYN-5013 WARNING: Undriven net: model "top_dual_udp" / net "sd_card_bmp_m0/sd_card_top_m0/sd_card_cmd_m0/block_write_data[0]" in ../../import/sd_card_cmd.v(17)
+		the net's pin: pin "i0[0]" in ../../import/sd_card_cmd.v(258)
+SYN-5013 WARNING: Undriven net: model "top_dual_udp" / net "u4_trimac_block/trimac_core/mac_core_aead6cd6dadd_Inst/TEMAC_CORE_INST/mac_has_sgmii" in ../../../../lab_ex_4_tf_sdram_etnernet_pc/UDP_EG4_6.2/prj/UDP_EXAMPLE/al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v(20)
+		the net's pin: pin "sel" in ../../../../lab_ex_4_tf_sdram_etnernet_pc/UDP_EG4_6.2/prj/UDP_EXAMPLE/al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v(0)
+		the net's pin: pin "sel" in ../../../../lab_ex_4_tf_sdram_etnernet_pc/UDP_EG4_6.2/prj/UDP_EXAMPLE/al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v(0)
+		the net's pin: pin "sel" in ../../../../lab_ex_4_tf_sdram_etnernet_pc/UDP_EG4_6.2/prj/UDP_EXAMPLE/al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v(0)
+		the net's pin: pin "sel" in ../../../../lab_ex_4_tf_sdram_etnernet_pc/UDP_EG4_6.2/prj/UDP_EXAMPLE/al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v(0)
+		the net's pin: pin "sel" in ../../../../lab_ex_4_tf_sdram_etnernet_pc/UDP_EG4_6.2/prj/UDP_EXAMPLE/al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v(0)
+		the net's pin: pin "sel" in ../../../../lab_ex_4_tf_sdram_etnernet_pc/UDP_EG4_6.2/prj/UDP_EXAMPLE/al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v(0)
+		the net's pin: pin "sel" in ../../../../lab_ex_4_tf_sdram_etnernet_pc/UDP_EG4_6.2/prj/UDP_EXAMPLE/al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v(0)
+SYN-5013 WARNING: Undriven net: model "top_dual_udp" / net "u6_tx_fifo/ramgen_l/dib[8]" in ../../import/RAMB16_S9_S9.v(16)
+		the net's pin: pin "dib[8]" in ../../import/RAMB16_S9_S9.v(45)
+SYN-5013 Similar messages will be suppressed.
+SYN-5025 WARNING: Using 0 for all undriven pins and nets
+SYN-1001 : End Stage 1.4 | Uniform Instance; Time: 0.047906s wall, 0.046875s user + 0.000000s system = 0.046875s CPU (97.8%); Memory(MB): used = 258, reserved = 256, peak = 298;
+
+SYN-1079 : finish stage Uniform Instance. Total instances: 9021, Total nets: 41931.
+
+SYN-1001 : Stage 1.5 | Optimize Design
+SYN-1066 : Inferred FSM for state register 'frame_read_write_m0/frame_fifo_read_m0/state_reg' in module 'top_dual_udp'
+--------------------------------------------
+     Previous Encoding     New Encoding
+--------------------------------------------
+                  0000           000001
+                  0001           000010
+                  0010           000100
+                  0011           001000
+                  0100           010000
+                  0101           100000
+--------------------------------------------
+SYN-1067 : encoded FSM with state register 'frame_read_write_m0/frame_fifo_read_m0/state_reg' using encoding 'one_hot' in model 'top_dual_udp'
+SYN-1066 : Inferred FSM for state register 'frame_read_write_m0/frame_fifo_write_m0/state_reg' in module 'top_dual_udp'
+--------------------------------------------
+     Previous Encoding     New Encoding
+--------------------------------------------
+                  0000           000001
+                  0001           000010
+                  0010           000100
+                  0011           001000
+                  0100           010000
+                  0101           100000
+--------------------------------------------
+SYN-1067 : encoded FSM with state register 'frame_read_write_m0/frame_fifo_write_m0/state_reg' using encoding 'one_hot' in model 'top_dual_udp'
+SYN-1066 : Inferred FSM for state register 'sd_card_bmp_m0/bmp_read_m0/state_reg' in module 'top_dual_udp'
+--------------------------------------------
+     Previous Encoding     New Encoding
+--------------------------------------------
+                  0000            00001
+                  0001            00010
+                  0010            00100
+                  0011            01000
+                  0100            10000
+--------------------------------------------
+SYN-1067 : encoded FSM with state register 'sd_card_bmp_m0/bmp_read_m0/state_reg' using encoding 'one_hot' in model 'top_dual_udp'
+SYN-1066 : Inferred FSM for state register 'sd_card_bmp_m0/sd_card_top_m0/sd_card_cmd_m0/state_reg' in module 'top_dual_udp'
+--------------------------------------------------
+     Previous Encoding           New Encoding
+--------------------------------------------------
+                 00000     000000000000000001
+                 00010     000000000000000010
+                 00001     000000000000000100
+                 01001     000000000000001000
+                 01010     000000000000010000
+                 01011     000000000000100000
+                 01100     000000000001000000
+                 01101     000000000010000000
+                 01110     000000000100000000
+                 01111     000000001000000000
+                 00110     000000010000000000
+                 00011     000000100000000000
+                 00111     000001000000000000
+                 00100     000010000000000000
+                 01000     000100000000000000
+                 10001     001000000000000000
+                 00101     010000000000000000
+                 10000     100000000000000000
+--------------------------------------------------
+SYN-1067 : encoded FSM with state register 'sd_card_bmp_m0/sd_card_top_m0/sd_card_cmd_m0/state_reg' using encoding 'one_hot' in model 'top_dual_udp'
+SYN-1066 : Inferred FSM for state register 'sd_card_bmp_m0/sd_card_top_m0/sd_card_sec_read_write_m0/state_reg' in module 'top_dual_udp'
+--------------------------------------------
+     Previous Encoding     New Encoding
+--------------------------------------------
+                 00000       0000000001
+                 00001       0000000010
+                 00010       0000000100
+                 00011       0000001000
+                 00100       0000010000
+                 10010       0000100000
+                 10001       0001000000
+                 00101       0010000000
+                 00110       0100000000
+                 10000       1000000000
+--------------------------------------------
+SYN-1067 : encoded FSM with state register 'sd_card_bmp_m0/sd_card_top_m0/sd_card_sec_read_write_m0/state_reg' using encoding 'one_hot' in model 'top_dual_udp'
+SYN-1066 : Inferred FSM for state register 'sd_card_bmp_m0/sd_card_top_m0/spi_master_m0/state_reg' in module 'top_dual_udp'
+--------------------------------------------
+     Previous Encoding     New Encoding
+--------------------------------------------
+                   000           000001
+                   010           000010
+                   001           000100
+                   100           001000
+                   011           010000
+                   101           100000
+--------------------------------------------
+SYN-1067 : encoded FSM with state register 'sd_card_bmp_m0/sd_card_top_m0/spi_master_m0/state_reg' using encoding 'one_hot' in model 'top_dual_udp'
+SYN-1066 : Inferred FSM for state register 'u2_udp_loopback/STATE_reg' in module 'top_dual_udp'
+--------------------------------------------
+     Previous Encoding     New Encoding
+--------------------------------------------
+                    00             0001
+                    01             0010
+                    10             0100
+                    11             1000
+--------------------------------------------
+SYN-1067 : encoded FSM with state register 'u2_udp_loopback/STATE_reg' using encoding 'one_hot' in model 'top_dual_udp'
+SYN-1066 : Inferred FSM for state register 'u3_udp_ip_protocol_stack/arp_layer/arp_receive_module/STATE_reg' in module 'top_dual_udp'
+--------------------------------------------
+     Previous Encoding     New Encoding
+--------------------------------------------
+                    00               01
+                    01               10
+--------------------------------------------
+SYN-1067 : encoded FSM with state register 'u3_udp_ip_protocol_stack/arp_layer/arp_receive_module/STATE_reg' using encoding 'one_hot' in model 'top_dual_udp'
+SYN-1066 : Inferred FSM for state register 'u3_udp_ip_protocol_stack/arp_layer/arp_receive_module/arp_rx_cnt_reg' in module 'top_dual_udp'
+------------------------------------------------------------
+     Previous Encoding                     New Encoding
+------------------------------------------------------------
+                 00000     0000000000000000000000000001
+                 00001     0000000000000000000000000010
+                 00010     0000000000000000000000000100
+                 00011     0000000000000000000000001000
+                 00100     0000000000000000000000010000
+                 00101     0000000000000000000000100000
+                 00110     0000000000000000000001000000
+                 00111     0000000000000000000010000000
+                 01000     0000000000000000000100000000
+                 01001     0000000000000000001000000000
+                 01010     0000000000000000010000000000
+                 01011     0000000000000000100000000000
+                 01100     0000000000000001000000000000
+                 01101     0000000000000010000000000000
+                 01110     0000000000000100000000000000
+                 01111     0000000000001000000000000000
+                 10000     0000000000010000000000000000
+                 10001     0000000000100000000000000000
+                 10010     0000000001000000000000000000
+                 10011     0000000010000000000000000000
+                 10100     0000000100000000000000000000
+                 10101     0000001000000000000000000000
+                 10110     0000010000000000000000000000
+                 10111     0000100000000000000000000000
+                 11000     0001000000000000000000000000
+                 11001     0010000000000000000000000000
+                 11010     0100000000000000000000000000
+                 11011     1000000000000000000000000000
+------------------------------------------------------------
+SYN-1067 : encoded FSM with state register 'u3_udp_ip_protocol_stack/arp_layer/arp_receive_module/arp_rx_cnt_reg' using encoding 'one_hot' in model 'top_dual_udp'
+SYN-1066 : Inferred FSM for state register 'u3_udp_ip_protocol_stack/ip_layer/ip_receive_module/STATE_reg' in module 'top_dual_udp'
+--------------------------------------------
+     Previous Encoding     New Encoding
+--------------------------------------------
+                    00             0001
+                    01             0010
+                    10             0100
+                    11             1000
+--------------------------------------------
+SYN-1067 : encoded FSM with state register 'u3_udp_ip_protocol_stack/ip_layer/ip_receive_module/STATE_reg' using encoding 'one_hot' in model 'top_dual_udp'
+SYN-1066 : Inferred FSM for state register 'u3_udp_ip_protocol_stack/ip_layer/ip_receive_module/cnt_reg' in module 'top_dual_udp'
+---------------------------------------------------
+     Previous Encoding            New Encoding
+---------------------------------------------------
+                 00000     0000000000000000001
+                 00001     0000000000000000010
+                 00010     0000000000000000100
+                 00011     0000000000000001000
+                 00100     0000000000000010000
+                 00101     0000000000000100000
+                 00110     0000000000001000000
+                 00111     0000000000010000000
+                 01000     0000000000100000000
+                 01001     0000000001000000000
+                 01010     0000000010000000000
+                 01011     0000000100000000000
+                 01100     0000001000000000000
+                 01101     0000010000000000000
+                 01110     0000100000000000000
+                 01111     0001000000000000000
+                 10000     0010000000000000000
+                 10001     0100000000000000000
+                 10010     1000000000000000000
+---------------------------------------------------
+SYN-1067 : encoded FSM with state register 'u3_udp_ip_protocol_stack/ip_layer/ip_receive_module/cnt_reg' using encoding 'one_hot' in model 'top_dual_udp'
+SYN-1066 : Inferred FSM for state register 'u3_udp_ip_protocol_stack/ip_layer/ip_receive_module/icmp_packet_process_module/checksum_state_reg' in module 'top_dual_udp'
+--------------------------------------------
+     Previous Encoding     New Encoding
+--------------------------------------------
+                    00             0001
+                    01             0010
+                    10             0100
+                    11             1000
+--------------------------------------------
+SYN-1067 : encoded FSM with state register 'u3_udp_ip_protocol_stack/ip_layer/ip_receive_module/icmp_packet_process_module/checksum_state_reg' using encoding 'one_hot' in model 'top_dual_udp'
+SYN-1066 : Inferred FSM for state register 'u3_udp_ip_protocol_stack/ip_layer/ip_receive_module/icmp_packet_process_module/cnt_reg' in module 'top_dual_udp'
+--------------------------------------------
+     Previous Encoding     New Encoding
+--------------------------------------------
+                  0000        000000001
+                  0001        000000010
+                  0010        000000100
+                  0011        000001000
+                  0100        000010000
+                  0101        000100000
+                  0110        001000000
+                  0111        010000000
+                  1000        100000000
+--------------------------------------------
+SYN-1067 : encoded FSM with state register 'u3_udp_ip_protocol_stack/ip_layer/ip_receive_module/icmp_packet_process_module/cnt_reg' using encoding 'one_hot' in model 'top_dual_udp'
+SYN-1066 : Inferred FSM for state register 'u3_udp_ip_protocol_stack/ip_layer/ip_receive_module/ip_header_checksum_check_module/state_reg' in module 'top_dual_udp'
+--------------------------------------------
+     Previous Encoding     New Encoding
+--------------------------------------------
+                    00             0001
+                    01             0010
+                    10             0100
+                    11             1000
+--------------------------------------------
+SYN-1067 : encoded FSM with state register 'u3_udp_ip_protocol_stack/ip_layer/ip_receive_module/ip_header_checksum_check_module/state_reg' using encoding 'one_hot' in model 'top_dual_udp'
+SYN-1066 : Inferred FSM for state register 'u3_udp_ip_protocol_stack/ip_layer/ip_send_module/STATE_reg' in module 'top_dual_udp'
+--------------------------------------------
+     Previous Encoding     New Encoding
+--------------------------------------------
+                   000            00001
+                   001            00010
+                   010            00100
+                   100            01000
+                   011            10000
+--------------------------------------------
+SYN-1067 : encoded FSM with state register 'u3_udp_ip_protocol_stack/ip_layer/ip_send_module/STATE_reg' using encoding 'one_hot' in model 'top_dual_udp'
+SYN-1066 : Inferred FSM for state register 'u3_udp_ip_protocol_stack/ip_layer/ip_send_module/cnt_reg' in module 'top_dual_udp'
+----------------------------------------------------
+     Previous Encoding             New Encoding
+----------------------------------------------------
+                 00000     00000000000000000001
+                 00001     00000000000000000010
+                 00010     00000000000000000100
+                 00011     00000000000000001000
+                 00100     00000000000000010000
+                 00101     00000000000000100000
+                 00110     00000000000001000000
+                 00111     00000000000010000000
+                 01000     00000000000100000000
+                 01001     00000000001000000000
+                 01010     00000000010000000000
+                 01011     00000000100000000000
+                 01100     00000001000000000000
+                 01101     00000010000000000000
+                 01110     00000100000000000000
+                 01111     00001000000000000000
+                 10000     00010000000000000000
+                 10001     00100000000000000000
+                 10010     01000000000000000000
+                 10011     10000000000000000000
+----------------------------------------------------
+SYN-1067 : encoded FSM with state register 'u3_udp_ip_protocol_stack/ip_layer/ip_send_module/cnt_reg' using encoding 'one_hot' in model 'top_dual_udp'
+SYN-1066 : Inferred FSM for state register 'u3_udp_ip_protocol_stack/ip_layer/ip_send_module/icmp_packet_send_module/STATE_reg' in module 'top_dual_udp'
+--------------------------------------------
+     Previous Encoding     New Encoding
+--------------------------------------------
+                    00              001
+                    01              010
+                    10              100
+--------------------------------------------
+SYN-1067 : encoded FSM with state register 'u3_udp_ip_protocol_stack/ip_layer/ip_send_module/icmp_packet_send_module/STATE_reg' using encoding 'one_hot' in model 'top_dual_udp'
+SYN-1066 : Inferred FSM for state register 'u3_udp_ip_protocol_stack/ip_layer/ip_send_module/icmp_packet_send_module/cnt1_reg' in module 'top_dual_udp'
+--------------------------------------------
+     Previous Encoding     New Encoding
+--------------------------------------------
+                  0000        000000001
+                  0001        000000010
+                  0010        000000100
+                  0011        000001000
+                  0100        000010000
+                  0101        000100000
+                  0110        001000000
+                  0111        010000000
+                  1000        100000000
+--------------------------------------------
+SYN-1067 : encoded FSM with state register 'u3_udp_ip_protocol_stack/ip_layer/ip_send_module/icmp_packet_send_module/cnt1_reg' using encoding 'one_hot' in model 'top_dual_udp'
+SYN-1066 : Inferred FSM for state register 'u3_udp_ip_protocol_stack/send_buffer/STATE_reg' in module 'top_dual_udp'
+--------------------------------------------
+     Previous Encoding     New Encoding
+--------------------------------------------
+                   000          0000001
+                   011          0000010
+                   100          0000100
+                   010          0001000
+                   001          0010000
+                   101          0100000
+                   110          1000000
+--------------------------------------------
+SYN-1067 : encoded FSM with state register 'u3_udp_ip_protocol_stack/send_buffer/STATE_reg' using encoding 'one_hot' in model 'top_dual_udp'
+SYN-1066 : Inferred FSM for state register 'u3_udp_ip_protocol_stack/temac_data_process/RX_STATE_reg' in module 'top_dual_udp'
+--------------------------------------------
+     Previous Encoding     New Encoding
+--------------------------------------------
+                    00              001
+                    01              010
+                    10              100
+--------------------------------------------
+SYN-1067 : encoded FSM with state register 'u3_udp_ip_protocol_stack/temac_data_process/RX_STATE_reg' using encoding 'one_hot' in model 'top_dual_udp'
+SYN-1066 : Inferred FSM for state register 'u3_udp_ip_protocol_stack/temac_data_process/TX_STATE_reg' in module 'top_dual_udp'
+--------------------------------------------
+     Previous Encoding     New Encoding
+--------------------------------------------
+                    00              001
+                    01              010
+                    10              100
+--------------------------------------------
+SYN-1067 : encoded FSM with state register 'u3_udp_ip_protocol_stack/temac_data_process/TX_STATE_reg' using encoding 'one_hot' in model 'top_dual_udp'
+SYN-1066 : Inferred FSM for state register 'u3_udp_ip_protocol_stack/temac_data_process/temac_rx_cnt_reg' in module 'top_dual_udp'
+----------------------------------------------
+     Previous Encoding       New Encoding
+----------------------------------------------
+                  0000     00000000000001
+                  0001     00000000000010
+                  0010     00000000000100
+                  0011     00000000001000
+                  0100     00000000010000
+                  0101     00000000100000
+                  0110     00000001000000
+                  0111     00000010000000
+                  1000     00000100000000
+                  1001     00001000000000
+                  1010     00010000000000
+                  1011     00100000000000
+                  1100     01000000000000
+                  1101     10000000000000
+----------------------------------------------
+SYN-1067 : encoded FSM with state register 'u3_udp_ip_protocol_stack/temac_data_process/temac_rx_cnt_reg' using encoding 'one_hot' in model 'top_dual_udp'
+SYN-1066 : Inferred FSM for state register 'u3_udp_ip_protocol_stack/temac_data_process/temac_tx_cnt_reg' in module 'top_dual_udp'
+-----------------------------------------------
+     Previous Encoding        New Encoding
+-----------------------------------------------
+                  0000     000000000000001
+                  0001     000000000000010
+                  0010     000000000000100
+                  0011     000000000001000
+                  0100     000000000010000
+                  0101     000000000100000
+                  0110     000000001000000
+                  0111     000000010000000
+                  1000     000000100000000
+                  1001     000001000000000
+                  1010     000010000000000
+                  1011     000100000000000
+                  1100     001000000000000
+                  1101     010000000000000
+                  1110     100000000000000
+-----------------------------------------------
+SYN-1067 : encoded FSM with state register 'u3_udp_ip_protocol_stack/temac_data_process/temac_tx_cnt_reg' using encoding 'one_hot' in model 'top_dual_udp'
+SYN-1066 : Inferred FSM for state register 'u3_udp_ip_protocol_stack/udp_layer/udp_receive_module/cnt_reg' in module 'top_dual_udp'
+--------------------------------------------
+     Previous Encoding     New Encoding
+--------------------------------------------
+                  0000      00000000001
+                  0001      00000000010
+                  0010      00000000100
+                  0011      00000001000
+                  0100      00000010000
+                  0101      00000100000
+                  0110      00001000000
+                  0111      00010000000
+                  1000      00100000000
+                  1001      01000000000
+                  1010      10000000000
+--------------------------------------------
+SYN-1067 : encoded FSM with state register 'u3_udp_ip_protocol_stack/udp_layer/udp_receive_module/cnt_reg' using encoding 'one_hot' in model 'top_dual_udp'
+SYN-1066 : Inferred FSM for state register 'u3_udp_ip_protocol_stack/udp_layer/udp_send_module/STATE_reg' in module 'top_dual_udp'
+--------------------------------------------
+     Previous Encoding     New Encoding
+--------------------------------------------
+                    00             0001
+                    01             0010
+                    10             0100
+                    11             1000
+--------------------------------------------
+SYN-1067 : encoded FSM with state register 'u3_udp_ip_protocol_stack/udp_layer/udp_send_module/STATE_reg' using encoding 'one_hot' in model 'top_dual_udp'
+SYN-1066 : Inferred FSM for state register 'u3_udp_ip_protocol_stack/udp_layer/udp_send_module/cnt_reg' in module 'top_dual_udp'
+--------------------------------------------
+     Previous Encoding     New Encoding
+--------------------------------------------
+                  0000         00000001
+                  0001         00000010
+                  0010         00000100
+                  0011         00001000
+                  0100         00010000
+                  0101         00100000
+                  0110         01000000
+                  0111         10000000
+--------------------------------------------
+SYN-1067 : encoded FSM with state register 'u3_udp_ip_protocol_stack/udp_layer/udp_send_module/cnt_reg' using encoding 'one_hot' in model 'top_dual_udp'
+SYN-1066 : Inferred FSM for state register 'u4_trimac_block/trimac_core/mac_core_aead6cd6dadd_Inst/TEMAC_CORE_INST/al102_vfhtA8Nz/al102_6KjBLuws/al102_FvxPC15R$al102_NkBI8S2N/al102_sGgJ2iOw_reg' in module 'top_dual_udp'
+--------------------------------------------
+     Previous Encoding     New Encoding
+--------------------------------------------
+                    00              001
+                    01              010
+                    10              100
+--------------------------------------------
+SYN-1067 : encoded FSM with state register 'u4_trimac_block/trimac_core/mac_core_aead6cd6dadd_Inst/TEMAC_CORE_INST/al102_vfhtA8Nz/al102_6KjBLuws/al102_FvxPC15R$al102_NkBI8S2N/al102_sGgJ2iOw_reg' using encoding 'one_hot' in model 'top_dual_udp'
+SYN-1066 : Inferred FSM for state register 'u4_trimac_block/trimac_core/mac_core_aead6cd6dadd_Inst/TEMAC_CORE_INST/al102_vfhtA8Nz/al102_6KjBLuws/al102_FvxPC15R$al102_ORYeWAza/al102_sGgJ2iOw_reg' in module 'top_dual_udp'
+--------------------------------------------
+     Previous Encoding     New Encoding
+--------------------------------------------
+                   000                1
+--------------------------------------------
+SYN-1067 : encoded FSM with state register 'u4_trimac_block/trimac_core/mac_core_aead6cd6dadd_Inst/TEMAC_CORE_INST/al102_vfhtA8Nz/al102_6KjBLuws/al102_FvxPC15R$al102_ORYeWAza/al102_sGgJ2iOw_reg' using encoding 'one_hot' in model 'top_dual_udp'
+SYN-1066 : Inferred FSM for state register 'u6_tx_fifo/rd_state_reg' in module 'top_dual_udp'
+--------------------------------------------
+     Previous Encoding     New Encoding
+--------------------------------------------
+                  0000          0000001
+                  0001          0000010
+                  0010          0000100
+                  0011          0001000
+                  0100          0010000
+                  0101          0100000
+                  0110          1000000
+--------------------------------------------
+SYN-1067 : encoded FSM with state register 'u6_tx_fifo/rd_state_reg' using encoding 'one_hot' in model 'top_dual_udp'
+SYN-1066 : Inferred FSM for state register 'u6_tx_fifo/wr_state_reg' in module 'top_dual_udp'
+--------------------------------------------
+     Previous Encoding     New Encoding
+--------------------------------------------
+                    00             0001
+                    01             0010
+                    11             0100
+                    10             1000
+--------------------------------------------
+SYN-1067 : encoded FSM with state register 'u6_tx_fifo/wr_state_reg' using encoding 'one_hot' in model 'top_dual_udp'
+SYN-1066 : Inferred FSM for state register 'u7_rx_fifo/rd_state_reg' in module 'top_dual_udp'
+--------------------------------------------
+     Previous Encoding     New Encoding
+--------------------------------------------
+                   000         00000001
+                   001         00000010
+                   010         00000100
+                   011         00001000
+                   100         00010000
+                   110         00100000
+                   111         01000000
+                   101         10000000
+--------------------------------------------
+SYN-1067 : encoded FSM with state register 'u7_rx_fifo/rd_state_reg' using encoding 'one_hot' in model 'top_dual_udp'
+SYN-1066 : Inferred FSM for state register 'u7_rx_fifo/wr_state_reg' in module 'top_dual_udp'
+--------------------------------------------
+     Previous Encoding     New Encoding
+--------------------------------------------
+                   000           000001
+                   001           000010
+                   101           000100
+                   010           001000
+                   100           010000
+                   011           100000
+--------------------------------------------
+SYN-1067 : encoded FSM with state register 'u7_rx_fifo/wr_state_reg' using encoding 'one_hot' in model 'top_dual_udp'
+SYN-1066 : Inferred FSM for state register 'u_sdram_ip/u2_ram/u2_wrrd/state_reg' in module 'top_dual_udp'
+--------------------------------------------
+     Previous Encoding     New Encoding
+--------------------------------------------
+                  0000              001
+                  0001              010
+                  0010              100
+--------------------------------------------
+SYN-1067 : encoded FSM with state register 'u_sdram_ip/u2_ram/u2_wrrd/state_reg' using encoding 'one_hot' in model 'top_dual_udp'
+SYN-1066 : Inferred FSM for state register 'u_udp_cam_ctrl_cam/STATE_reg' in module 'top_dual_udp'
+--------------------------------------------
+     Previous Encoding     New Encoding
+--------------------------------------------
+                   000          0000001
+                   001          0000010
+                   010          0000100
+                   011          0001000
+                   100          0010000
+                   101          0100000
+                   110          1000000
+--------------------------------------------
+SYN-1067 : encoded FSM with state register 'u_udp_cam_ctrl_cam/STATE_reg' using encoding 'one_hot' in model 'top_dual_udp'
+SYN-1066 : Inferred FSM for state register 'u_udp_cam_ctrl_tf/state_reg' in module 'top_dual_udp'
+--------------------------------------------
+     Previous Encoding     New Encoding
+--------------------------------------------
+                   000          0000001
+                   001          0000010
+                   010          0000100
+                   011          0001000
+                   100          0010000
+                   101          0100000
+                   110          1000000
+--------------------------------------------
+SYN-1067 : encoded FSM with state register 'u_udp_cam_ctrl_tf/state_reg' using encoding 'one_hot' in model 'top_dual_udp'
+SYN-1066 : Inferred FSM for state register 'u_video_subsystem/frame_read_write_m0/frame_fifo_read_m0/state_reg' in module 'top_dual_udp'
+--------------------------------------------
+     Previous Encoding     New Encoding
+--------------------------------------------
+                  0000           000001
+                  0001           000010
+                  0010           000100
+                  0011           001000
+                  0100           010000
+                  0101           100000
+--------------------------------------------
+SYN-1067 : encoded FSM with state register 'u_video_subsystem/frame_read_write_m0/frame_fifo_read_m0/state_reg' using encoding 'one_hot' in model 'top_dual_udp'
+SYN-1066 : Inferred FSM for state register 'u_video_subsystem/frame_read_write_m0/frame_fifo_write_m0/state_reg' in module 'top_dual_udp'
+--------------------------------------------
+     Previous Encoding     New Encoding
+--------------------------------------------
+                  0000           000001
+                  0001           000010
+                  0010           000100
+                  0011           001000
+                  0100           010000
+                  0101           100000
+--------------------------------------------
+SYN-1067 : encoded FSM with state register 'u_video_subsystem/frame_read_write_m0/frame_fifo_write_m0/state_reg' using encoding 'one_hot' in model 'top_dual_udp'
+SYN-1066 : Inferred FSM for state register 'u_video_subsystem/u_udp_writer/assemble_cnt_reg' in module 'top_dual_udp'
+--------------------------------------------
+     Previous Encoding     New Encoding
+--------------------------------------------
+                    00              001
+                    01              010
+                    10              100
+--------------------------------------------
+SYN-1067 : encoded FSM with state register 'u_video_subsystem/u_udp_writer/assemble_cnt_reg' using encoding 'one_hot' in model 'top_dual_udp'
+SYN-1066 : Inferred FSM for state register 'u_video_subsystem/u_udp_writer/state_reg' in module 'top_dual_udp'
+--------------------------------------------
+     Previous Encoding     New Encoding
+--------------------------------------------
+                    00              001
+                    01              010
+                    10              100
+--------------------------------------------
+SYN-1067 : encoded FSM with state register 'u_video_subsystem/u_udp_writer/state_reg' using encoding 'one_hot' in model 'top_dual_udp'
+SYN-1057 : Inferred 39 FSM(s)
+SYN-1001 : Optimize 2 less-than instances
+SYN-1032 : 39656/659 useful/useless nets, 8191/33 useful/useless insts
+SYN-1001 : Bypass 2 mux instances
+SYN-1021 : Optimized 7 onehot mux instances.
+SYN-1068 : Optimized 6 binary mux instances.
+SYN-1019 : Optimized 4 mux instances.
+SYN-1021 : Optimized 11 onehot mux instances.
+SYN-1021 : Optimized 3 onehot mux instances.
+SYN-1016 : Merged 1516 instances.
+SYN-1025 : Merged 2 RAM ports.
+SYN-1026 : Infer Logic BRAM(frame_read_write_m0/read_buf/ram_inst/ramread0_syn_4)
+	 port mode: single dual port
+	 port a size: 512 x 32	 write mode: NORMAL
+	 port b size: 512 x 32	 write mode: READBEFOREWRITE
+SYN-1026 : Infer Logic BRAM(frame_read_write_m0/write_buf/ram_inst/ramread0_syn_4)
+	 port mode: single dual port
+	 port a size: 512 x 32	 write mode: NORMAL
+	 port b size: 512 x 32	 write mode: READBEFOREWRITE
+SYN-1026 : Infer Logic BRAM(u_video_subsystem/frame_read_write_m0/read_buf/ram_inst/ramread0_syn_4)
+	 port mode: single dual port
+	 port a size: 512 x 32	 write mode: NORMAL
+	 port b size: 512 x 32	 write mode: READBEFOREWRITE
+SYN-1026 : Infer Logic BRAM(u_video_subsystem/frame_read_write_m0/write_buf/ram_inst/ramread0_syn_4)
+	 port mode: single dual port
+	 port a size: 512 x 32	 write mode: NORMAL
+	 port b size: 512 x 32	 write mode: READBEFOREWRITE
+SYN-1027 : Infer Logic DRAM(u_video_subsystem/u_udp_writer/ramread0_syn_4) read 256x24, write 256x24
+SYN-1023 : Infer 1 Logic DRAMs, 4 Logic BRAMs.
+SYN-1035 : Inferred 1 ROM(s)
+SYN-1016 : Merged 1005 instances.
+SYN-1001 : End Stage 1.5 | Optimize Design; Time: 4.686311s wall, 4.578125s user + 0.078125s system = 4.656250s CPU (99.4%); Memory(MB): used = 448, reserved = 433, peak = 448;
+
+SYN-1079 : finish stage Optimize Design. Total instances: 20132, Total nets: 23438.
+
+SYN-1001 : Stage 1.6 | Optimize Iteratively
+SYN-1018 : Transformed 4 mux instances.
+SYN-1019 : Optimized 15 mux instances.
+SYN-1021 : Optimized 860 onehot mux instances.
+SYN-1014 : Optimize round 1
+SYN-1044 : Optimized 8 inv instances.
+SYN-1017 : Remove 56 const input seq instances
+SYN-1018 : Transformed 7 mux instances.
+SYN-1019 : Optimized 779 mux instances.
+SYN-1020 : Optimized 415 distributor mux.
+SYN-1001 : Optimize 27 less-than instances
+SYN-1019 : Optimized 349 mux instances.
+SYN-2595 : bram inst: frame_read_write_m0/read_buf/ram_inst/ramread0_syn_4 is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: frame_read_write_m0/write_buf/ram_inst/ramread0_syn_4 is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: u6_tx_fifo/ramgen_l/inst is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: u6_tx_fifo/ramgen_u/inst is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: u7_rx_fifo/ramgen_l/inst is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: u7_rx_fifo/ramgen_u/inst is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: u_video_subsystem/frame_read_write_m0/read_buf/ram_inst/ramread0_syn_4 is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: u_video_subsystem/frame_read_write_m0/write_buf/ram_inst/ramread0_syn_4 is set to PDPW/SP from DP for resource saving
+SYN-2593 : bram inst: frame_read_write_m0/read_buf/ram_inst/ramread0_syn_4 will be optimized to a new one with A-width 24 due to unused data out
+SYN-2593 : bram inst: u_video_subsystem/frame_read_write_m0/read_buf/ram_inst/ramread0_syn_4 will be optimized to a new one with A-width 24 due to unused data out
+SYN-1001 : Optimize constant input of 1 erams.
+SYN-1016 : Merged 12377 instances.
+SYN-1015 : Optimize round 1, 41845 better
+SYN-1014 : Optimize round 2
+SYN-1044 : Optimized 13 inv instances.
+SYN-1017 : Remove 13 const input seq instances
+SYN-1019 : Optimized 282 mux instances.
+SYN-1020 : Optimized 21 distributor mux.
+SYN-1001 : Optimize 1 less-than instances
+SYN-1019 : Optimized 419 mux instances.
+SYN-2593 : bram inst: u2_udp_loopback/udp_packet_fifo/u_anlogic_soft_async_fifo/inst will be optimized to a new one with A-width 8 due to unused data out
+SYN-1016 : Merged 90 instances.
+SYN-1015 : Optimize round 2, 1134 better
+SYN-5011 WARNING: Undriven pin: model "top_dual_udp" / inst "frame_read_write_m0/read_buf/ram_inst/ramread0_syn_4" in ../../../../lab_ex_6_tf_sdram_hdmi/al_ip/afifo_32_16_256.v(822) / pin "bea[0]"
+SYN-5011 WARNING: Undriven pin: model "top_dual_udp" / inst "frame_read_write_m0/read_buf/ram_inst/ramread0_syn_4" in ../../../../lab_ex_6_tf_sdram_hdmi/al_ip/afifo_32_16_256.v(822) / pin "beb[0]"
+SYN-5011 WARNING: Undriven pin: model "top_dual_udp" / inst "u2_udp_loopback/udp_packet_fifo/u_anlogic_soft_async_fifo/inst" in ../../import/udp_ip_protocol_stack_merge.enc.v(0) / pin "bea[0]"
+SYN-5011 WARNING: Undriven pin: model "top_dual_udp" / inst "u2_udp_loopback/udp_packet_fifo/u_anlogic_soft_async_fifo/inst" in ../../import/udp_ip_protocol_stack_merge.enc.v(0) / pin "beb[0]"
+SYN-5011 WARNING: Undriven pin: model "top_dual_udp" / inst "u_ov5640_dri/u_i2c_cfg/mux2_syn_1" in ../../import/i2c_ov5640_rgb565_cfg.v(103) / pin "addrb[7]"
+SYN-5011 WARNING: Undriven pin: model "top_dual_udp" / inst "u_ov5640_dri/u_i2c_cfg/mux2_syn_1" in ../../import/i2c_ov5640_rgb565_cfg.v(103) / pin "addrb[6]"
+SYN-5011 WARNING: Undriven pin: model "top_dual_udp" / inst "u_ov5640_dri/u_i2c_cfg/mux2_syn_1" in ../../import/i2c_ov5640_rgb565_cfg.v(103) / pin "addrb[5]"
+SYN-5011 WARNING: Undriven pin: model "top_dual_udp" / inst "u_ov5640_dri/u_i2c_cfg/mux2_syn_1" in ../../import/i2c_ov5640_rgb565_cfg.v(103) / pin "addrb[4]"
+SYN-5011 WARNING: Undriven pin: model "top_dual_udp" / inst "u_ov5640_dri/u_i2c_cfg/mux2_syn_1" in ../../import/i2c_ov5640_rgb565_cfg.v(103) / pin "addrb[3]"
+SYN-5011 WARNING: Undriven pin: model "top_dual_udp" / inst "u_ov5640_dri/u_i2c_cfg/mux2_syn_1" in ../../import/i2c_ov5640_rgb565_cfg.v(103) / pin "addrb[2]"
+SYN-5011 Similar messages will be suppressed.
+SYN-5025 WARNING: Using 0 for all undriven pins and nets
+SYN-3010 : Optimized 220 DFF(s)
+SYN-1014 : Optimize round 1
+SYN-1017 : Remove 1 const input seq instances
+SYN-1020 : Optimized 149 distributor mux.
+SYN-1019 : Optimized 13 mux instances.
+SYN-1016 : Merged 802 instances.
+SYN-1015 : Optimize round 1, 1048 better
+SYN-1014 : Optimize round 2
+SYN-1019 : Optimized 3 mux instances.
+SYN-1020 : Optimized 30 distributor mux.
+SYN-1016 : Merged 57 instances.
+SYN-1015 : Optimize round 2, 90 better
+SYN-1014 : Optimize round 3
+SYN-1015 : Optimize round 3, 0 better
+SYN-1001 : End Stage 1.6 | Optimize Iteratively; Time: 10.764893s wall, 10.437500s user + 0.093750s system = 10.531250s CPU (97.8%); Memory(MB): used = 444, reserved = 437, peak = 536;
+
+SYN-1079 : finish stage Optimize Iteratively. Total instances: 24332, Total nets: 27265.
+
+SYN-1001 : Stage 1.7 | Check Design
+SYN-1001 : End Stage 1.7 | Check Design; Time: 0.004134s wall, 0.000000s user + 0.000000s system = 0.000000s CPU (n/a%); Memory(MB): used = 444, reserved = 438, peak = 536;
+
+SYN-1079 : finish stage Check Design. Total instances: 24332, Total nets: 27265.
+
+SYN-1001 : End Stage 1 | Optimize RTL; Time: 16.955059s wall, 16.468750s user + 0.187500s system = 16.656250s CPU (98.2%); Memory(MB): used = 444, reserved = 438, peak = 536;
+
+SYN-1079 : finish stage Optimize RTL. Total instances: 24332, Total nets: 27265.
+
+RUN-1003 : finish command "optimize_rtl" in  16.963508s wall, 16.484375s user + 0.187500s system = 16.671875s CPU (98.3%)
+
+RUN-1004 : used memory is 444 MB, reserved memory is 438 MB, peak memory is 536 MB
+RUN-1002 : start command "report_area -file q4_rtl.area"
+RUN-1001 : standard
+***Report Model: top_dual_udp Device: EG4S20BG256***
+
+IO Statistics
+#IO                        62
+  #input                   25
+  #output                  36
+  #inout                    1
+#virtual IO                 1
+  #input                    0
+  #output                   0
+  #inout                    0
+
+Gate Statistics
+#Basic gates            18961
+  #and                   4791
+  #nand                     0
+  #or                    4451
+  #nor                      0
+  #xor                    606
+  #xnor                    21
+  #buf                      0
+  #not                    811
+  #bufif1                  33
+  #MX21                  1111
+  #FADD                     0
+  #DFF                   7137
+  #LATCH                    0
+#MACRO_ADD                365
+#MACRO_EQ                 202
+#MACRO_MULT                28
+#MACRO_MUX               3881
+#MACRO_OTHERS              33
+
+RUN-1002 : start command "export_db q4_rtl.db"
+RUN-1001 : Exported flow parameters
+RUN-1001 : Exported /
+RUN-1001 : Exported libs
+RUN-1001 : Exported entities
+RUN-1001 : Exported ports
+RUN-1001 : Exported pins
+RUN-1001 : Exported instances
+RUN-1001 : Exported nets
+RUN-1001 : Exported buses
+RUN-1001 : Exported models
+RUN-1001 : Exported packer
+RUN-1001 : Exported congestions
+RUN-1001 : Exported violations
+RUN-1001 : Exported ATMR Setting
+RUN-1001 : Exported timing constraints
+RUN-1001 : Exported IO constraints
+RUN-1001 : Exported Inst constraints
+RUN-1001 : Exported ChipWatcher
+RUN-1002 : start command "commit_param -step gate"
+RUN-1001 : Print Global Property
+RUN-1001 : --------------------------------------------------------
+RUN-1001 :   Parameters   |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------
+RUN-1001 :   enable_seed  |    off     |       off        |        
+RUN-1001 :     message    |  standard  |     standard     |        
+RUN-1001 :   qor_monitor  |     on     |        on        |        
+RUN-1001 :   syn_ip_flow  |    off     |       off        |        
+RUN-1001 :     thread     |    auto    |       auto       |        
+RUN-1001 : --------------------------------------------------------
+RUN-1001 : Print Gate Property
+RUN-1001 : -----------------------------------------------------------
+RUN-1001 :     Parameters    |  Settings  |  Default Values  |  Note  
+RUN-1001 : -----------------------------------------------------------
+RUN-1001 :     eram_init     |    off     |       off        |        
+RUN-1001 :      map_mode     |    auto    |       auto       |        
+RUN-1001 :    pack_effort    |   medium   |      medium      |        
+RUN-1001 :   pack_seq_in_io  |    auto    |       auto       |        
+RUN-1001 :       report      |  standard  |     standard     |        
+RUN-1001 : -----------------------------------------------------------
+RUN-1002 : start command "optimize_gate -packarea q4_gate.area"
+RUN-1001 : Open license file E:/anlu/license/Anlogic.lic
+SYN-1001 : Stage 2 | Optimize Gate
+SYN-1001 : Stage 2.1 | Map Reg
+SYN-1001 : End Stage 2.1 | Map Reg; Time: 0.419461s wall, 0.406250s user + 0.000000s system = 0.406250s CPU (96.9%); Memory(MB): used = 450, reserved = 443, peak = 536;
+
+SYN-1079 : finish stage Map Reg. Total instances: 24332, Total nets: 27265.
+
+SYN-1001 : Stage 2.2 | Map IO
+SYN-2002 : EG_PHY_SDRAM_2M_32 instance u_sdram_ip/sdram.
+SYN-2001 : Map 119 IOs to PADs of model 'top_dual_udp'
+SYN-1001 : End Stage 2.2 | Map IO; Time: 0.261362s wall, 0.265625s user + 0.000000s system = 0.265625s CPU (101.6%); Memory(MB): used = 451, reserved = 444, peak = 536;
+
+SYN-1001 : Stage 2.3 | Map Macro
+RUN-1002 : start command "update_pll_param -module top_dual_udp"
+SYN-6577 WARNING: The clock signal "u_sdram_ip/u2_ram/SDRAM_CLK" is added with the synthetic instruction (keep/mark_debug/dont_touch/max_fanout), which may create additional logic on this net
+SYN-2501 : Processed 0 LOGIC_BUF instances.
+SYN-2501 : 5 BUFG to GCLK
+SYN-6562 WARNING: The init value of "frame_read_write_m0/read_buf/ram_inst/ramread0_syn_4(../../../../lab_ex_6_tf_sdram_hdmi/al_ip/afifo_32_16_256.v(822))" will be ignored since gate eram_init is set to off
+SYN-6562 WARNING: The init value of "frame_read_write_m0/write_buf/ram_inst/ramread0_syn_4(../../../../lab_ex_6_tf_sdram_hdmi/al_ip/afifo_16_32_256.v(822))" will be ignored since gate eram_init is set to off
+SYN-6562 WARNING: The init value of "u2_udp_loopback/udp_packet_fifo/u_anlogic_soft_async_fifo/inst(../../import/udp_ip_protocol_stack_merge.enc.v(0))" will be ignored since gate eram_init is set to off
+SYN-6562 WARNING: The init value of "u3_udp_ip_protocol_stack/ip_layer/icmp_echo_data_fifo/u_anlogic_soft_async_fifo/inst(../../import/udp_ip_protocol_stack_merge.enc.v(0))" will be ignored since gate eram_init is set to off
+SYN-6562 WARNING: The init value of "u6_tx_fifo/ramgen_l/inst(../../import/RAMB16_S9_S9.v(45))" will be ignored since gate eram_init is set to off
+SYN-6562 WARNING: The init value of "u6_tx_fifo/ramgen_u/inst(../../import/RAMB16_S9_S9.v(45))" will be ignored since gate eram_init is set to off
+SYN-6562 WARNING: The init value of "u7_rx_fifo/ramgen_l/inst(../../import/RAMB16_S9_S9.v(45))" will be ignored since gate eram_init is set to off
+SYN-6562 WARNING: The init value of "u7_rx_fifo/ramgen_u/inst(../../import/RAMB16_S9_S9.v(45))" will be ignored since gate eram_init is set to off
+SYN-6562 WARNING: The init value of "u_udp_cam_ctrl_cam/u_emboss_process/u_bram_line_buffer/u_line_ram_0/inst(../../../line_ram_640x8.v(62))" will be ignored since gate eram_init is set to off
+SYN-6562 WARNING: The init value of "u_video_subsystem/frame_read_write_m0/read_buf/ram_inst/ramread0_syn_4(../../../../lab_ex_6_tf_sdram_hdmi/al_ip/afifo_32_16_256.v(822))" will be ignored since gate eram_init is set to off
+SYN-6562 Similar messages will be suppressed.
+SYN-2571 : Map 28 macro multiplier
+SYN-2571 : Optimize after map_dsp, round 1
+SYN-1016 : Merged 31 instances.
+SYN-2571 : Optimize after map_dsp, round 1, 31 better
+SYN-2571 : Optimize after map_dsp, round 2
+SYN-2571 : Optimize after map_dsp, round 2, 0 better
+SYN-1001 : Throwback 338 control mux instances
+SYN-1001 : Generate 28 bigger adders
+SYN-1001 : Convert 1 adder
+SYN-1001 : Optimize 55 adders
+SYN-1001 : Optimize 3 less-than instances
+SYN-2501 : Optimize round 1
+SYN-1016 : Merged 495 instances.
+SYN-2501 : Optimize round 1, 1968 better
+SYN-2501 : Optimize round 2
+SYN-2501 : Optimize round 2, 0 better
+SYN-2501 : Optimize round 1
+SYN-1016 : Merged 7 instances.
+SYN-2501 : Optimize round 1, 7 better
+SYN-2501 : Optimize round 2
+SYN-2501 : Optimize round 2, 0 better

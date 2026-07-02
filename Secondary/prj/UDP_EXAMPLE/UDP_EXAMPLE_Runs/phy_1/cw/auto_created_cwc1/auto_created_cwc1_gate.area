@@ -1,0 +1,49 @@
+standard
+***Report Model: auto_created_cwc1 Device: EG4S20BG256***
+
+IO Statistics
+#IO                       163   out of    188   86.70%
+  #input                  139
+  #output                  24
+  #inout                    0
+
+LUT Statistics
+#Total_luts               202
+  #lut4                   165
+  #lut5                    37
+  #lut6                     0
+  #lut5_mx41                0
+  #lut4_alu1b               0
+
+Utilization Statistics
+#lut                      320   out of  19600    1.63%
+#reg                      489   out of  19600    2.49%
+#bram                       3   out of     64    4.69%
+  #bram9k                   3
+  #fifo9k                   0
+#bram32k                    0   out of     16    0.00%
+#dsp                        0   out of     29    0.00%
+#pad                        0   out of    188    0.00%
+#pll                        0   out of      4    0.00%
+#gclk                       0   out of     16    0.00%
+
+Report Hierarchy Area:
++--------------------------------------------------------------------------------------------------------------------------------+
+|Instance                                                   |Module                 |lut     |ripple  |seq     |bram    |dsp     |
++--------------------------------------------------------------------------------------------------------------------------------+
+|top                                                        |auto_created_cwc1      |261     |59      |489     |3       |0       |
+|  wrapper_cwc_top                                          |top_cwc_hub            |261     |59      |489     |3       |0       |
+|    U_cwc                                                  |anlogic01_cwc          |256     |59      |323     |0       |0       |
+|      TRIG_ONLY_MODE$U_emb_ctrl                            |anlogic04_cwc_emb_ctrl |32      |12      |30      |0       |0       |
+|      U_cwc_bus_top                                        |anlogic02_cwc_bus_top  |133     |24      |154     |0       |0       |
+|        CWC_BUS_DETECTOR[0]$NON_BUS_DETECTOR$U_cwc_bus_det |anlogic03_cwc_bus_det  |9       |0       |12      |0       |0       |
+|        CWC_BUS_DETECTOR[1]$NON_BUS_DETECTOR$U_cwc_bus_det |anlogic03_cwc_bus_det  |9       |0       |12      |0       |0       |
+|        CWC_BUS_DETECTOR[2]$BUS_DETECTOR$U_cwc_bus_det     |anlogic03_cwc_bus_det  |44      |12      |47      |0       |0       |
+|        CWC_BUS_DETECTOR[3]$NON_BUS_DETECTOR$U_cwc_bus_det |anlogic03_cwc_bus_det  |9       |0       |12      |0       |0       |
+|        CWC_BUS_DETECTOR[4]$NON_BUS_DETECTOR$U_cwc_bus_det |anlogic03_cwc_bus_det  |9       |0       |12      |0       |0       |
+|        CWC_BUS_DETECTOR[5]$NON_BUS_DETECTOR$U_cwc_bus_det |anlogic03_cwc_bus_det  |9       |0       |12      |0       |0       |
+|        CWC_BUS_DETECTOR[6]$BUS_DETECTOR$U_cwc_bus_det     |anlogic03_cwc_bus_det  |44      |12      |47      |0       |0       |
+|    U_cwc_ram                                              |anlogic05_cwc_ram      |1       |0       |0       |3       |0       |
+|    status_pipe                                            |anlogic06_pipe         |1       |0       |15      |0       |0       |
+|    watch_pipe                                             |anlogic06_pipe         |0       |0       |147     |0       |0       |
++--------------------------------------------------------------------------------------------------------------------------------+

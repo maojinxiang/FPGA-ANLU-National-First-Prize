@@ -1,0 +1,1612 @@
+eagle_s20
+13 6198 1651 4054 5594 35550 9 4
+-4.721 -2.299 top eagle_s20 EG4S20BG256 Detail NA 23 20
+clock: clk
+13 200 22 2
+Setup check
+23 3
+Endpoint: u_ov5640_dri/u_i2c_dr/reg1_syn_49
+23 16.394000 15 3
+Timing path: u_ov5640_dri/u_i2c_dr/reg1_syn_55.clk->u_ov5640_dri/u_i2c_dr/reg1_syn_49
+u_ov5640_dri/u_i2c_dr/reg1_syn_55.clk
+u_ov5640_dri/u_i2c_dr/reg1_syn_49
+25 16.394000 23.542000 7.148000 3 3
+u_ov5640_dri/u_i2c_dr/clk_cnt[1] u_ov5640_dri/u_i2c_dr/reg1_syn_46.b[1]
+u_ov5640_dri/u_i2c_dr/clk_cnt_b[3]_syn_4 u_ov5640_dri/u_i2c_dr/reg1_syn_46.b[0]
+u_ov5640_dri/u_i2c_dr/clk_cnt_b_n u_ov5640_dri/u_i2c_dr/reg1_syn_49.d[1]
+
+Timing path: u_ov5640_dri/u_i2c_dr/reg1_syn_46.clk->u_ov5640_dri/u_i2c_dr/reg1_syn_49
+u_ov5640_dri/u_i2c_dr/reg1_syn_46.clk
+u_ov5640_dri/u_i2c_dr/reg1_syn_49
+67 16.586000 23.542000 6.956000 3 3
+u_ov5640_dri/u_i2c_dr/clk_cnt[8] u_ov5640_dri/u_i2c_dr/reg1_syn_49.c[0]
+u_ov5640_dri/u_i2c_dr/clk_cnt_b[3]_syn_2 u_ov5640_dri/u_i2c_dr/reg1_syn_46.a[0]
+u_ov5640_dri/u_i2c_dr/clk_cnt_b_n u_ov5640_dri/u_i2c_dr/reg1_syn_49.d[1]
+
+Timing path: u_ov5640_dri/u_i2c_dr/reg1_syn_55.clk->u_ov5640_dri/u_i2c_dr/reg1_syn_49
+u_ov5640_dri/u_i2c_dr/reg1_syn_55.clk
+u_ov5640_dri/u_i2c_dr/reg1_syn_49
+109 16.600000 23.542000 6.942000 3 3
+u_ov5640_dri/u_i2c_dr/clk_cnt[1] u_ov5640_dri/u_i2c_dr/add0_syn_62.a[1]
+u_ov5640_dri/u_i2c_dr/add0_syn_54 u_ov5640_dri/u_i2c_dr/add0_syn_63.fci
+u_ov5640_dri/u_i2c_dr/clk_cnt_b1[4] u_ov5640_dri/u_i2c_dr/reg1_syn_49.c[1]
+
+
+Endpoint: u_ov5640_dri/u_i2c_dr/dri_clk_reg_syn_9
+151 16.767000 11 3
+Timing path: u_ov5640_dri/u_i2c_dr/reg1_syn_55.clk->u_ov5640_dri/u_i2c_dr/dri_clk_reg_syn_9
+u_ov5640_dri/u_i2c_dr/reg1_syn_55.clk
+u_ov5640_dri/u_i2c_dr/dri_clk_reg_syn_9
+153 16.767000 23.570000 6.803000 3 3
+u_ov5640_dri/u_i2c_dr/clk_cnt[1] u_ov5640_dri/u_i2c_dr/reg1_syn_46.b[1]
+u_ov5640_dri/u_i2c_dr/clk_cnt_b[3]_syn_4 u_ov5640_dri/u_i2c_dr/reg1_syn_46.b[0]
+u_ov5640_dri/u_i2c_dr/clk_cnt_b_n u_ov5640_dri/u_i2c_dr/dri_clk_reg_syn_9.d[0]
+
+Timing path: u_ov5640_dri/u_i2c_dr/reg1_syn_46.clk->u_ov5640_dri/u_i2c_dr/dri_clk_reg_syn_9
+u_ov5640_dri/u_i2c_dr/reg1_syn_46.clk
+u_ov5640_dri/u_i2c_dr/dri_clk_reg_syn_9
+195 16.959000 23.570000 6.611000 3 3
+u_ov5640_dri/u_i2c_dr/clk_cnt[8] u_ov5640_dri/u_i2c_dr/reg1_syn_49.c[0]
+u_ov5640_dri/u_i2c_dr/clk_cnt_b[3]_syn_2 u_ov5640_dri/u_i2c_dr/reg1_syn_46.a[0]
+u_ov5640_dri/u_i2c_dr/clk_cnt_b_n u_ov5640_dri/u_i2c_dr/dri_clk_reg_syn_9.d[0]
+
+Timing path: u_ov5640_dri/u_i2c_dr/reg1_syn_52.clk->u_ov5640_dri/u_i2c_dr/dri_clk_reg_syn_9
+u_ov5640_dri/u_i2c_dr/reg1_syn_52.clk
+u_ov5640_dri/u_i2c_dr/dri_clk_reg_syn_9
+237 17.014000 23.570000 6.556000 3 3
+u_ov5640_dri/u_i2c_dr/clk_cnt[3] u_ov5640_dri/u_i2c_dr/reg1_syn_46.d[1]
+u_ov5640_dri/u_i2c_dr/clk_cnt_b[3]_syn_4 u_ov5640_dri/u_i2c_dr/reg1_syn_46.b[0]
+u_ov5640_dri/u_i2c_dr/clk_cnt_b_n u_ov5640_dri/u_i2c_dr/dri_clk_reg_syn_9.d[0]
+
+
+Endpoint: u_ov5640_dri/u_i2c_dr/reg1_syn_52
+279 16.827000 15 3
+Timing path: u_ov5640_dri/u_i2c_dr/reg1_syn_55.clk->u_ov5640_dri/u_i2c_dr/reg1_syn_52
+u_ov5640_dri/u_i2c_dr/reg1_syn_55.clk
+u_ov5640_dri/u_i2c_dr/reg1_syn_52
+281 16.827000 23.542000 6.715000 3 3
+u_ov5640_dri/u_i2c_dr/clk_cnt[1] u_ov5640_dri/u_i2c_dr/reg1_syn_46.b[1]
+u_ov5640_dri/u_i2c_dr/clk_cnt_b[3]_syn_4 u_ov5640_dri/u_i2c_dr/reg1_syn_46.b[0]
+u_ov5640_dri/u_i2c_dr/clk_cnt_b_n u_ov5640_dri/u_i2c_dr/reg1_syn_52.d[1]
+
+Timing path: u_ov5640_dri/u_i2c_dr/reg1_syn_46.clk->u_ov5640_dri/u_i2c_dr/reg1_syn_52
+u_ov5640_dri/u_i2c_dr/reg1_syn_46.clk
+u_ov5640_dri/u_i2c_dr/reg1_syn_52
+323 17.019000 23.542000 6.523000 3 3
+u_ov5640_dri/u_i2c_dr/clk_cnt[8] u_ov5640_dri/u_i2c_dr/reg1_syn_49.c[0]
+u_ov5640_dri/u_i2c_dr/clk_cnt_b[3]_syn_2 u_ov5640_dri/u_i2c_dr/reg1_syn_46.a[0]
+u_ov5640_dri/u_i2c_dr/clk_cnt_b_n u_ov5640_dri/u_i2c_dr/reg1_syn_52.d[1]
+
+Timing path: u_ov5640_dri/u_i2c_dr/reg1_syn_55.clk->u_ov5640_dri/u_i2c_dr/reg1_syn_52
+u_ov5640_dri/u_i2c_dr/reg1_syn_55.clk
+u_ov5640_dri/u_i2c_dr/reg1_syn_52
+365 17.071000 23.542000 6.471000 3 3
+u_ov5640_dri/u_i2c_dr/clk_cnt[1] u_ov5640_dri/u_i2c_dr/add0_syn_62.a[1]
+u_ov5640_dri/u_i2c_dr/add0_syn_54 u_ov5640_dri/u_i2c_dr/add0_syn_63.fci
+u_ov5640_dri/u_i2c_dr/clk_cnt_b1[3] u_ov5640_dri/u_i2c_dr/reg1_syn_52.c[1]
+
+
+
+Hold check
+407 3
+Endpoint: u_ov5640_dri/u_i2c_dr/dri_clk_reg_syn_9
+409 0.611000 11 3
+Timing path: u_ov5640_dri/u_i2c_dr/dri_clk_reg_syn_9.clk->u_ov5640_dri/u_i2c_dr/dri_clk_reg_syn_9
+u_ov5640_dri/u_i2c_dr/dri_clk_reg_syn_9.clk
+u_ov5640_dri/u_i2c_dr/dri_clk_reg_syn_9
+411 0.611000 3.001000 3.612000 1 1
+u_ov5640_dri/u_i2c_dr/dri_clk u_ov5640_dri/u_i2c_dr/dri_clk_reg_syn_9.c[0]
+
+Timing path: u_ov5640_dri/u_i2c_dr/add0_syn_62.clk->u_ov5640_dri/u_i2c_dr/dri_clk_reg_syn_9
+u_ov5640_dri/u_i2c_dr/add0_syn_62.clk
+u_ov5640_dri/u_i2c_dr/dri_clk_reg_syn_9
+449 1.011000 3.001000 4.012000 2 2
+u_ov5640_dri/u_i2c_dr/clk_cnt[5] u_ov5640_dri/u_i2c_dr/reg1_syn_46.d[0]
+u_ov5640_dri/u_i2c_dr/clk_cnt_b_n u_ov5640_dri/u_i2c_dr/dri_clk_reg_syn_9.d[0]
+
+Timing path: u_ov5640_dri/u_i2c_dr/reg1_syn_49.clk->u_ov5640_dri/u_i2c_dr/dri_clk_reg_syn_9
+u_ov5640_dri/u_i2c_dr/reg1_syn_49.clk
+u_ov5640_dri/u_i2c_dr/dri_clk_reg_syn_9
+489 1.126000 3.001000 4.127000 2 2
+u_ov5640_dri/u_i2c_dr/clk_cnt[4] u_ov5640_dri/u_i2c_dr/reg1_syn_46.c[0]
+u_ov5640_dri/u_i2c_dr/clk_cnt_b_n u_ov5640_dri/u_i2c_dr/dri_clk_reg_syn_9.d[0]
+
+
+Endpoint: u_ov5640_dri/u_i2c_dr/reg1_syn_52
+529 0.937000 15 3
+Timing path: u_ov5640_dri/u_i2c_dr/add0_syn_62.clk->u_ov5640_dri/u_i2c_dr/reg1_syn_52
+u_ov5640_dri/u_i2c_dr/add0_syn_62.clk
+u_ov5640_dri/u_i2c_dr/reg1_syn_52
+531 0.937000 3.046000 3.983000 2 2
+u_ov5640_dri/u_i2c_dr/clk_cnt[5] u_ov5640_dri/u_i2c_dr/reg1_syn_46.d[0]
+u_ov5640_dri/u_i2c_dr/clk_cnt_b_n u_ov5640_dri/u_i2c_dr/reg1_syn_52.d[1]
+
+Timing path: u_ov5640_dri/u_i2c_dr/reg1_syn_49.clk->u_ov5640_dri/u_i2c_dr/reg1_syn_52
+u_ov5640_dri/u_i2c_dr/reg1_syn_49.clk
+u_ov5640_dri/u_i2c_dr/reg1_syn_52
+571 1.098000 3.046000 4.144000 2 2
+u_ov5640_dri/u_i2c_dr/clk_cnt[4] u_ov5640_dri/u_i2c_dr/reg1_syn_46.c[0]
+u_ov5640_dri/u_i2c_dr/clk_cnt_b_n u_ov5640_dri/u_i2c_dr/reg1_syn_52.d[1]
+
+Timing path: u_ov5640_dri/u_i2c_dr/reg1_syn_49.clk->u_ov5640_dri/u_i2c_dr/reg1_syn_52
+u_ov5640_dri/u_i2c_dr/reg1_syn_49.clk
+u_ov5640_dri/u_i2c_dr/reg1_syn_52
+611 1.291000 3.046000 4.337000 2 2
+u_ov5640_dri/u_i2c_dr/clk_cnt[4] u_ov5640_dri/u_i2c_dr/add0_syn_63.b[0]
+u_ov5640_dri/u_i2c_dr/clk_cnt_b1[3] u_ov5640_dri/u_i2c_dr/reg1_syn_52.c[1]
+
+
+Endpoint: u_ov5640_dri/u_i2c_dr/reg1_syn_52
+651 0.937000 11 3
+Timing path: u_ov5640_dri/u_i2c_dr/add0_syn_62.clk->u_ov5640_dri/u_i2c_dr/reg1_syn_52
+u_ov5640_dri/u_i2c_dr/add0_syn_62.clk
+u_ov5640_dri/u_i2c_dr/reg1_syn_52
+653 0.937000 3.046000 3.983000 2 2
+u_ov5640_dri/u_i2c_dr/clk_cnt[5] u_ov5640_dri/u_i2c_dr/reg1_syn_46.d[0]
+u_ov5640_dri/u_i2c_dr/clk_cnt_b_n u_ov5640_dri/u_i2c_dr/reg1_syn_52.d[0]
+
+Timing path: u_ov5640_dri/u_i2c_dr/reg1_syn_49.clk->u_ov5640_dri/u_i2c_dr/reg1_syn_52
+u_ov5640_dri/u_i2c_dr/reg1_syn_49.clk
+u_ov5640_dri/u_i2c_dr/reg1_syn_52
+693 1.098000 3.046000 4.144000 2 2
+u_ov5640_dri/u_i2c_dr/clk_cnt[4] u_ov5640_dri/u_i2c_dr/reg1_syn_46.c[0]
+u_ov5640_dri/u_i2c_dr/clk_cnt_b_n u_ov5640_dri/u_i2c_dr/reg1_syn_52.d[0]
+
+Timing path: u_ov5640_dri/u_i2c_dr/reg1_syn_52.clk->u_ov5640_dri/u_i2c_dr/reg1_syn_52
+u_ov5640_dri/u_i2c_dr/reg1_syn_52.clk
+u_ov5640_dri/u_i2c_dr/reg1_syn_52
+733 1.621000 3.046000 4.667000 2 2
+u_ov5640_dri/u_i2c_dr/clk_cnt[0] u_ov5640_dri/u_i2c_dr/add0_syn_62.b[0]
+u_ov5640_dri/u_i2c_dr/clk_cnt_b1[0] u_ov5640_dri/u_i2c_dr/reg1_syn_52.c[0]
+
+
+
+
+clock: sd_card_clk
+773 15914 1410 4
+Setup check
+783 3
+Endpoint: u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_red/lt4_syn_24
+783 -0.161000 1 1
+Timing path: video_timing_data_m0/read_req_reg_syn_5.clk->u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_red/lt4_syn_24
+video_timing_data_m0/read_req_reg_syn_5.clk
+u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_red/lt4_syn_24
+785 -0.161000 2.928000 3.089000 0 1
+video_timing_data_m0/read_req u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_red/lt4_syn_24.mi[0]
+
+
+Endpoint: frame_read_write_m0/frame_fifo_read_m0/state_b[0]_syn_40
+823 0.076000 526 3
+Timing path: frame_read_write_m0/write_buf/wr_to_rd_cross_inst/reg2_syn_57.clk->frame_read_write_m0/frame_fifo_read_m0/state_b[0]_syn_40
+frame_read_write_m0/write_buf/wr_to_rd_cross_inst/reg2_syn_57.clk
+frame_read_write_m0/frame_fifo_read_m0/state_b[0]_syn_40
+825 0.076000 10.096000 10.020000 14 14
+frame_read_write_m0/write_buf/wr_to_rd_addr[1] frame_read_write_m0/write_buf/sub1_syn_74.a[0]
+frame_read_write_m0/write_buf/sub1_syn_42 frame_read_write_m0/write_buf/sub1_syn_77.fci
+frame_read_write_m0/write_buf/sub1_syn_44 frame_read_write_m0/write_buf/sub1_syn_80.fci
+frame_read_write_m0/write_buf/sub1_syn_46 frame_read_write_m0/write_buf/sub1_syn_83.fci
+frame_read_write_m0/frame_fifo_write_m0/rdusedw[8] frame_read_write_m0/frame_fifo_write_m0/rdusedw[8]_syn_95.b[0]
+frame_read_write_m0/frame_fifo_write_m0/rdusedw[8]_syn_84 frame_read_write_m0/frame_fifo_write_m0/rdusedw[8]_syn_96.fci
+frame_read_write_m0/frame_fifo_write_m0/rdusedw[8]_syn_3[3] frame_read_write_m0/frame_fifo_write_m0/lt1_syn_112.b[0]
+frame_read_write_m0/frame_fifo_write_m0/lt1_syn_29 frame_read_write_m0/frame_fifo_write_m0/lt1_syn_115.fci
+frame_read_write_m0/frame_fifo_write_m0/lt1_syn_33 frame_read_write_m0/frame_fifo_write_m0/lt1_syn_118.fci
+frame_read_write_m0/frame_fifo_write_m0/lt1_syn_37 frame_read_write_m0/frame_fifo_write_m0/lt1_syn_121.fci
+frame_read_write_m0/frame_fifo_write_m0/lt1_syn_41 frame_read_write_m0/frame_fifo_write_m0/lt1_syn_124.fci
+frame_read_write_m0/frame_fifo_write_m0/lt1_syn_45 frame_read_write_m0/frame_fifo_write_m0/lt1_syn_126.fci
+frame_read_write_m0/frame_fifo_write_m0/into_burst_n2 u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_green/reg5_syn_60.a[0]
+frame_read_write_m0/frame_fifo_read_m0/state_b[0]_syn_15 frame_read_write_m0/frame_fifo_read_m0/state_b[0]_syn_40.a[0]
+
+Timing path: frame_read_write_m0/write_buf/wr_to_rd_cross_inst/reg2_syn_57.clk->frame_read_write_m0/frame_fifo_read_m0/state_b[0]_syn_40
+frame_read_write_m0/write_buf/wr_to_rd_cross_inst/reg2_syn_57.clk
+frame_read_write_m0/frame_fifo_read_m0/state_b[0]_syn_40
+889 0.169000 10.096000 9.927000 12 12
+frame_read_write_m0/write_buf/wr_to_rd_addr[1] frame_read_write_m0/write_buf/sub1_syn_74.a[0]
+frame_read_write_m0/write_buf/sub1_syn_42 frame_read_write_m0/write_buf/sub1_syn_77.fci
+frame_read_write_m0/write_buf/sub1_syn_44 frame_read_write_m0/write_buf/sub1_syn_80.fci
+frame_read_write_m0/write_buf/sub1_syn_46 frame_read_write_m0/write_buf/sub1_syn_83.fci
+frame_read_write_m0/frame_fifo_write_m0/rdusedw[8] frame_read_write_m0/frame_fifo_write_m0/rdusedw[8]_syn_95.b[0]
+frame_read_write_m0/frame_fifo_write_m0/rdusedw[8]_syn_84 frame_read_write_m0/frame_fifo_write_m0/rdusedw[8]_syn_96.fci
+frame_read_write_m0/frame_fifo_write_m0/rdusedw[8]_syn_88 frame_read_write_m0/frame_fifo_write_m0/rdusedw[8]_syn_97.fci
+frame_read_write_m0/frame_fifo_write_m0/rdusedw[8]_syn_92 frame_read_write_m0/frame_fifo_write_m0/rdusedw[8]_syn_98.fci
+frame_read_write_m0/frame_fifo_write_m0/rdusedw[8]_syn_3[12] frame_read_write_m0/frame_fifo_write_m0/lt1_syn_124.b[1]
+frame_read_write_m0/frame_fifo_write_m0/lt1_syn_45 frame_read_write_m0/frame_fifo_write_m0/lt1_syn_126.fci
+frame_read_write_m0/frame_fifo_write_m0/into_burst_n2 u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_green/reg5_syn_60.a[0]
+frame_read_write_m0/frame_fifo_read_m0/state_b[0]_syn_15 frame_read_write_m0/frame_fifo_read_m0/state_b[0]_syn_40.a[0]
+
+Timing path: frame_read_write_m0/write_buf/reg0_syn_50.clk->frame_read_write_m0/frame_fifo_read_m0/state_b[0]_syn_40
+frame_read_write_m0/write_buf/reg0_syn_50.clk
+frame_read_write_m0/frame_fifo_read_m0/state_b[0]_syn_40
+949 0.217000 10.096000 9.879000 13 13
+frame_read_write_m0/write_buf/rd_addr[3] frame_read_write_m0/write_buf/sub1_syn_77.b[0]
+frame_read_write_m0/write_buf/sub1_syn_44 frame_read_write_m0/write_buf/sub1_syn_80.fci
+frame_read_write_m0/write_buf/sub1_syn_46 frame_read_write_m0/write_buf/sub1_syn_83.fci
+frame_read_write_m0/frame_fifo_write_m0/rdusedw[8] frame_read_write_m0/frame_fifo_write_m0/rdusedw[8]_syn_95.b[0]
+frame_read_write_m0/frame_fifo_write_m0/rdusedw[8]_syn_84 frame_read_write_m0/frame_fifo_write_m0/rdusedw[8]_syn_96.fci
+frame_read_write_m0/frame_fifo_write_m0/rdusedw[8]_syn_3[3] frame_read_write_m0/frame_fifo_write_m0/lt1_syn_112.b[0]
+frame_read_write_m0/frame_fifo_write_m0/lt1_syn_29 frame_read_write_m0/frame_fifo_write_m0/lt1_syn_115.fci
+frame_read_write_m0/frame_fifo_write_m0/lt1_syn_33 frame_read_write_m0/frame_fifo_write_m0/lt1_syn_118.fci
+frame_read_write_m0/frame_fifo_write_m0/lt1_syn_37 frame_read_write_m0/frame_fifo_write_m0/lt1_syn_121.fci
+frame_read_write_m0/frame_fifo_write_m0/lt1_syn_41 frame_read_write_m0/frame_fifo_write_m0/lt1_syn_124.fci
+frame_read_write_m0/frame_fifo_write_m0/lt1_syn_45 frame_read_write_m0/frame_fifo_write_m0/lt1_syn_126.fci
+frame_read_write_m0/frame_fifo_write_m0/into_burst_n2 u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_green/reg5_syn_60.a[0]
+frame_read_write_m0/frame_fifo_read_m0/state_b[0]_syn_15 frame_read_write_m0/frame_fifo_read_m0/state_b[0]_syn_40.a[0]
+
+
+Endpoint: frame_read_write_m0/frame_fifo_read_m0/state_b[1]_syn_12
+1011 0.211000 546 3
+Timing path: frame_read_write_m0/write_buf/wr_to_rd_cross_inst/reg2_syn_57.clk->frame_read_write_m0/frame_fifo_read_m0/state_b[1]_syn_12
+frame_read_write_m0/write_buf/wr_to_rd_cross_inst/reg2_syn_57.clk
+frame_read_write_m0/frame_fifo_read_m0/state_b[1]_syn_12
+1013 0.211000 10.096000 9.885000 14 14
+frame_read_write_m0/write_buf/wr_to_rd_addr[1] frame_read_write_m0/write_buf/sub1_syn_74.a[0]
+frame_read_write_m0/write_buf/sub1_syn_42 frame_read_write_m0/write_buf/sub1_syn_77.fci
+frame_read_write_m0/write_buf/sub1_syn_44 frame_read_write_m0/write_buf/sub1_syn_80.fci
+frame_read_write_m0/write_buf/sub1_syn_46 frame_read_write_m0/write_buf/sub1_syn_83.fci
+frame_read_write_m0/frame_fifo_write_m0/rdusedw[8] frame_read_write_m0/frame_fifo_write_m0/rdusedw[8]_syn_95.b[0]
+frame_read_write_m0/frame_fifo_write_m0/rdusedw[8]_syn_84 frame_read_write_m0/frame_fifo_write_m0/rdusedw[8]_syn_96.fci
+frame_read_write_m0/frame_fifo_write_m0/rdusedw[8]_syn_3[3] frame_read_write_m0/frame_fifo_write_m0/lt1_syn_112.b[0]
+frame_read_write_m0/frame_fifo_write_m0/lt1_syn_29 frame_read_write_m0/frame_fifo_write_m0/lt1_syn_115.fci
+frame_read_write_m0/frame_fifo_write_m0/lt1_syn_33 frame_read_write_m0/frame_fifo_write_m0/lt1_syn_118.fci
+frame_read_write_m0/frame_fifo_write_m0/lt1_syn_37 frame_read_write_m0/frame_fifo_write_m0/lt1_syn_121.fci
+frame_read_write_m0/frame_fifo_write_m0/lt1_syn_41 frame_read_write_m0/frame_fifo_write_m0/lt1_syn_124.fci
+frame_read_write_m0/frame_fifo_write_m0/lt1_syn_45 frame_read_write_m0/frame_fifo_write_m0/lt1_syn_126.fci
+frame_read_write_m0/frame_fifo_write_m0/into_burst_n2 u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_green/reg5_syn_60.a[0]
+frame_read_write_m0/frame_fifo_read_m0/state_b[0]_syn_15 frame_read_write_m0/frame_fifo_read_m0/state_b[1]_syn_12.a[0]
+
+Timing path: frame_read_write_m0/write_buf/wr_to_rd_cross_inst/reg2_syn_57.clk->frame_read_write_m0/frame_fifo_read_m0/state_b[1]_syn_12
+frame_read_write_m0/write_buf/wr_to_rd_cross_inst/reg2_syn_57.clk
+frame_read_write_m0/frame_fifo_read_m0/state_b[1]_syn_12
+1077 0.304000 10.096000 9.792000 12 12
+frame_read_write_m0/write_buf/wr_to_rd_addr[1] frame_read_write_m0/write_buf/sub1_syn_74.a[0]
+frame_read_write_m0/write_buf/sub1_syn_42 frame_read_write_m0/write_buf/sub1_syn_77.fci
+frame_read_write_m0/write_buf/sub1_syn_44 frame_read_write_m0/write_buf/sub1_syn_80.fci
+frame_read_write_m0/write_buf/sub1_syn_46 frame_read_write_m0/write_buf/sub1_syn_83.fci
+frame_read_write_m0/frame_fifo_write_m0/rdusedw[8] frame_read_write_m0/frame_fifo_write_m0/rdusedw[8]_syn_95.b[0]
+frame_read_write_m0/frame_fifo_write_m0/rdusedw[8]_syn_84 frame_read_write_m0/frame_fifo_write_m0/rdusedw[8]_syn_96.fci
+frame_read_write_m0/frame_fifo_write_m0/rdusedw[8]_syn_88 frame_read_write_m0/frame_fifo_write_m0/rdusedw[8]_syn_97.fci
+frame_read_write_m0/frame_fifo_write_m0/rdusedw[8]_syn_92 frame_read_write_m0/frame_fifo_write_m0/rdusedw[8]_syn_98.fci
+frame_read_write_m0/frame_fifo_write_m0/rdusedw[8]_syn_3[12] frame_read_write_m0/frame_fifo_write_m0/lt1_syn_124.b[1]
+frame_read_write_m0/frame_fifo_write_m0/lt1_syn_45 frame_read_write_m0/frame_fifo_write_m0/lt1_syn_126.fci
+frame_read_write_m0/frame_fifo_write_m0/into_burst_n2 u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_green/reg5_syn_60.a[0]
+frame_read_write_m0/frame_fifo_read_m0/state_b[0]_syn_15 frame_read_write_m0/frame_fifo_read_m0/state_b[1]_syn_12.a[0]
+
+Timing path: frame_read_write_m0/write_buf/reg0_syn_50.clk->frame_read_write_m0/frame_fifo_read_m0/state_b[1]_syn_12
+frame_read_write_m0/write_buf/reg0_syn_50.clk
+frame_read_write_m0/frame_fifo_read_m0/state_b[1]_syn_12
+1137 0.352000 10.096000 9.744000 13 13
+frame_read_write_m0/write_buf/rd_addr[3] frame_read_write_m0/write_buf/sub1_syn_77.b[0]
+frame_read_write_m0/write_buf/sub1_syn_44 frame_read_write_m0/write_buf/sub1_syn_80.fci
+frame_read_write_m0/write_buf/sub1_syn_46 frame_read_write_m0/write_buf/sub1_syn_83.fci
+frame_read_write_m0/frame_fifo_write_m0/rdusedw[8] frame_read_write_m0/frame_fifo_write_m0/rdusedw[8]_syn_95.b[0]
+frame_read_write_m0/frame_fifo_write_m0/rdusedw[8]_syn_84 frame_read_write_m0/frame_fifo_write_m0/rdusedw[8]_syn_96.fci
+frame_read_write_m0/frame_fifo_write_m0/rdusedw[8]_syn_3[3] frame_read_write_m0/frame_fifo_write_m0/lt1_syn_112.b[0]
+frame_read_write_m0/frame_fifo_write_m0/lt1_syn_29 frame_read_write_m0/frame_fifo_write_m0/lt1_syn_115.fci
+frame_read_write_m0/frame_fifo_write_m0/lt1_syn_33 frame_read_write_m0/frame_fifo_write_m0/lt1_syn_118.fci
+frame_read_write_m0/frame_fifo_write_m0/lt1_syn_37 frame_read_write_m0/frame_fifo_write_m0/lt1_syn_121.fci
+frame_read_write_m0/frame_fifo_write_m0/lt1_syn_41 frame_read_write_m0/frame_fifo_write_m0/lt1_syn_124.fci
+frame_read_write_m0/frame_fifo_write_m0/lt1_syn_45 frame_read_write_m0/frame_fifo_write_m0/lt1_syn_126.fci
+frame_read_write_m0/frame_fifo_write_m0/into_burst_n2 u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_green/reg5_syn_60.a[0]
+frame_read_write_m0/frame_fifo_read_m0/state_b[0]_syn_15 frame_read_write_m0/frame_fifo_read_m0/state_b[1]_syn_12.a[0]
+
+
+
+Hold check
+1199 3
+Endpoint: frame_read_write_m0/read_buf/ram_inst/ramread0_syn_30
+1201 0.216000 9 3
+Timing path: frame_read_write_m0/read_buf/reg1_syn_44.clk->frame_read_write_m0/read_buf/ram_inst/ramread0_syn_30
+frame_read_write_m0/read_buf/reg1_syn_44.clk
+frame_read_write_m0/read_buf/ram_inst/ramread0_syn_30
+1203 0.216000 2.183000 2.399000 1 1
+frame_read_write_m0/read_buf/wr_addr[1] frame_read_write_m0/read_buf/ram_inst/ramread0_syn_30.addra[4]
+
+Timing path: frame_read_write_m0/read_buf/reg1_syn_32.clk->frame_read_write_m0/read_buf/ram_inst/ramread0_syn_30
+frame_read_write_m0/read_buf/reg1_syn_32.clk
+frame_read_write_m0/read_buf/ram_inst/ramread0_syn_30
+1241 0.258000 2.183000 2.441000 1 1
+frame_read_write_m0/read_buf/wr_addr[8] frame_read_write_m0/read_buf/ram_inst/ramread0_syn_30.addra[11]
+
+Timing path: frame_read_write_m0/read_buf/reg1_syn_44.clk->frame_read_write_m0/read_buf/ram_inst/ramread0_syn_30
+frame_read_write_m0/read_buf/reg1_syn_44.clk
+frame_read_write_m0/read_buf/ram_inst/ramread0_syn_30
+1279 0.284000 2.183000 2.467000 1 1
+frame_read_write_m0/read_buf/wr_addr[2] frame_read_write_m0/read_buf/ram_inst/ramread0_syn_30.addra[5]
+
+
+Endpoint: u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_red/lt4_syn_24
+1317 0.308000 1 1
+Timing path: video_timing_data_m0/read_req_reg_syn_5.clk->u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_red/lt4_syn_24
+video_timing_data_m0/read_req_reg_syn_5.clk
+u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_red/lt4_syn_24
+1319 0.308000 2.191000 2.499000 0 1
+video_timing_data_m0/read_req u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_red/lt4_syn_24.mi[0]
+
+
+Endpoint: frame_read_write_m0/write_buf/wr_to_rd_cross_inst/reg2_syn_46
+1357 0.314000 1 1
+Timing path: frame_read_write_m0/write_buf/sub1_syn_71.clk->frame_read_write_m0/write_buf/wr_to_rd_cross_inst/reg2_syn_46
+frame_read_write_m0/write_buf/sub1_syn_71.clk
+frame_read_write_m0/write_buf/wr_to_rd_cross_inst/reg2_syn_46
+1359 0.314000 2.044000 2.358000 0 1
+frame_read_write_m0/write_buf/wr_to_rd_cross_inst/sync_r1[7] frame_read_write_m0/write_buf/wr_to_rd_cross_inst/reg2_syn_46.mi[0]
+
+
+
+Recovery check
+1397 3
+Endpoint: frame_read_write_m0/read_buf/reg1_syn_35
+1399 5.959000 1 1
+Timing path: frame_read_write_m0/frame_fifo_read_m0/lt4_syn_64.clk->frame_read_write_m0/read_buf/reg1_syn_35
+frame_read_write_m0/frame_fifo_read_m0/lt4_syn_64.clk
+frame_read_write_m0/read_buf/reg1_syn_35
+1401 5.959000 9.840000 3.881000 0 1
+frame_read_write_m0/read_buf/asy_w_rst1 frame_read_write_m0/read_buf/reg1_syn_35.sr
+
+
+Endpoint: frame_read_write_m0/read_buf/reg1_syn_38
+1439 5.959000 1 1
+Timing path: frame_read_write_m0/frame_fifo_read_m0/lt4_syn_64.clk->frame_read_write_m0/read_buf/reg1_syn_38
+frame_read_write_m0/frame_fifo_read_m0/lt4_syn_64.clk
+frame_read_write_m0/read_buf/reg1_syn_38
+1441 5.959000 9.840000 3.881000 0 1
+frame_read_write_m0/read_buf/asy_w_rst1 frame_read_write_m0/read_buf/reg1_syn_38.sr
+
+
+Endpoint: frame_read_write_m0/read_buf/reg1_syn_44
+1479 6.026000 1 1
+Timing path: frame_read_write_m0/frame_fifo_read_m0/lt4_syn_64.clk->frame_read_write_m0/read_buf/reg1_syn_44
+frame_read_write_m0/frame_fifo_read_m0/lt4_syn_64.clk
+frame_read_write_m0/read_buf/reg1_syn_44
+1481 6.026000 9.840000 3.814000 0 1
+frame_read_write_m0/read_buf/asy_w_rst1 frame_read_write_m0/read_buf/reg1_syn_44.sr
+
+
+
+Removal check
+1519 3
+Endpoint: frame_read_write_m0/frame_fifo_read_m0/state_b[0]_syn_42
+1521 0.242000 1 1
+Timing path: frame_read_write_m0/frame_fifo_write_m0/fifo_aclr_reg_syn_12.clk->frame_read_write_m0/frame_fifo_read_m0/state_b[0]_syn_42
+frame_read_write_m0/frame_fifo_write_m0/fifo_aclr_reg_syn_12.clk
+frame_read_write_m0/frame_fifo_read_m0/state_b[0]_syn_42
+1523 0.242000 2.206000 2.448000 0 1
+frame_read_write_m0/frame_fifo_write_m0/fifo_aclr frame_read_write_m0/frame_fifo_read_m0/state_b[0]_syn_42.sr
+
+
+Endpoint: frame_read_write_m0/write_buf/ram_inst/ramread0_syn_28
+1561 0.292000 1 1
+Timing path: frame_read_write_m0/frame_fifo_read_m0/App_rd_en_r_n_syn_7.clk->frame_read_write_m0/write_buf/ram_inst/ramread0_syn_28
+frame_read_write_m0/frame_fifo_read_m0/App_rd_en_r_n_syn_7.clk
+frame_read_write_m0/write_buf/ram_inst/ramread0_syn_28
+1563 0.292000 2.233000 2.525000 0 1
+frame_read_write_m0/write_buf/asy_r_rst1 frame_read_write_m0/write_buf/ram_inst/ramread0_syn_28.rstb
+
+
+Endpoint: frame_read_write_m0/frame_fifo_read_m0/lt4_syn_64
+1601 0.305000 1 1
+Timing path: frame_read_write_m0/frame_fifo_read_m0/fifo_aclr_reg_syn_12.clk->frame_read_write_m0/frame_fifo_read_m0/lt4_syn_64
+frame_read_write_m0/frame_fifo_read_m0/fifo_aclr_reg_syn_12.clk
+frame_read_write_m0/frame_fifo_read_m0/lt4_syn_64
+1603 0.305000 2.236000 2.541000 0 1
+frame_read_write_m0/frame_fifo_read_m0/fifo_aclr frame_read_write_m0/frame_fifo_read_m0/lt4_syn_64.sr
+
+
+
+
+clock: ext_mem_clk
+1641 4102 486 2
+Setup check
+1651 3
+Endpoint: auto_chipwatcher_0_logicbram_syn_61
+1651 -4.721000 9 3
+Timing path: frame_read_write_m0/read_buf/ram_inst/ramread0_syn_11.clkb->auto_chipwatcher_0_logicbram_syn_61
+frame_read_write_m0/read_buf/ram_inst/ramread0_syn_11.clkb
+auto_chipwatcher_0_logicbram_syn_61
+1653 -4.721000 1.920000 6.641000 1 1
+video_delay_m0/read_data[15] auto_chipwatcher_0_logicbram_syn_61.dia[5]
+
+Timing path: frame_read_write_m0/read_buf/ram_inst/ramread0_syn_11.clkb->auto_chipwatcher_0_logicbram_syn_61
+frame_read_write_m0/read_buf/ram_inst/ramread0_syn_11.clkb
+auto_chipwatcher_0_logicbram_syn_61
+1689 -4.602000 1.920000 6.522000 1 1
+video_delay_m0/read_data[10] auto_chipwatcher_0_logicbram_syn_61.dia[0]
+
+Timing path: frame_read_write_m0/read_buf/ram_inst/ramread0_syn_11.clkb->auto_chipwatcher_0_logicbram_syn_61
+frame_read_write_m0/read_buf/ram_inst/ramread0_syn_11.clkb
+auto_chipwatcher_0_logicbram_syn_61
+1725 -4.590000 1.920000 6.510000 1 1
+video_delay_m0/read_data[17] auto_chipwatcher_0_logicbram_syn_61.dia[7]
+
+
+Endpoint: cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[1]$bus_nodes/reg0_syn_130
+1761 -4.622000 1 1
+Timing path: frame_read_write_m0/read_buf/ram_inst/ramread0_syn_11.clkb->cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[1]$bus_nodes/reg0_syn_130
+frame_read_write_m0/read_buf/ram_inst/ramread0_syn_11.clkb
+cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[1]$bus_nodes/reg0_syn_130
+1763 -4.622000 2.054000 6.676000 0 1
+video_delay_m0/read_data[9] cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[1]$bus_nodes/reg0_syn_130.mi[1]
+
+
+Endpoint: cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[1]$bus_nodes/reg0_syn_143
+1799 -4.600000 1 1
+Timing path: frame_read_write_m0/read_buf/ram_inst/ramread0_syn_30.clkb->cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[1]$bus_nodes/reg0_syn_143
+frame_read_write_m0/read_buf/ram_inst/ramread0_syn_30.clkb
+cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[1]$bus_nodes/reg0_syn_143
+1801 -4.600000 2.054000 6.654000 0 1
+video_delay_m0/read_data[22] cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[1]$bus_nodes/reg0_syn_143.mi[1]
+
+
+
+Hold check
+1837 3
+Endpoint: auto_chipwatcher_0_logicbram_syn_111
+1839 0.290000 1 1
+Timing path: cw_top/wrapper_cwc_top/trigger_inst/emb_ctrl_inst/reg2_syn_83.clk->auto_chipwatcher_0_logicbram_syn_111
+cw_top/wrapper_cwc_top/trigger_inst/emb_ctrl_inst/reg2_syn_83.clk
+auto_chipwatcher_0_logicbram_syn_111
+1841 0.290000 2.274000 2.564000 0 1
+cw_top_syn_1 auto_chipwatcher_0_logicbram_syn_111.wea
+
+
+Endpoint: auto_chipwatcher_0_logicbram_syn_101
+1875 0.290000 1 1
+Timing path: cw_top/wrapper_cwc_top/trigger_inst/emb_ctrl_inst/reg2_syn_83.clk->auto_chipwatcher_0_logicbram_syn_101
+cw_top/wrapper_cwc_top/trigger_inst/emb_ctrl_inst/reg2_syn_83.clk
+auto_chipwatcher_0_logicbram_syn_101
+1877 0.290000 2.274000 2.564000 0 1
+cw_top_syn_1 auto_chipwatcher_0_logicbram_syn_101.wea
+
+
+Endpoint: auto_chipwatcher_0_logicbram_syn_101
+1911 0.316000 9 3
+Timing path: cw_top/wrapper_cwc_top/trigger_inst/emb_ctrl_inst/reg0_syn_94.clk->auto_chipwatcher_0_logicbram_syn_101
+cw_top/wrapper_cwc_top/trigger_inst/emb_ctrl_inst/reg0_syn_94.clk
+auto_chipwatcher_0_logicbram_syn_101
+1913 0.316000 2.274000 2.590000 1 1
+cw_top/wrapper_cwc_top/trigger_inst/emb_ctrl_inst/addr_long[5] auto_chipwatcher_0_logicbram_syn_101.addra[8]
+
+Timing path: cw_top/wrapper_cwc_top/trigger_inst/emb_ctrl_inst/reg0_syn_100.clk->auto_chipwatcher_0_logicbram_syn_101
+cw_top/wrapper_cwc_top/trigger_inst/emb_ctrl_inst/reg0_syn_100.clk
+auto_chipwatcher_0_logicbram_syn_101
+1947 0.378000 2.274000 2.652000 1 1
+cw_top/wrapper_cwc_top/trigger_inst/emb_ctrl_inst/addr_long[7] auto_chipwatcher_0_logicbram_syn_101.addra[10]
+
+Timing path: cw_top/wrapper_cwc_top/trigger_inst/emb_ctrl_inst/reg0_syn_88.clk->auto_chipwatcher_0_logicbram_syn_101
+cw_top/wrapper_cwc_top/trigger_inst/emb_ctrl_inst/reg0_syn_88.clk
+auto_chipwatcher_0_logicbram_syn_101
+1981 0.399000 2.274000 2.673000 1 1
+cw_top/wrapper_cwc_top/trigger_inst/emb_ctrl_inst/addr_long[6] auto_chipwatcher_0_logicbram_syn_101.addra[9]
+
+
+
+
+clock: video_clk
+2015 12132 762 4
+Setup check
+2025 3
+Endpoint: video_timing_data_m0/read_req_reg_syn_5
+2025 -0.445000 1 1
+Timing path: frame_read_write_m0/frame_fifo_read_m0/fifo_aclr_reg_syn_12.clk->video_timing_data_m0/read_req_reg_syn_5
+frame_read_write_m0/frame_fifo_read_m0/fifo_aclr_reg_syn_12.clk
+video_timing_data_m0/read_req_reg_syn_5
+2027 -0.445000 3.049000 3.494000 1 1
+frame_read_write_m0/frame_fifo_read_m0/fifo_aclr video_timing_data_m0/read_req_reg_syn_5.a[0]
+
+
+Endpoint: u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/q_out[7]_syn_28
+2065 5.713000 145 3
+Timing path: u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/reg1_syn_46.clk->u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/q_out[7]_syn_28
+u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/reg1_syn_46.clk
+u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/q_out[7]_syn_28
+2067 5.713000 17.158000 11.445000 9 9
+u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/d_d[2] u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/reg5_syn_59.c[1]
+u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/q_m_xnor[2] u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/reg5_syn_70.d[0]
+u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/n0_q_m_b[3]_syn_3 u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/reg5_syn_68.d[1]
+u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/q_m_xnor[4] u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/reg5_syn_70.d[1]
+u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/q_m_xnor[6] u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/reg5_syn_68.a[0]
+u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/q_m[3]_syn_19 u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_green/reg6_syn_63.d[1]
+u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/q_m[3]_syn_5[1] u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_green/reg6_syn_63.a[0]
+u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/n0_q_m_b[3]_syn_17 u3_hdmi_tx/Inst_DVITransmitter/Inst_red_serializer_10_1/reg0_syn_54.a[0]
+u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/n0_q_m_b[3]_syn_24 u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/q_out[7]_syn_28.c[0]
+
+Timing path: u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/reg1_syn_51.clk->u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/q_out[7]_syn_28
+u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/reg1_syn_51.clk
+u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/q_out[7]_syn_28
+2121 5.805000 17.158000 11.353000 9 9
+u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/d_d[0] u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/reg5_syn_59.d[1]
+u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/q_m_xnor[2] u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/reg5_syn_70.d[0]
+u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/n0_q_m_b[3]_syn_3 u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/reg5_syn_68.d[1]
+u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/q_m_xnor[4] u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/reg5_syn_70.d[1]
+u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/q_m_xnor[6] u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/reg5_syn_68.a[0]
+u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/q_m[3]_syn_19 u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_green/reg6_syn_63.d[1]
+u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/q_m[3]_syn_5[1] u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_green/reg6_syn_63.a[0]
+u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/n0_q_m_b[3]_syn_17 u3_hdmi_tx/Inst_DVITransmitter/Inst_red_serializer_10_1/reg0_syn_54.a[0]
+u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/n0_q_m_b[3]_syn_24 u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/q_out[7]_syn_28.c[0]
+
+Timing path: u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/reg1_syn_51.clk->u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/q_out[7]_syn_28
+u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/reg1_syn_51.clk
+u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/q_out[7]_syn_28
+2175 5.826000 17.158000 11.332000 9 9
+u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/d_d[1] u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/reg5_syn_59.b[1]
+u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/q_m_xnor[2] u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/reg5_syn_70.d[0]
+u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/n0_q_m_b[3]_syn_3 u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/reg5_syn_68.d[1]
+u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/q_m_xnor[4] u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/reg5_syn_70.d[1]
+u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/q_m_xnor[6] u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/reg5_syn_68.a[0]
+u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/q_m[3]_syn_19 u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_green/reg6_syn_63.d[1]
+u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/q_m[3]_syn_5[1] u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_green/reg6_syn_63.a[0]
+u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/n0_q_m_b[3]_syn_17 u3_hdmi_tx/Inst_DVITransmitter/Inst_red_serializer_10_1/reg0_syn_54.a[0]
+u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/n0_q_m_b[3]_syn_24 u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/q_out[7]_syn_28.c[0]
+
+
+Endpoint: u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/reg2_syn_24
+2229 5.759000 145 3
+Timing path: u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/reg1_syn_46.clk->u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/reg2_syn_24
+u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/reg1_syn_46.clk
+u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/reg2_syn_24
+2231 5.759000 17.158000 11.399000 9 9
+u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/d_d[2] u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/reg5_syn_59.c[1]
+u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/q_m_xnor[2] u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/reg5_syn_70.d[0]
+u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/n0_q_m_b[3]_syn_3 u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/reg5_syn_68.d[1]
+u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/q_m_xnor[4] u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/reg5_syn_70.d[1]
+u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/q_m_xnor[6] u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/reg5_syn_68.a[0]
+u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/q_m[3]_syn_19 u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_green/reg6_syn_63.d[1]
+u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/q_m[3]_syn_5[1] u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_green/reg6_syn_63.a[0]
+u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/n0_q_m_b[3]_syn_17 u3_hdmi_tx/Inst_DVITransmitter/Inst_red_serializer_10_1/reg0_syn_54.a[0]
+u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/n0_q_m_b[3]_syn_24 u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/reg2_syn_24.d[1]
+
+Timing path: u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/reg1_syn_51.clk->u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/reg2_syn_24
+u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/reg1_syn_51.clk
+u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/reg2_syn_24
+2285 5.851000 17.158000 11.307000 9 9
+u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/d_d[0] u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/reg5_syn_59.d[1]
+u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/q_m_xnor[2] u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/reg5_syn_70.d[0]
+u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/n0_q_m_b[3]_syn_3 u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/reg5_syn_68.d[1]
+u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/q_m_xnor[4] u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/reg5_syn_70.d[1]
+u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/q_m_xnor[6] u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/reg5_syn_68.a[0]
+u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/q_m[3]_syn_19 u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_green/reg6_syn_63.d[1]
+u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/q_m[3]_syn_5[1] u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_green/reg6_syn_63.a[0]
+u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/n0_q_m_b[3]_syn_17 u3_hdmi_tx/Inst_DVITransmitter/Inst_red_serializer_10_1/reg0_syn_54.a[0]
+u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/n0_q_m_b[3]_syn_24 u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/reg2_syn_24.d[1]
+
+Timing path: u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/reg1_syn_51.clk->u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/reg2_syn_24
+u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/reg1_syn_51.clk
+u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/reg2_syn_24
+2339 5.872000 17.158000 11.286000 9 9
+u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/d_d[1] u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/reg5_syn_59.b[1]
+u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/q_m_xnor[2] u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/reg5_syn_70.d[0]
+u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/n0_q_m_b[3]_syn_3 u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/reg5_syn_68.d[1]
+u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/q_m_xnor[4] u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/reg5_syn_70.d[1]
+u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/q_m_xnor[6] u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/reg5_syn_68.a[0]
+u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/q_m[3]_syn_19 u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_green/reg6_syn_63.d[1]
+u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/q_m[3]_syn_5[1] u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_green/reg6_syn_63.a[0]
+u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/n0_q_m_b[3]_syn_17 u3_hdmi_tx/Inst_DVITransmitter/Inst_red_serializer_10_1/reg0_syn_54.a[0]
+u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/n0_q_m_b[3]_syn_24 u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/reg2_syn_24.d[1]
+
+
+
+Hold check
+2393 3
+Endpoint: frame_read_write_m0/read_buf/ram_inst/ramread0_syn_30
+2395 0.104000 9 3
+Timing path: frame_read_write_m0/read_buf/reg0_syn_38.clk->frame_read_write_m0/read_buf/ram_inst/ramread0_syn_30
+frame_read_write_m0/read_buf/reg0_syn_38.clk
+frame_read_write_m0/read_buf/ram_inst/ramread0_syn_30
+2397 0.104000 2.274000 2.378000 1 1
+frame_read_write_m0/read_buf/rd_addr[8] frame_read_write_m0/read_buf/ram_inst/ramread0_syn_30.addrb[11]
+
+Timing path: frame_read_write_m0/read_buf/reg0_syn_38.clk->frame_read_write_m0/read_buf/ram_inst/ramread0_syn_30
+frame_read_write_m0/read_buf/reg0_syn_38.clk
+frame_read_write_m0/read_buf/ram_inst/ramread0_syn_30
+2435 0.112000 2.274000 2.386000 1 1
+frame_read_write_m0/read_buf/rd_addr[7] frame_read_write_m0/read_buf/ram_inst/ramread0_syn_30.addrb[10]
+
+Timing path: frame_read_write_m0/read_buf/reg0_syn_43.clk->frame_read_write_m0/read_buf/ram_inst/ramread0_syn_30
+frame_read_write_m0/read_buf/reg0_syn_43.clk
+frame_read_write_m0/read_buf/ram_inst/ramread0_syn_30
+2473 0.194000 2.274000 2.468000 1 1
+frame_read_write_m0/read_buf/rd_addr[0] frame_read_write_m0/read_buf/ram_inst/ramread0_syn_30.addrb[3]
+
+
+Endpoint: video_delay_m0/reg3_syn_95
+2511 0.314000 1 1
+Timing path: video_delay_m0/reg1_syn_77.clk->video_delay_m0/reg3_syn_95
+video_delay_m0/reg1_syn_77.clk
+video_delay_m0/reg3_syn_95
+2513 0.314000 2.135000 2.449000 0 1
+video_delay_m0/vs_d[11] video_delay_m0/reg3_syn_95.mi[1]
+
+
+Endpoint: video_timing_data_m0/video_de_d0_reg_syn_4
+2551 0.314000 1 1
+Timing path: video_timing_data_m0/color_bar_m0/video_active_d0_reg_syn_5.clk->video_timing_data_m0/video_de_d0_reg_syn_4
+video_timing_data_m0/color_bar_m0/video_active_d0_reg_syn_5.clk
+video_timing_data_m0/video_de_d0_reg_syn_4
+2553 0.314000 2.135000 2.449000 0 1
+video_timing_data_m0/color_bar_m0/video_active_d0 video_timing_data_m0/video_de_d0_reg_syn_4.mi[0]
+
+
+
+Recovery check
+2591 3
+Endpoint: frame_read_write_m0/read_buf/asy_r_rst0_reg_syn_4
+2593 -0.320000 1 1
+Timing path: frame_read_write_m0/frame_fifo_read_m0/fifo_aclr_reg_syn_12.clk->frame_read_write_m0/read_buf/asy_r_rst0_reg_syn_4
+frame_read_write_m0/frame_fifo_read_m0/fifo_aclr_reg_syn_12.clk
+frame_read_write_m0/read_buf/asy_r_rst0_reg_syn_4
+2595 -0.320000 2.865000 3.185000 0 1
+frame_read_write_m0/frame_fifo_read_m0/fifo_aclr frame_read_write_m0/read_buf/asy_r_rst0_reg_syn_4.sr
+
+
+Endpoint: frame_read_write_m0/read_buf/asy_r_rst1_reg_syn_5
+2633 -0.171000 1 1
+Timing path: frame_read_write_m0/frame_fifo_read_m0/fifo_aclr_reg_syn_12.clk->frame_read_write_m0/read_buf/asy_r_rst1_reg_syn_5
+frame_read_write_m0/frame_fifo_read_m0/fifo_aclr_reg_syn_12.clk
+frame_read_write_m0/read_buf/asy_r_rst1_reg_syn_5
+2635 -0.171000 2.865000 3.036000 0 1
+frame_read_write_m0/frame_fifo_read_m0/fifo_aclr frame_read_write_m0/read_buf/asy_r_rst1_reg_syn_5.sr
+
+
+Endpoint: frame_read_write_m0/read_buf/ram_inst/ramread0_syn_11
+2673 13.004000 1 1
+Timing path: frame_read_write_m0/read_buf/asy_r_rst1_reg_syn_5.clk->frame_read_write_m0/read_buf/ram_inst/ramread0_syn_11
+frame_read_write_m0/read_buf/asy_r_rst1_reg_syn_5.clk
+frame_read_write_m0/read_buf/ram_inst/ramread0_syn_11
+2675 13.004000 17.024000 4.020000 0 1
+frame_read_write_m0/read_buf/asy_r_rst1 frame_read_write_m0/read_buf/ram_inst/ramread0_syn_11.rstb
+
+
+
+Removal check
+2713 3
+Endpoint: frame_read_write_m0/read_buf/asy_r_rst1_reg_syn_5
+2715 -0.033000 1 1
+Timing path: frame_read_write_m0/frame_fifo_read_m0/fifo_aclr_reg_syn_12.clk->frame_read_write_m0/read_buf/asy_r_rst1_reg_syn_5
+frame_read_write_m0/frame_fifo_read_m0/fifo_aclr_reg_syn_12.clk
+frame_read_write_m0/read_buf/asy_r_rst1_reg_syn_5
+2717 -0.033000 2.710000 2.677000 0 1
+frame_read_write_m0/frame_fifo_read_m0/fifo_aclr frame_read_write_m0/read_buf/asy_r_rst1_reg_syn_5.sr
+
+
+Endpoint: frame_read_write_m0/read_buf/asy_r_rst0_reg_syn_4
+2755 0.086000 1 1
+Timing path: frame_read_write_m0/frame_fifo_read_m0/fifo_aclr_reg_syn_12.clk->frame_read_write_m0/read_buf/asy_r_rst0_reg_syn_4
+frame_read_write_m0/frame_fifo_read_m0/fifo_aclr_reg_syn_12.clk
+frame_read_write_m0/read_buf/asy_r_rst0_reg_syn_4
+2757 0.086000 2.483000 2.569000 0 1
+frame_read_write_m0/frame_fifo_read_m0/fifo_aclr frame_read_write_m0/read_buf/asy_r_rst0_reg_syn_4.sr
+
+
+Endpoint: frame_read_write_m0/read_buf/wr_to_rd_cross_inst/reg1_syn_42
+2795 0.422000 1 1
+Timing path: frame_read_write_m0/read_buf/asy_r_rst1_reg_syn_5.clk->frame_read_write_m0/read_buf/wr_to_rd_cross_inst/reg1_syn_42
+frame_read_write_m0/read_buf/asy_r_rst1_reg_syn_5.clk
+frame_read_write_m0/read_buf/wr_to_rd_cross_inst/reg1_syn_42
+2797 0.422000 2.327000 2.749000 0 1
+frame_read_write_m0/read_buf/asy_r_rst1 frame_read_write_m0/read_buf/wr_to_rd_cross_inst/reg1_syn_42.sr
+
+
+
+
+clock: video_pll_m0/pll_inst.clkc[1]
+2835 232 126 2
+Setup check
+2845 3
+Endpoint: u3_hdmi_tx/Inst_DVITransmitter/Inst_red_serializer_10_1/reg0_syn_63
+2845 0.929000 2 2
+Timing path: frame_read_write_m0/write_buf/add2_syn_56.clk->u3_hdmi_tx/Inst_DVITransmitter/Inst_red_serializer_10_1/reg0_syn_63
+frame_read_write_m0/write_buf/add2_syn_56.clk
+u3_hdmi_tx/Inst_DVITransmitter/Inst_red_serializer_10_1/reg0_syn_63
+2847 0.929000 5.229000 4.300000 1 1
+u3_hdmi_tx/Inst_DVITransmitter/Inst_blue_serializer_10_1/sclk_dat_lat_2d u3_hdmi_tx/Inst_DVITransmitter/Inst_red_serializer_10_1/reg0_syn_63.b[1]
+
+Timing path: u3_hdmi_tx/Inst_DVITransmitter/Inst_green_serializer_10_1/reg0_syn_59.clk->u3_hdmi_tx/Inst_DVITransmitter/Inst_red_serializer_10_1/reg0_syn_63
+u3_hdmi_tx/Inst_DVITransmitter/Inst_green_serializer_10_1/reg0_syn_59.clk
+u3_hdmi_tx/Inst_DVITransmitter/Inst_red_serializer_10_1/reg0_syn_63
+2881 1.517000 5.229000 3.712000 1 1
+u3_hdmi_tx/Inst_DVITransmitter/Inst_red_serializer_10_1/tx_pdat[7] u3_hdmi_tx/Inst_DVITransmitter/Inst_red_serializer_10_1/reg0_syn_63.c[1]
+
+
+Endpoint: u3_hdmi_tx/Inst_DVITransmitter/Inst_red_serializer_10_1/reg0_syn_63
+2915 0.929000 2 2
+Timing path: frame_read_write_m0/write_buf/add2_syn_56.clk->u3_hdmi_tx/Inst_DVITransmitter/Inst_red_serializer_10_1/reg0_syn_63
+frame_read_write_m0/write_buf/add2_syn_56.clk
+u3_hdmi_tx/Inst_DVITransmitter/Inst_red_serializer_10_1/reg0_syn_63
+2917 0.929000 5.229000 4.300000 1 1
+u3_hdmi_tx/Inst_DVITransmitter/Inst_blue_serializer_10_1/sclk_dat_lat_2d u3_hdmi_tx/Inst_DVITransmitter/Inst_red_serializer_10_1/reg0_syn_63.b[0]
+
+Timing path: u3_hdmi_tx/Inst_DVITransmitter/Inst_green_serializer_10_1/reg0_syn_57.clk->u3_hdmi_tx/Inst_DVITransmitter/Inst_red_serializer_10_1/reg0_syn_63
+u3_hdmi_tx/Inst_DVITransmitter/Inst_green_serializer_10_1/reg0_syn_57.clk
+u3_hdmi_tx/Inst_DVITransmitter/Inst_red_serializer_10_1/reg0_syn_63
+2951 1.517000 5.229000 3.712000 1 1
+u3_hdmi_tx/Inst_DVITransmitter/Inst_red_serializer_10_1/tx_pdat[6] u3_hdmi_tx/Inst_DVITransmitter/Inst_red_serializer_10_1/reg0_syn_63.c[0]
+
+
+Endpoint: u3_hdmi_tx/Inst_DVITransmitter/Inst_blue_serializer_10_1/reg0_syn_60
+2985 1.062000 2 2
+Timing path: frame_read_write_m0/write_buf/add2_syn_56.clk->u3_hdmi_tx/Inst_DVITransmitter/Inst_blue_serializer_10_1/reg0_syn_60
+frame_read_write_m0/write_buf/add2_syn_56.clk
+u3_hdmi_tx/Inst_DVITransmitter/Inst_blue_serializer_10_1/reg0_syn_60
+2987 1.062000 5.229000 4.167000 1 1
+u3_hdmi_tx/Inst_DVITransmitter/Inst_blue_serializer_10_1/sclk_dat_lat_2d u3_hdmi_tx/Inst_DVITransmitter/Inst_blue_serializer_10_1/reg0_syn_60.c[1]
+
+Timing path: u3_hdmi_tx/Inst_DVITransmitter/Inst_blue_serializer_10_1/reg0_syn_57.clk->u3_hdmi_tx/Inst_DVITransmitter/Inst_blue_serializer_10_1/reg0_syn_60
+u3_hdmi_tx/Inst_DVITransmitter/Inst_blue_serializer_10_1/reg0_syn_57.clk
+u3_hdmi_tx/Inst_DVITransmitter/Inst_blue_serializer_10_1/reg0_syn_60
+3021 1.318000 5.229000 3.911000 1 1
+u3_hdmi_tx/Inst_DVITransmitter/Inst_blue_serializer_10_1/tx_pdat[7] u3_hdmi_tx/Inst_DVITransmitter/Inst_blue_serializer_10_1/reg0_syn_60.b[1]
+
+
+
+Hold check
+3055 3
+Endpoint: u3_hdmi_tx/Inst_DVITransmitter/Inst_blue_serializer_10_1/reg0_syn_62
+3057 0.158000 1 1
+Timing path: u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/reg5_syn_63.clk->u3_hdmi_tx/Inst_DVITransmitter/Inst_blue_serializer_10_1/reg0_syn_62
+u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/reg5_syn_63.clk
+u3_hdmi_tx/Inst_DVITransmitter/Inst_blue_serializer_10_1/reg0_syn_62
+3059 0.158000 2.291000 2.449000 0 1
+u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/q_out_d[9] u3_hdmi_tx/Inst_DVITransmitter/Inst_blue_serializer_10_1/reg0_syn_62.mi[1]
+
+
+Endpoint: u3_hdmi_tx/Inst_DVITransmitter/Inst_green_serializer_10_1/reg0_syn_57
+3095 0.174000 1 1
+Timing path: u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_red/reg6_syn_71.clk->u3_hdmi_tx/Inst_DVITransmitter/Inst_green_serializer_10_1/reg0_syn_57
+u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_red/reg6_syn_71.clk
+u3_hdmi_tx/Inst_DVITransmitter/Inst_green_serializer_10_1/reg0_syn_57
+3097 0.174000 2.291000 2.465000 1 1
+u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_red/q_out_d[3] u3_hdmi_tx/Inst_DVITransmitter/Inst_green_serializer_10_1/reg0_syn_57.d[0]
+
+
+Endpoint: u3_hdmi_tx/Inst_DVITransmitter/Inst_red_serializer_10_1/reg0_syn_54
+3133 0.264000 1 1
+Timing path: u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_green/reg6_syn_63.clk->u3_hdmi_tx/Inst_DVITransmitter/Inst_red_serializer_10_1/reg0_syn_54
+u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_green/reg6_syn_63.clk
+u3_hdmi_tx/Inst_DVITransmitter/Inst_red_serializer_10_1/reg0_syn_54
+3135 0.264000 2.291000 2.555000 0 1
+u3_hdmi_tx/Inst_DVITransmitter/Inst_TMDSEncoder_red/q_out_d[8] u3_hdmi_tx/Inst_DVITransmitter/Inst_red_serializer_10_1/reg0_syn_54.mi[0]
+
+
+
+
+clock: jtck
+3171 1904 1726 4
+Setup check
+3181 3
+Endpoint: cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg2_syn_103
+3181 96.331000 6 3
+Timing path: cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/jscan_1_r2_reg_syn_5.clk->cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg2_syn_103
+cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/jscan_1_r2_reg_syn_5.clk
+cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg2_syn_103
+3183 96.331000 103.211000 6.880000 3 3
+cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/jscan_1_r cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/jscan_1_r2_reg_syn_5.c[1]
+cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/sshift_r2_b[16]_syn_2 cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/jscan_1_r2_reg_syn_5.c[0]
+cw_top/wrapper_cwc_top/cfg_int_inst/shift_1 cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg2_syn_103.a[1]
+
+Timing path: cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/jscan_1_r2_reg_syn_5.clk->cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg2_syn_103
+cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/jscan_1_r2_reg_syn_5.clk
+cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg2_syn_103
+3225 96.380000 103.211000 6.831000 3 3
+cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/jscan_1_r2 cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/jscan_1_r2_reg_syn_5.d[1]
+cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/sshift_r2_b[16]_syn_2 cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/jscan_1_r2_reg_syn_5.c[0]
+cw_top/wrapper_cwc_top/cfg_int_inst/shift_1 cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg2_syn_103.a[1]
+
+Timing path: cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/jscan_1_r2_reg_syn_5.clk->cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg2_syn_103
+cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/jscan_1_r2_reg_syn_5.clk
+cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg2_syn_103
+3267 97.391000 103.211000 5.820000 2 2
+cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/jscan_1_r cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/jscan_1_r2_reg_syn_5.c[1]
+cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/sshift_r2_b[16]_syn_2 cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg2_syn_103.b[1]
+
+
+Endpoint: cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg2_syn_103
+3307 96.331000 6 3
+Timing path: cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/jscan_1_r2_reg_syn_5.clk->cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg2_syn_103
+cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/jscan_1_r2_reg_syn_5.clk
+cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg2_syn_103
+3309 96.331000 103.211000 6.880000 3 3
+cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/jscan_1_r cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/jscan_1_r2_reg_syn_5.c[1]
+cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/sshift_r2_b[16]_syn_2 cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/jscan_1_r2_reg_syn_5.c[0]
+cw_top/wrapper_cwc_top/cfg_int_inst/shift_1 cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg2_syn_103.a[0]
+
+Timing path: cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/jscan_1_r2_reg_syn_5.clk->cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg2_syn_103
+cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/jscan_1_r2_reg_syn_5.clk
+cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg2_syn_103
+3351 96.380000 103.211000 6.831000 3 3
+cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/jscan_1_r2 cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/jscan_1_r2_reg_syn_5.d[1]
+cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/sshift_r2_b[16]_syn_2 cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/jscan_1_r2_reg_syn_5.c[0]
+cw_top/wrapper_cwc_top/cfg_int_inst/shift_1 cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg2_syn_103.a[0]
+
+Timing path: cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/jscan_1_r2_reg_syn_5.clk->cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg2_syn_103
+cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/jscan_1_r2_reg_syn_5.clk
+cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg2_syn_103
+3393 97.391000 103.211000 5.820000 2 2
+cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/jscan_1_r cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/jscan_1_r2_reg_syn_5.c[1]
+cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/sshift_r2_b[16]_syn_2 cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg2_syn_103.b[0]
+
+
+Endpoint: cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg2_syn_117
+3433 96.458000 6 3
+Timing path: cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/jscan_1_r2_reg_syn_5.clk->cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg2_syn_117
+cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/jscan_1_r2_reg_syn_5.clk
+cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg2_syn_117
+3435 96.458000 103.211000 6.753000 3 3
+cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/jscan_1_r cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/jscan_1_r2_reg_syn_5.c[1]
+cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/sshift_r2_b[16]_syn_2 cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/jscan_1_r2_reg_syn_5.c[0]
+cw_top/wrapper_cwc_top/cfg_int_inst/shift_1 cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg2_syn_117.a[1]
+
+Timing path: cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/jscan_1_r2_reg_syn_5.clk->cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg2_syn_117
+cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/jscan_1_r2_reg_syn_5.clk
+cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg2_syn_117
+3477 96.507000 103.211000 6.704000 3 3
+cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/jscan_1_r2 cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/jscan_1_r2_reg_syn_5.d[1]
+cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/sshift_r2_b[16]_syn_2 cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/jscan_1_r2_reg_syn_5.c[0]
+cw_top/wrapper_cwc_top/cfg_int_inst/shift_1 cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg2_syn_117.a[1]
+
+Timing path: cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/jscan_1_r2_reg_syn_5.clk->cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg2_syn_117
+cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/jscan_1_r2_reg_syn_5.clk
+cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg2_syn_117
+3519 97.239000 103.211000 5.972000 2 2
+cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/jscan_1_r cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/jscan_1_r2_reg_syn_5.c[1]
+cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/sshift_r2_b[16]_syn_2 cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg2_syn_117.b[1]
+
+
+
+Hold check
+3559 3
+Endpoint: cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_1095
+3561 0.160000 1 1
+Timing path: cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_1092.clk->cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_1095
+cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_1092.clk
+cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_1095
+3563 0.160000 3.001000 3.161000 0 1
+cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/cshift_r[217] cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_1095.mi[0]
+
+
+Endpoint: cw_top/wrapper_cwc_top/trigger_inst/emb_ctrl_inst/sub0_syn_98
+3601 0.214000 1 1
+Timing path: cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_1288.clk->cw_top/wrapper_cwc_top/trigger_inst/emb_ctrl_inst/sub0_syn_98
+cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_1288.clk
+cw_top/wrapper_cwc_top/trigger_inst/emb_ctrl_inst/sub0_syn_98
+3603 0.214000 2.938000 3.152000 0 1
+cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/cshift_r[128] cw_top/wrapper_cwc_top/trigger_inst/emb_ctrl_inst/sub0_syn_98.mi[0]
+
+
+Endpoint: cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[7]$bus_nodes/lt0_syn_22
+3641 0.214000 1 1
+Timing path: cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_1039.clk->cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[7]$bus_nodes/lt0_syn_22
+cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_1039.clk
+cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[7]$bus_nodes/lt0_syn_22
+3643 0.214000 2.938000 3.152000 0 1
+cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/cshift_r[229] cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[7]$bus_nodes/lt0_syn_22.mi[0]
+
+
+
+Recovery check
+3681 3
+Endpoint: cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_1277
+3683 97.633000 1 1
+Timing path: cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/rst_reg_syn_56.clk->cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_1277
+cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/rst_reg_syn_56.clk
+cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_1277
+3685 97.633000 102.955000 5.322000 0 1
+cw_top/wrapper_cwc_top/cfg_int_inst/rst_dup_8 cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_1277.sr
+
+
+Endpoint: cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_1265
+3723 97.633000 1 1
+Timing path: cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/rst_reg_syn_56.clk->cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_1265
+cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/rst_reg_syn_56.clk
+cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_1265
+3725 97.633000 102.955000 5.322000 0 1
+cw_top/wrapper_cwc_top/cfg_int_inst/rst_dup_8 cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_1265.sr
+
+
+Endpoint: cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_1274
+3763 97.732000 1 1
+Timing path: cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/rst_reg_syn_56.clk->cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_1274
+cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/rst_reg_syn_56.clk
+cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_1274
+3765 97.732000 102.955000 5.223000 0 1
+cw_top/wrapper_cwc_top/cfg_int_inst/rst_dup_8 cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_1274.sr
+
+
+
+Removal check
+3803 3
+Endpoint: cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_1254
+3805 0.011000 1 1
+Timing path: cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/rst_reg_syn_47.clk->cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_1254
+cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/rst_reg_syn_47.clk
+cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_1254
+3807 0.011000 3.114000 3.125000 0 1
+cw_top/wrapper_cwc_top/cfg_int_inst/rst_dup_11 cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_1254.sr
+
+
+Endpoint: cw_top/wrapper_cwc_top/trigger_inst/emb_ctrl_inst/sub0_syn_98
+3845 0.027000 1 1
+Timing path: cw_top/wrapper_cwc_top/trigger_inst/emb_ctrl_inst/lt0_syn_74.clk->cw_top/wrapper_cwc_top/trigger_inst/emb_ctrl_inst/sub0_syn_98
+cw_top/wrapper_cwc_top/trigger_inst/emb_ctrl_inst/lt0_syn_74.clk
+cw_top/wrapper_cwc_top/trigger_inst/emb_ctrl_inst/sub0_syn_98
+3847 0.027000 3.114000 3.141000 0 1
+cw_top/wrapper_cwc_top/cfg_int_inst/rst_dup_16 cw_top/wrapper_cwc_top/trigger_inst/emb_ctrl_inst/sub0_syn_98.sr
+
+
+Endpoint: cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_1198
+3885 0.107000 1 1
+Timing path: cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/rst_reg_syn_56.clk->cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_1198
+cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/rst_reg_syn_56.clk
+cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_1198
+3887 0.107000 3.193000 3.300000 0 1
+cw_top/wrapper_cwc_top/cfg_int_inst/rst_dup_8 cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_1198.sr
+
+
+
+
+Set input delay: 4ns max, and 0ns min. 
+3925 26 26 2
+Recovery check
+3936 3
+Endpoint: cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/rst_reg_syn_53
+3938 96.083000 1 1
+Timing path: config_inst.jrstn->cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/rst_reg_syn_53
+config_inst.jrstn
+cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/rst_reg_syn_53
+3940 96.083000 102.745000 6.662000 0 1
+config_inst_syn_2 cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/rst_reg_syn_53.sr
+
+
+Endpoint: cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/rst_reg_syn_56
+3976 96.156000 1 1
+Timing path: config_inst.jrstn->cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/rst_reg_syn_56
+config_inst.jrstn
+cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/rst_reg_syn_56
+3978 96.156000 102.745000 6.589000 0 1
+config_inst_syn_2 cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/rst_reg_syn_56.sr
+
+
+Endpoint: cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/rst_reg_syn_59
+4014 96.190000 1 1
+Timing path: config_inst.jrstn->cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/rst_reg_syn_59
+config_inst.jrstn
+cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/rst_reg_syn_59
+4016 96.190000 102.745000 6.555000 0 1
+config_inst_syn_2 cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/rst_reg_syn_59.sr
+
+
+
+Removal check
+4052 3
+Endpoint: cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/rst_reg_syn_65
+4054 -2.299000 1 1
+Timing path: config_inst.jrstn->cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/rst_reg_syn_65
+config_inst.jrstn
+cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/rst_reg_syn_65
+4056 -2.299000 3.791000 1.492000 0 1
+config_inst_syn_2 cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/rst_reg_syn_65.sr
+
+
+Endpoint: cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/rst_reg_syn_47
+4092 -2.231000 1 1
+Timing path: config_inst.jrstn->cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/rst_reg_syn_47
+config_inst.jrstn
+cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/rst_reg_syn_47
+4094 -2.231000 3.791000 1.560000 0 1
+config_inst_syn_2 cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/rst_reg_syn_47.sr
+
+
+Endpoint: cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/rst_reg_syn_63
+4130 -2.190000 1 1
+Timing path: config_inst.jrstn->cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/rst_reg_syn_63
+config_inst.jrstn
+cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/rst_reg_syn_63
+4132 -2.190000 3.791000 1.601000 0 1
+config_inst_syn_2 cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/rst_reg_syn_63.sr
+
+
+
+
+Set input delay: 4ns max, and 0ns min. 
+4168 38 38 2
+Setup check
+4178 3
+Endpoint: cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg2_syn_103
+4178 45.432000 1 1
+Timing path: config_inst.jscanen[1]->cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg2_syn_103
+config_inst.jscanen[1]
+cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg2_syn_103
+4180 45.432000 52.929000 7.497000 2 2
+config_inst_syn_4 cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/jscan_1_r2_reg_syn_5.d[0]
+cw_top/wrapper_cwc_top/cfg_int_inst/shift_1 cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg2_syn_103.a[1]
+
+
+Endpoint: cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg2_syn_103
+4218 45.432000 1 1
+Timing path: config_inst.jscanen[1]->cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg2_syn_103
+config_inst.jscanen[1]
+cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg2_syn_103
+4220 45.432000 52.929000 7.497000 2 2
+config_inst_syn_4 cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/jscan_1_r2_reg_syn_5.d[0]
+cw_top/wrapper_cwc_top/cfg_int_inst/shift_1 cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg2_syn_103.a[0]
+
+
+Endpoint: cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg2_syn_117
+4258 45.559000 1 1
+Timing path: config_inst.jscanen[1]->cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg2_syn_117
+config_inst.jscanen[1]
+cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg2_syn_117
+4260 45.559000 52.929000 7.370000 2 2
+config_inst_syn_4 cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/jscan_1_r2_reg_syn_5.d[0]
+cw_top/wrapper_cwc_top/cfg_int_inst/shift_1 cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg2_syn_117.a[1]
+
+
+
+Hold check
+4298 3
+Endpoint: cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/jscan_1_r2_reg_syn_5
+4300 47.816000 1 1
+Timing path: config_inst.jscanen[1]->cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/jscan_1_r2_reg_syn_5
+config_inst.jscanen[1]
+cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/jscan_1_r2_reg_syn_5
+4302 47.816000 -46.435000 1.381000 0 1
+config_inst_syn_4 cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/jscan_1_r2_reg_syn_5.mi[0]
+
+
+Endpoint: cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg2_syn_108
+4338 48.974000 1 1
+Timing path: config_inst.jscanen[1]->cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg2_syn_108
+config_inst.jscanen[1]
+cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg2_syn_108
+4340 48.974000 -46.838000 2.136000 2 2
+config_inst_syn_4 cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/jscan_1_r2_reg_syn_5.d[0]
+cw_top/wrapper_cwc_top/cfg_int_inst/shift_1 cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg2_syn_108.a[0]
+
+
+Endpoint: cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg2_syn_119
+4378 49.117000 1 1
+Timing path: config_inst.jscanen[1]->cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg2_syn_119
+config_inst.jscanen[1]
+cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg2_syn_119
+4380 49.117000 -46.838000 2.279000 2 2
+config_inst_syn_4 cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/jscan_1_r2_reg_syn_5.d[0]
+cw_top/wrapper_cwc_top/cfg_int_inst/shift_1 cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg2_syn_119.a[0]
+
+
+
+
+Set input delay: 4ns max, and 0ns min. 
+4418 308 308 2
+Setup check
+4428 3
+Endpoint: cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_906
+4428 45.192000 1 1
+Timing path: config_inst.jscanen[0]->cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_906
+config_inst.jscanen[0]
+cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_906
+4430 45.192000 52.929000 7.737000 1 2
+config_inst_syn_3 cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_1250.d[1]
+cw_top/wrapper_cwc_top/cfg_int_inst/shift_0_dup_2 cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_906.ce
+
+
+Endpoint: cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[1]$bus_nodes/trig_bus_en_b[19]_syn_5
+4468 45.227000 1 1
+Timing path: config_inst.jscanen[0]->cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[1]$bus_nodes/trig_bus_en_b[19]_syn_5
+config_inst.jscanen[0]
+cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[1]$bus_nodes/trig_bus_en_b[19]_syn_5
+4470 45.227000 52.929000 7.702000 1 2
+config_inst_syn_3 cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_1309.d[0]
+cw_top/wrapper_cwc_top/cfg_int_inst/shift_0 cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[1]$bus_nodes/trig_bus_en_b[19]_syn_5.ce
+
+
+Endpoint: cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_1112
+4508 45.276000 1 1
+Timing path: config_inst.jscanen[0]->cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_1112
+config_inst.jscanen[0]
+cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_1112
+4510 45.276000 52.929000 7.653000 1 2
+config_inst_syn_3 cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_1309.d[0]
+cw_top/wrapper_cwc_top/cfg_int_inst/shift_0 cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_1112.ce
+
+
+
+Hold check
+4548 3
+Endpoint: cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_1304
+4550 48.470000 1 1
+Timing path: config_inst.jscanen[0]->cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_1304
+config_inst.jscanen[0]
+cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_1304
+4552 48.470000 -46.435000 2.035000 1 2
+config_inst_syn_3 cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/rst_reg_syn_63.d[0]
+cw_top/wrapper_cwc_top/cfg_int_inst/shift_0_dup_6 cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_1304.ce
+
+
+Endpoint: cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_1257
+4590 48.518000 1 1
+Timing path: config_inst.jscanen[0]->cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_1257
+config_inst.jscanen[0]
+cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_1257
+4592 48.518000 -46.838000 1.680000 1 2
+config_inst_syn_3 cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/rst_reg_syn_47.d[0]
+cw_top/wrapper_cwc_top/cfg_int_inst/shift_0_dup_5 cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_1257.ce
+
+
+Endpoint: cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_1242
+4630 48.518000 1 1
+Timing path: config_inst.jscanen[0]->cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_1242
+config_inst.jscanen[0]
+cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_1242
+4632 48.518000 -46.838000 1.680000 1 2
+config_inst_syn_3 cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/rst_reg_syn_47.d[0]
+cw_top/wrapper_cwc_top/cfg_int_inst/shift_0_dup_5 cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_1242.ce
+
+
+
+
+Set input delay: 4ns max, and 0ns min. 
+4670 344 344 2
+Setup check
+4680 3
+Endpoint: cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_906
+4680 45.079000 1 1
+Timing path: config_inst.jshift->cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_906
+config_inst.jshift
+cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_906
+4682 45.079000 52.929000 7.850000 1 2
+config_inst_syn_5 cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_1250.c[1]
+cw_top/wrapper_cwc_top/cfg_int_inst/shift_0_dup_2 cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_906.ce
+
+
+Endpoint: cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[1]$bus_nodes/trig_bus_en_b[19]_syn_5
+4720 45.144000 1 1
+Timing path: config_inst.jshift->cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[1]$bus_nodes/trig_bus_en_b[19]_syn_5
+config_inst.jshift
+cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[1]$bus_nodes/trig_bus_en_b[19]_syn_5
+4722 45.144000 52.929000 7.785000 1 2
+config_inst_syn_5 cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_1309.c[0]
+cw_top/wrapper_cwc_top/cfg_int_inst/shift_0 cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[1]$bus_nodes/trig_bus_en_b[19]_syn_5.ce
+
+
+Endpoint: cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_1276
+4760 45.189000 1 1
+Timing path: config_inst.jshift->cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_1276
+config_inst.jshift
+cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_1276
+4762 45.189000 52.929000 7.740000 1 2
+config_inst_syn_5 cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_1250.c[1]
+cw_top/wrapper_cwc_top/cfg_int_inst/shift_0_dup_2 cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_1276.ce
+
+
+
+Hold check
+4800 3
+Endpoint: cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_1257
+4802 48.595000 1 1
+Timing path: config_inst.jshift->cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_1257
+config_inst.jshift
+cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_1257
+4804 48.595000 -46.838000 1.757000 1 2
+config_inst_syn_5 cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/rst_reg_syn_47.c[0]
+cw_top/wrapper_cwc_top/cfg_int_inst/shift_0_dup_5 cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_1257.ce
+
+
+Endpoint: cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_1242
+4842 48.595000 1 1
+Timing path: config_inst.jshift->cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_1242
+config_inst.jshift
+cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_1242
+4844 48.595000 -46.838000 1.757000 1 2
+config_inst_syn_5 cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/rst_reg_syn_47.c[0]
+cw_top/wrapper_cwc_top/cfg_int_inst/shift_0_dup_5 cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_1242.ce
+
+
+Endpoint: cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_1254
+4882 48.664000 1 1
+Timing path: config_inst.jshift->cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_1254
+config_inst.jshift
+cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_1254
+4884 48.664000 -46.838000 1.826000 1 2
+config_inst_syn_5 cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/rst_reg_syn_47.c[0]
+cw_top/wrapper_cwc_top/cfg_int_inst/shift_0_dup_5 cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_1254.ce
+
+
+
+
+Set input delay: 4ns max, and 0ns min. 
+4922 2 2 2
+Setup check
+4932 1
+Endpoint: cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_1304
+4932 47.261000 1 1
+Timing path: config_inst.jtdi->cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_1304
+config_inst.jtdi
+cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_1304
+4934 47.261000 52.929000 5.668000 0 1
+config_inst_syn_1 cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_1304.mi[0]
+
+
+
+Hold check
+4970 1
+Endpoint: cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_1304
+4972 47.910000 1 1
+Timing path: config_inst.jtdi->cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_1304
+config_inst.jtdi
+cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_1304
+4974 47.910000 -46.435000 1.475000 0 1
+config_inst_syn_1 cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_1304.mi[0]
+
+
+
+
+Set input delay: 4ns max, and 0ns min. 
+5010 296 296 2
+Setup check
+5020 3
+Endpoint: cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_1274
+5020 45.641000 1 1
+Timing path: config_inst.jupdate->cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_1274
+config_inst.jupdate
+cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_1274
+5022 45.641000 52.929000 7.288000 0 1
+config_inst_syn_6 cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_1274.ce
+
+
+Endpoint: cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_1525
+5058 45.797000 1 1
+Timing path: config_inst.jupdate->cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_1525
+config_inst.jupdate
+cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_1525
+5060 45.797000 52.929000 7.132000 0 1
+config_inst_syn_6 cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_1525.ce
+
+
+Endpoint: cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_1406
+5096 45.839000 1 1
+Timing path: config_inst.jupdate->cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_1406
+config_inst.jupdate
+cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_1406
+5098 45.839000 52.929000 7.090000 0 1
+config_inst_syn_6 cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_1406.ce
+
+
+
+Hold check
+5134 3
+Endpoint: cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_1303
+5136 47.747000 1 1
+Timing path: config_inst.jupdate->cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_1303
+config_inst.jupdate
+cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_1303
+5138 47.747000 -46.435000 1.312000 0 1
+config_inst_syn_6 cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_1303.ce
+
+
+Endpoint: cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_1555
+5174 48.027000 1 1
+Timing path: config_inst.jupdate->cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_1555
+config_inst.jupdate
+cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_1555
+5176 48.027000 -46.435000 1.592000 0 1
+config_inst_syn_6 cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_1555.ce
+
+
+Endpoint: cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_1202
+5212 48.104000 1 1
+Timing path: config_inst.jupdate->cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_1202
+config_inst.jupdate
+cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_1202
+5214 48.104000 -46.435000 1.669000 0 1
+config_inst_syn_6 cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_1202.ce
+
+
+
+
+Set output delay: 4ns max, and 0ns min. 
+5250 6 2 2
+Setup check
+5260 1
+Endpoint: config_inst.jtdo[1]
+5260 38.683000 3 3
+Timing path: cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/jscan_1_r2_reg_syn_5.clk->config_inst.jtdo[1]
+cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/jscan_1_r2_reg_syn_5.clk
+config_inst.jtdo[1]
+5262 38.683000 46.000000 7.317000 3 4
+cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/jscan_1_r cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/jscan_1_r2_reg_syn_5.c[1]
+cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/sshift_r2_b[16]_syn_2 cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/jscan_1_r2_reg_syn_5.c[0]
+cw_top/wrapper_cwc_top/cfg_int_inst/shift_1 cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_1302.d[0]
+config_inst_syn_8 config_inst.jtdo[1]
+
+Timing path: cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/jscan_1_r2_reg_syn_5.clk->config_inst.jtdo[1]
+cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/jscan_1_r2_reg_syn_5.clk
+config_inst.jtdo[1]
+5303 38.732000 46.000000 7.268000 3 4
+cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/jscan_1_r2 cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/jscan_1_r2_reg_syn_5.d[1]
+cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/sshift_r2_b[16]_syn_2 cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/jscan_1_r2_reg_syn_5.c[0]
+cw_top/wrapper_cwc_top/cfg_int_inst/shift_1 cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_1302.d[0]
+config_inst_syn_8 config_inst.jtdo[1]
+
+Timing path: cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg2_syn_108.clk->config_inst.jtdo[1]
+cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg2_syn_108.clk
+config_inst.jtdo[1]
+5344 39.637000 46.000000 6.363000 1 2
+cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/sshift_r2[0] cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_1302.c[0]
+config_inst_syn_8 config_inst.jtdo[1]
+
+
+
+Hold check
+5381 1
+Endpoint: config_inst.jtdo[1]
+5383 54.731000 3 3
+Timing path: cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg2_syn_108.clk->config_inst.jtdo[1]
+cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg2_syn_108.clk
+config_inst.jtdo[1]
+5385 54.731000 -49.900000 4.831000 1 2
+cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/sshift_r2[0] cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_1302.c[0]
+config_inst_syn_8 config_inst.jtdo[1]
+
+Timing path: cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/jscan_1_r2_reg_syn_5.clk->config_inst.jtdo[1]
+cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/jscan_1_r2_reg_syn_5.clk
+config_inst.jtdo[1]
+5422 55.294000 -49.900000 5.394000 3 4
+cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/jscan_1_r2 cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/jscan_1_r2_reg_syn_5.d[1]
+cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/sshift_r2_b[16]_syn_2 cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/jscan_1_r2_reg_syn_5.c[0]
+cw_top/wrapper_cwc_top/cfg_int_inst/shift_1 cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_1302.d[0]
+config_inst_syn_8 config_inst.jtdo[1]
+
+Timing path: cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/jscan_1_r2_reg_syn_5.clk->config_inst.jtdo[1]
+cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/jscan_1_r2_reg_syn_5.clk
+config_inst.jtdo[1]
+5463 55.328000 -49.900000 5.428000 3 4
+cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/jscan_1_r cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/jscan_1_r2_reg_syn_5.c[1]
+cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/sshift_r2_b[16]_syn_2 cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/jscan_1_r2_reg_syn_5.c[0]
+cw_top/wrapper_cwc_top/cfg_int_inst/shift_1 cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_1302.d[0]
+config_inst_syn_8 config_inst.jtdo[1]
+
+
+
+
+Set output delay: 4ns max, and 0ns min. 
+5504 2 2 2
+Setup check
+5514 1
+Endpoint: config_inst.jtdo[0]
+5514 39.961000 1 1
+Timing path: cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_1302.clk->config_inst.jtdo[0]
+cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_1302.clk
+config_inst.jtdo[0]
+5516 39.961000 46.000000 6.039000 1 2
+cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/cshift_r[0] config_inst_syn_46.c[1]
+config_inst_syn_7 config_inst.jtdo[0]
+
+
+
+Hold check
+5553 1
+Endpoint: config_inst.jtdo[0]
+5555 54.512000 1 1
+Timing path: cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_1302.clk->config_inst.jtdo[0]
+cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_1302.clk
+config_inst.jtdo[0]
+5557 54.512000 -49.900000 4.612000 1 2
+cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/cshift_r[0] config_inst_syn_46.c[1]
+config_inst_syn_7 config_inst.jtdo[0]
+
+
+
+
+Set input delay: 4ns max, and 0ns min. Set output delay: 4ns max, 0ns min. 
+5594 2 2 2
+Setup check
+5605 1
+Endpoint: config_inst.jtdo[1]
+5605 88.066000 1 1
+Timing path: config_inst.jscanen[1]->config_inst.jtdo[1]
+config_inst.jscanen[1]
+config_inst.jtdo[1]
+5607 88.066000 96.000000 7.934000 2 3
+config_inst_syn_4 cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/jscan_1_r2_reg_syn_5.d[0]
+cw_top/wrapper_cwc_top/cfg_int_inst/shift_1 cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_1302.d[0]
+config_inst_syn_8 config_inst.jtdo[1]
+
+
+
+Hold check
+5644 1
+Endpoint: config_inst.jtdo[1]
+5646 2.654000 1 1
+Timing path: config_inst.jscanen[1]->config_inst.jtdo[1]
+config_inst.jscanen[1]
+config_inst.jtdo[1]
+5648 2.654000 0.100000 2.754000 2 3
+config_inst_syn_4 cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/jscan_1_r2_reg_syn_5.d[0]
+cw_top/wrapper_cwc_top/cfg_int_inst/shift_1 cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_1302.d[0]
+config_inst_syn_8 config_inst.jtdo[1]
+
+
+
+
+Set input delay: 4ns max, and 0ns min. Set output delay: 4ns max, 0ns min. 
+5685 2 2 2
+Setup check
+5696 1
+Endpoint: config_inst.jtdo[0]
+5696 88.761000 1 1
+Timing path: config_inst.jscanen[0]->config_inst.jtdo[0]
+config_inst.jscanen[0]
+config_inst.jtdo[0]
+5698 88.761000 96.000000 7.239000 2 3
+config_inst_syn_3 config_inst_syn_46.d[0]
+cw_top/wrapper_cwc_top/cfg_int_inst/shift_0_dup_4 config_inst_syn_46.d[1]
+config_inst_syn_7 config_inst.jtdo[0]
+
+
+
+Hold check
+5735 1
+Endpoint: config_inst.jtdo[0]
+5737 2.182000 1 1
+Timing path: config_inst.jscanen[0]->config_inst.jtdo[0]
+config_inst.jscanen[0]
+config_inst.jtdo[0]
+5739 2.182000 0.100000 2.282000 2 3
+config_inst_syn_3 config_inst_syn_46.d[0]
+cw_top/wrapper_cwc_top/cfg_int_inst/shift_0_dup_4 config_inst_syn_46.d[1]
+config_inst_syn_7 config_inst.jtdo[0]
+
+
+
+
+Set input delay: 4ns max, and 0ns min. Set output delay: 4ns max, 0ns min. 
+5776 2 2 2
+Setup check
+5787 1
+Endpoint: config_inst.jtdo[1]
+5787 87.889000 1 1
+Timing path: config_inst.jshift->config_inst.jtdo[1]
+config_inst.jshift
+config_inst.jtdo[1]
+5789 87.889000 96.000000 8.111000 2 3
+config_inst_syn_5 cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/jscan_1_r2_reg_syn_5.b[0]
+cw_top/wrapper_cwc_top/cfg_int_inst/shift_1 cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_1302.d[0]
+config_inst_syn_8 config_inst.jtdo[1]
+
+
+
+Hold check
+5826 1
+Endpoint: config_inst.jtdo[1]
+5828 2.788000 1 1
+Timing path: config_inst.jshift->config_inst.jtdo[1]
+config_inst.jshift
+config_inst.jtdo[1]
+5830 2.788000 0.100000 2.888000 2 3
+config_inst_syn_5 cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/jscan_1_r2_reg_syn_5.b[0]
+cw_top/wrapper_cwc_top/cfg_int_inst/shift_1 cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_1302.d[0]
+config_inst_syn_8 config_inst.jtdo[1]
+
+
+
+
+Set input delay: 4ns max, and 0ns min. Set output delay: 4ns max, 0ns min. 
+5867 2 2 2
+Setup check
+5878 1
+Endpoint: config_inst.jtdo[0]
+5878 88.643000 1 1
+Timing path: config_inst.jshift->config_inst.jtdo[0]
+config_inst.jshift
+config_inst.jtdo[0]
+5880 88.643000 96.000000 7.357000 2 3
+config_inst_syn_5 config_inst_syn_46.c[0]
+cw_top/wrapper_cwc_top/cfg_int_inst/shift_0_dup_4 config_inst_syn_46.d[1]
+config_inst_syn_7 config_inst.jtdo[0]
+
+
+
+Hold check
+5917 1
+Endpoint: config_inst.jtdo[0]
+5919 2.257000 1 1
+Timing path: config_inst.jshift->config_inst.jtdo[0]
+config_inst.jshift
+config_inst.jtdo[0]
+5921 2.257000 0.100000 2.357000 2 3
+config_inst_syn_5 config_inst_syn_46.c[0]
+cw_top/wrapper_cwc_top/cfg_int_inst/shift_0_dup_4 config_inst_syn_46.d[1]
+config_inst_syn_7 config_inst.jtdo[0]
+
+
+
+
+Path delay: 7.7ns max
+5958 18 18 1
+Max path
+5968 3
+Endpoint: frame_read_write_m0/read_buf/wr_to_rd_cross_inst/reg3_syn_36
+5968 6.492000 1 1
+Timing path: frame_read_write_m0/read_buf/wr_to_rd_cross_inst/reg0_syn_53.clk->frame_read_write_m0/read_buf/wr_to_rd_cross_inst/reg3_syn_36
+frame_read_write_m0/read_buf/wr_to_rd_cross_inst/reg0_syn_53.clk
+frame_read_write_m0/read_buf/wr_to_rd_cross_inst/reg3_syn_36
+5970 6.492000 9.860000 3.368000 0 1
+frame_read_write_m0/read_buf/wr_to_rd_cross_inst/primary_addr_gray_reg[5] frame_read_write_m0/read_buf/wr_to_rd_cross_inst/reg3_syn_36.mi[0]
+
+
+Endpoint: frame_read_write_m0/read_buf/wr_to_rd_cross_inst/reg3_syn_30
+6007 6.573000 1 1
+Timing path: frame_read_write_m0/read_buf/wr_to_rd_cross_inst/reg0_syn_59.clk->frame_read_write_m0/read_buf/wr_to_rd_cross_inst/reg3_syn_30
+frame_read_write_m0/read_buf/wr_to_rd_cross_inst/reg0_syn_59.clk
+frame_read_write_m0/read_buf/wr_to_rd_cross_inst/reg3_syn_30
+6009 6.573000 9.860000 3.287000 0 1
+frame_read_write_m0/read_buf/wr_to_rd_cross_inst/primary_addr_gray_reg[6] frame_read_write_m0/read_buf/wr_to_rd_cross_inst/reg3_syn_30.mi[1]
+
+
+Endpoint: frame_read_write_m0/read_buf/wr_to_rd_cross_inst/reg3_syn_39
+6046 6.617000 1 1
+Timing path: frame_read_write_m0/read_buf/wr_to_rd_cross_inst/reg0_syn_50.clk->frame_read_write_m0/read_buf/wr_to_rd_cross_inst/reg3_syn_39
+frame_read_write_m0/read_buf/wr_to_rd_cross_inst/reg0_syn_50.clk
+frame_read_write_m0/read_buf/wr_to_rd_cross_inst/reg3_syn_39
+6048 6.617000 9.860000 3.243000 0 1
+frame_read_write_m0/read_buf/wr_to_rd_cross_inst/primary_addr_gray_reg[4] frame_read_write_m0/read_buf/wr_to_rd_cross_inst/reg3_syn_39.mi[0]
+
+
+
+
+Path delay: 7.7ns max
+6087 18 18 1
+Max path
+6097 3
+Endpoint: frame_read_write_m0/write_buf/sub0_syn_49
+6097 6.631000 1 1
+Timing path: frame_read_write_m0/write_buf/rd_to_wr_cross_inst/reg0_syn_50.clk->frame_read_write_m0/write_buf/sub0_syn_49
+frame_read_write_m0/write_buf/rd_to_wr_cross_inst/reg0_syn_50.clk
+frame_read_write_m0/write_buf/sub0_syn_49
+6099 6.631000 9.860000 3.229000 0 1
+frame_read_write_m0/write_buf/rd_to_wr_cross_inst/primary_addr_gray_reg[2] frame_read_write_m0/write_buf/sub0_syn_49.mi[1]
+
+
+Endpoint: frame_read_write_m0/write_buf/sub0_syn_49
+6129 6.631000 1 1
+Timing path: frame_read_write_m0/write_buf/rd_to_wr_cross_inst/reg0_syn_47.clk->frame_read_write_m0/write_buf/sub0_syn_49
+frame_read_write_m0/write_buf/rd_to_wr_cross_inst/reg0_syn_47.clk
+frame_read_write_m0/write_buf/sub0_syn_49
+6131 6.631000 9.860000 3.229000 0 1
+frame_read_write_m0/write_buf/rd_to_wr_cross_inst/primary_addr_gray_reg[1] frame_read_write_m0/write_buf/sub0_syn_49.mi[0]
+
+
+Endpoint: frame_read_write_m0/write_buf/wr_to_rd_cross_inst/reg3_syn_33
+6161 6.559000 1 1
+Timing path: frame_read_write_m0/write_buf/wr_to_rd_cross_inst/reg0_syn_53.clk->frame_read_write_m0/write_buf/wr_to_rd_cross_inst/reg3_syn_33
+frame_read_write_m0/write_buf/wr_to_rd_cross_inst/reg0_syn_53.clk
+frame_read_write_m0/write_buf/wr_to_rd_cross_inst/reg3_syn_33
+6163 6.559000 7.584000 1.025000 0 1
+frame_read_write_m0/write_buf/wr_to_rd_cross_inst/primary_addr_gray_reg[4] frame_read_write_m0/write_buf/wr_to_rd_cross_inst/reg3_syn_33.mi[0]
+
+
+
+
+
+Timing group statistics: 
+	Clock constraints: 
+	  Clock Name                                  Min Period     Max Freq           Skew      Fanout            TNS
+	  sd_card_clk (125.000MHz)                       8.161ns     122.534MHz        0.326ns       443       -0.161ns
+	  jtck (10.000MHz)                              22.634ns      44.181MHz        0.138ns       326        0.000ns
+	  video_clk (66.667MHz)                         15.445ns      64.746MHz        0.326ns       200       -0.936ns
+	  ext_mem_clk (125.000MHz)                      12.721ns      78.610MHz        0.138ns       118     -160.671ns
+	  video_pll_m0/pll_inst.clkc[1] (333.444MHz)        2.070ns     483.000MHz        0.408ns        33        0.000ns
+	  clk (50.000MHz)                                3.606ns     277.316MHz        0.066ns         6        0.000ns
+	Minimum input arrival time before clock: 3.850ns
+	Maximum output required time after clock: 3.926ns
+	Maximum combinational path delay: 4.111ns
+Warning: No clock constraint on 2 clock net(s): 
+	frame_read_write_m0/write_buf/clkw_syn_2
+	u_ov5640_dri/u_i2c_dr/dri_clk_syn_4
+
+	Exceptions:
+
+		Check Type:	MIN
+		----------------------------------------------------------------------------------------------------
+		       Path Num     Constraint                                                                      
+		             18     set_false_path -nowarn -hold -from [ get_regs -nowarn {*/primary_addr_gray_reg[*]} ] -to [ get_regs -nowarn {*/sync_r1[*]} ]
+		             18     set_false_path -nowarn -hold -from [ get_regs -nowarn {*/primary_addr_gray_reg[*]} ] -to [ get_regs -nowarn {*/sync_r1[*]} ]
+

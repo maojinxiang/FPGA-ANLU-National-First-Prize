@@ -1,0 +1,176 @@
+============================================================
+   Tang Dynasty, V6.2.168116
+   Copyright (c) 2012-2025 Anlogic Inc.
+   Executable = C:/Anlogic/TD/bin/td.exe
+   Built at =   16:32:07 Jun 12 2025
+   Run by =     xvhao
+   Run Date =   Sun Nov  2 21:08:57 2025
+
+   Run on =     XU
+============================================================
+PRJ-1412 : reset_run syn_1 phy_1.
+PRJ-1409 : launch_runs syn_1 phy_1  -jobs 6.
+PRJ-5303 WARNING: Run syn_1 failed.
+RUN-1002 : start command "save_best_bits"
+RUN-1002 : start command "commit_param -step design"
+RUN-1001 : Print Global Property
+RUN-1001 : --------------------------------------------------------
+RUN-1001 :   Parameters   |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------
+RUN-1001 :   enable_seed  |    off     |       off        |        
+RUN-1001 :     message    |  standard  |     standard     |        
+RUN-1001 :   qor_monitor  |     on     |        on        |        
+RUN-1001 :   syn_ip_flow  |    off     |       off        |        
+RUN-1001 :     thread     |    auto    |       auto       |        
+RUN-1001 : --------------------------------------------------------
+RUN-1001 : Print Design Property
+RUN-1001 : ----------------------------------------------------------------
+RUN-1001 :       Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : ----------------------------------------------------------------
+RUN-1001 :   default_reg_initial  |    auto    |       auto       |        
+RUN-1001 :    hdl_warning_level   |   normal   |      normal      |        
+RUN-1001 : ----------------------------------------------------------------
+HDL-1007 : analyze verilog file al_ip/TEMAC_CORE/RTL/mac_core_aead6cd6dadd.v
+HDL-1007 : analyze verilog file al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v
+HDL-5007 WARNING: column 1032 exceeds maximum value 1023 in al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v(30)
+HDL-1007 : back to file 'al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v' in al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v(86)
+HDL-5007 WARNING: event expressions must result in a singular type in al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v(3001)
+HDL-1007 : undeclared symbol '**', assumed default net type '**' in al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v(5050)
+HDL-1007 : undeclared symbol '**', assumed default net type '**' in al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v(5458)
+HDL-5007 WARNING: column 1035 exceeds maximum value 1023 in al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v(6001)
+HDL-1007 : back to file 'al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v' in al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v(260)
+HDL-1007 : analyze verilog file al_ip/TEMAC_CORE/TEMAC_CORE.v
+HDL-1007 : analyze verilog file al_ip/pll_gen.v
+HDL-1007 : undeclared symbol 'pll_gen_open0', assumed default net type 'wire' in al_ip/pll_gen.v(99)
+HDL-1007 : undeclared symbol 'pll_gen_open8', assumed default net type 'wire' in al_ip/pll_gen.v(105)
+HDL-1007 : undeclared symbol 'pll_gen_open7', assumed default net type 'wire' in al_ip/pll_gen.v(105)
+HDL-1007 : undeclared symbol 'pll_gen_open6', assumed default net type 'wire' in al_ip/pll_gen.v(105)
+HDL-1007 : undeclared symbol 'pll_gen_open5', assumed default net type 'wire' in al_ip/pll_gen.v(105)
+HDL-1007 : undeclared symbol 'pll_gen_open4', assumed default net type 'wire' in al_ip/pll_gen.v(105)
+HDL-1007 : undeclared symbol 'pll_gen_open3', assumed default net type 'wire' in al_ip/pll_gen.v(105)
+HDL-1007 : undeclared symbol 'pll_gen_open2', assumed default net type 'wire' in al_ip/pll_gen.v(105)
+HDL-1007 : undeclared symbol 'pll_gen_open1', assumed default net type 'wire' in al_ip/pll_gen.v(105)
+HDL-1007 : analyze verilog file import/afifo_16_32_256.v
+HDL-1007 : analyze verilog file import/afifo_32_16_256.v
+HDL-1007 : analyze verilog file import/ax_debounce.v
+HDL-1007 : analyze verilog file import/bmp_read.v
+HDL-1007 : analyze verilog file import/BUFGMUX.v
+HDL-1007 : analyze verilog file import/clk_gen_rst_gen.v
+HDL-1007 : analyze verilog file import/div_clk_gen.v
+HDL-1007 : analyze verilog file import/frame_fifo_read.v
+HDL-1007 : analyze verilog file import/frame_fifo_write.v
+HDL-1007 : analyze verilog file import/frame_read_write.v
+HDL-1007 : analyze verilog file import/IDDR.v
+HDL-1007 : analyze verilog file import/key_mode_ctrl.v
+HDL-1007 : analyze verilog file import/led.v
+HDL-1007 : analyze verilog file import/ODDR.v
+HDL-1007 : analyze verilog file import/RAMB16_S9_S9.v
+HDL-1007 : undeclared symbol 'open', assumed default net type 'wire' in import/RAMB16_S9_S9.v(109)
+HDL-1007 : analyze verilog file import/rgmii_interface.v
+HDL-1007 : analyze verilog file import/rx_client_fifo.v
+HDL-5370 WARNING: parameter 'WAIT_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in import/rx_client_fifo.v(49)
+HDL-5370 WARNING: parameter 'QUEUE1_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in import/rx_client_fifo.v(50)
+HDL-5370 WARNING: parameter 'QUEUE2_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in import/rx_client_fifo.v(51)
+HDL-5370 WARNING: parameter 'QUEUE3_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in import/rx_client_fifo.v(52)
+HDL-5370 WARNING: parameter 'QUEUE_SOF_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in import/rx_client_fifo.v(53)
+HDL-5370 WARNING: parameter 'SOF_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in import/rx_client_fifo.v(54)
+HDL-5370 WARNING: parameter 'DATA_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in import/rx_client_fifo.v(55)
+HDL-5370 WARNING: parameter 'EOF_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in import/rx_client_fifo.v(56)
+HDL-5370 WARNING: parameter 'IDLE_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in import/rx_client_fifo.v(62)
+HDL-5370 WARNING: parameter 'FRAME_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in import/rx_client_fifo.v(63)
+HDL-5370 Similar messages will be suppressed.
+HDL-1007 : analyze verilog file import/sd_card_bmp.v
+HDL-1007 : analyze verilog file import/sd_card_cmd.v
+HDL-1007 : analyze verilog file import/sd_card_sec_read_write.v
+HDL-1007 : analyze verilog file import/sd_card_top.v
+HDL-1007 : analyze verilog file import/sdram.v
+HDL-1007 : analyze included file import/global_def.v in import/sdram.v(10)
+HDL-1007 : back to file 'import/sdram.v' in import/sdram.v(10)
+HDL-1007 : undeclared symbol 'SDR_CKE', assumed default net type 'wire' in import/sdram.v(88)
+HDL-1007 : analyze verilog file import/spi_master.v
+HDL-1007 : analyze verilog file import/sys_pll.v
+HDL-1007 : undeclared symbol 'open', assumed default net type 'wire' in import/sys_pll.v(77)
+HDL-1007 : analyze verilog file import/temac_block.v
+HDL-1007 : analyze verilog file import/temac_clk_gen.v
+HDL-1007 : analyze verilog file import/tx_client_fifo.v
+HDL-5370 WARNING: parameter 'IDLE_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in import/tx_client_fifo.v(53)
+HDL-5370 WARNING: parameter 'QUEUE1_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in import/tx_client_fifo.v(54)
+HDL-5370 WARNING: parameter 'QUEUE2_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in import/tx_client_fifo.v(55)
+HDL-5370 WARNING: parameter 'QUEUE3_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in import/tx_client_fifo.v(56)
+HDL-5370 WARNING: parameter 'QUEUE_ACK_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in import/tx_client_fifo.v(57)
+HDL-5370 WARNING: parameter 'WAIT_ACK_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in import/tx_client_fifo.v(58)
+HDL-5370 WARNING: parameter 'FRAME_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in import/tx_client_fifo.v(59)
+HDL-5370 WARNING: parameter 'DROP_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in import/tx_client_fifo.v(60)
+HDL-5370 WARNING: parameter 'RETRANSMIT_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in import/tx_client_fifo.v(61)
+HDL-5370 WARNING: parameter 'WAIT_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in import/tx_client_fifo.v(67)
+HDL-5370 Similar messages will be suppressed.
+HDL-1007 : analyze verilog file import/tx_clk_en_gen.v
+HDL-1007 : analyze verilog file import/udp_data_tpg.v
+HDL-1007 : analyze verilog file import/udp_echo_test.v
+HDL-1007 : analyze verilog file import/UDP_Example_Top.v
+HDL-1007 : undeclared symbol 'phy_reset', assumed default net type 'wire' in import/UDP_Example_Top.v(222)
+HDL-1007 : analyze verilog file import/udp_img_send.v
+HDL-1007 : analyze verilog file import/udp_ip_protocol_stack_merge.enc.v
+HDL-1007 : back to file 'import/udp_ip_protocol_stack_merge.enc.v' in import/udp_ip_protocol_stack_merge.enc.v(56)
+HDL-1007 : undeclared symbol '**', assumed default net type '**' in import/udp_ip_protocol_stack_merge.enc.v(2638)
+HDL-1007 : back to file 'import/udp_ip_protocol_stack_merge.enc.v' in import/udp_ip_protocol_stack_merge.enc.v(420)
+HDL-1007 : analyze verilog file import/udp_tx_arbiter.v
+HDL-1007 : analyze verilog file import/udp_tx_simple.v
+HDL-1007 : analyze verilog file import/sdr_as_ram.enc.v
+HDL-1007 : back to file 'import/sdr_as_ram.enc.v' in import/sdr_as_ram.enc.v(45)
+HDL-1007 : analyze verilog file import/sdr_init_ref.enc.v
+HDL-1007 : analyze included file import/global_def.v in import/sdr_init_ref.enc.v(11)
+HDL-1007 : back to file 'import/sdr_init_ref.enc.v' in import/sdr_init_ref.enc.v(11)
+HDL-1007 : undeclared symbol '**', assumed default net type '**' in import/sdr_init_ref.enc.v(57)
+HDL-1007 : back to file 'import/sdr_init_ref.enc.v' in import/sdr_init_ref.enc.v(149)
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in import/sdr_init_ref.enc.v(47)
+HDL-1007 : analyze verilog file import/sdr_wrrd.enc.v
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in import/sdr_wrrd.enc.v(283)
+HDL-1007 : back to file 'import/sdr_wrrd.enc.v' in import/sdr_wrrd.enc.v(19)
+HDL-1007 : analyze verilog file import/udp_simple_send.v
+HDL-1007 : analyze verilog file import/video_pll.v
+HDL-1007 : undeclared symbol 'open', assumed default net type 'wire' in import/video_pll.v(70)
+HDL-1007 : analyze VHDL file import/video_pll.vhd
+HDL-1007 : analyze entity video_pll in import/video_pll.vhd(29)
+HDL-1007 : analyze architecture rtl in import/video_pll.vhd(38)
+HDL-1007 : analyze verilog file import/sdram_arbiter.v
+HDL-1007 : analyze verilog file import/udp_mode_send.v
+HDL-1007 : analyze verilog file import/udp2sdr.v
+HDL-1007 : analyze verilog file import/video_delay.v
+HDL-1007 : analyze verilog file import/video_timing_data.v
+HDL-1007 : analyze VHDL file import/hdmi_tx.vhd
+HDL-1007 : analyze entity hdmi_tx in import/hdmi_tx.vhd(11)
+HDL-1007 : analyze architecture behavioral in import/hdmi_tx.vhd(33)
+HDL-1007 : analyze verilog file import/color_bar.v
+HDL-1007 : analyze included file import/video_define.v in import/color_bar.v(2)
+HDL-1007 : back to file 'import/color_bar.v' in import/color_bar.v(2)
+HDL-1007 : analyze VHDL file import/hdmi/enc_file/DVITransmitter.enc.vhd
+HDL-1007 : analyze entity dvitransmitter in import/hdmi/enc_file/DVITransmitter.enc.vhd(13)
+HDL-1007 : analyze architecture ** in import/hdmi/enc_file/DVITransmitter.enc.vhd(2)
+HDL-1007 : analyze VHDL file import/hdmi/enc_file/SerializerN_1_lvds.enc.vhd
+HDL-1007 : analyze entity ** in import/hdmi/enc_file/SerializerN_1_lvds.enc.vhd(12)
+HDL-1007 : analyze architecture ** in import/hdmi/enc_file/SerializerN_1_lvds.enc.vhd(25)
+HDL-1007 : analyze VHDL file import/hdmi/enc_file/SerializerN_1_lvds_dat.enc.vhd
+HDL-1007 : analyze entity ** in import/hdmi/enc_file/SerializerN_1_lvds_dat.enc.vhd(14)
+HDL-1007 : analyze architecture ** in import/hdmi/enc_file/SerializerN_1_lvds_dat.enc.vhd(28)
+HDL-1007 : analyze VHDL file import/hdmi/enc_file/TMDSEncoder.enc.vhd
+HDL-1007 : analyze entity ** in import/hdmi/enc_file/TMDSEncoder.enc.vhd(13)
+HDL-1007 : analyze architecture ** in import/hdmi/enc_file/TMDSEncoder.enc.vhd(24)
+HDL-1007 : analyze verilog file import/hdmi/enc_file/video_tpg_1080p.enc.v
+HDL-1007 : back to file 'import/hdmi/enc_file/video_tpg_1080p.enc.v' in import/hdmi/enc_file/video_tpg_1080p.enc.v(1)
+HDL-1007 : analyze verilog file import/hdmi/enc_file/video_tpg_800600.enc.v
+HDL-1007 : back to file 'import/hdmi/enc_file/video_tpg_800600.enc.v' in import/hdmi/enc_file/video_tpg_800600.enc.v(1)
+HDL-1007 : analyze verilog file import/hdmi/enc_file/video_tpg_1024768.enc.v
+HDL-5007 WARNING: literal value ** truncated to fit in ** bits in import/hdmi/enc_file/video_tpg_1024768.enc.v(231)
+HDL-1007 : back to file 'import/hdmi/enc_file/video_tpg_1024768.enc.v' in import/hdmi/enc_file/video_tpg_1024768.enc.v(1)
+HDL-1007 : analyze verilog file import/hdmi/enc_file/video_tpg_1280800.enc.v
+HDL-5007 WARNING: literal value ** truncated to fit in ** bits in import/hdmi/enc_file/video_tpg_1280800.enc.v(233)
+HDL-1007 : back to file 'import/hdmi/enc_file/video_tpg_1280800.enc.v' in import/hdmi/enc_file/video_tpg_1280800.enc.v(1)
+HDL-1007 : analyze verilog file import/hdmi/enc_file/video_tpg_12801024p.enc.v
+HDL-1007 : back to file 'import/hdmi/enc_file/video_tpg_12801024p.enc.v' in import/hdmi/enc_file/video_tpg_12801024p.enc.v(1)
+HDL-1007 : analyze verilog file import/hdmi/enc_file/video_tpg_16801050p.enc.v
+HDL-1007 : back to file 'import/hdmi/enc_file/video_tpg_16801050p.enc.v' in import/hdmi/enc_file/video_tpg_16801050p.enc.v(1)
+PRJ-1412 : reset_run syn_1 phy_1.
+PRJ-1409 : launch_runs syn_1 phy_1  -jobs 6.
+PRJ-5303 WARNING: Run syn_1 failed.
+RUN-1002 : start command "save_best_bits"
