@@ -8,6 +8,4 @@ Main是主板，Secondary是副板，使用的板卡是安路的HX4S20C，如果
 
 Verilog能力测评可看这个link：[国赛测评](https://github.com/MrYanYe/NUECSDC_FPGA_National_Competition_Verilog_Skills_Test_V1.git)
 
-上位机涉及队友开发，暂不公开
-
 有question可以联系我的wechat：thisismjxswechat，欢迎合作
