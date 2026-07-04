@@ -1,4 +1,4 @@
-# 🏆 FPGA Ethernet Transmission System - National First Prize Project
+# 🏆 FPGA Ethernet Transmission System
 
 2025 年全国大学生嵌入式芯片与系统设计竞赛安路 FPGA 赛题国家级一等奖作品开源。
 
